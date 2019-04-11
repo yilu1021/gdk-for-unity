@@ -11,6 +11,11 @@ namespace Improbable.Gdk.Core
         ///     Denotes whether to connect using an external IP address.
         /// </summary>
         public bool UseExternalIp;
+        
+        /// <summary>
+        ///     The external IP address to connect to.
+        /// </summary>
+        public string ExternalIp;
 
         protected override ConnectionService GetConnectionService()
         {
@@ -75,11 +80,16 @@ namespace Improbable.Gdk.Core
 
         protected override ReceptionistConfig GetReceptionistConfig(string workerType)
         {
+            string receptionHost;
             if (Application.isEditor)
             {
+                receptionHost = UseExternalIp && !string.IsNullOrEmpty(ExternalIp)
+                    ? ExternalIp
+                    : RuntimeConfigDefaults.ReceptionistHost;
+                
                 return new ReceptionistConfig
                 {
-                    ReceptionistHost = RuntimeConfigDefaults.ReceptionistHost,
+                    ReceptionistHost = receptionHost,
                     ReceptionistPort = RuntimeConfigDefaults.ReceptionistPort,
                     WorkerId = CreateNewWorkerId(workerType)
                 };
@@ -87,10 +97,15 @@ namespace Improbable.Gdk.Core
 
             var commandLineArguments = Environment.GetCommandLineArgs();
             var commandLineArgs = CommandLineUtility.ParseCommandLineArgs(commandLineArguments);
+
+            receptionHost = UseExternalIp && !string.IsNullOrEmpty(ExternalIp)
+                ? ExternalIp
+                : CommandLineUtility.GetCommandLineValue(
+                    commandLineArgs, RuntimeConfigNames.ReceptionistHost, RuntimeConfigDefaults.ReceptionistHost);
+            
             return new ReceptionistConfig
             {
-                ReceptionistHost = CommandLineUtility.GetCommandLineValue(
-                    commandLineArgs, RuntimeConfigNames.ReceptionistHost, RuntimeConfigDefaults.ReceptionistHost),
+                ReceptionistHost = receptionHost,
                 ReceptionistPort = CommandLineUtility.GetCommandLineValue(
                     commandLineArgs, RuntimeConfigNames.ReceptionistPort, RuntimeConfigDefaults.ReceptionistPort),
                 WorkerId = CommandLineUtility.GetCommandLineValue(
