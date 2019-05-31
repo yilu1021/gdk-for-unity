@@ -29,7 +29,11 @@ namespace Playground.Editor.SnapshotGenerator
         {
             var snapshot = new Snapshot();
 
-            AddPlayerSpawner(snapshot);
+            AddPlayerSpawner(snapshot, new Coordinates(2000, 0, 2000));
+            AddPlayerSpawner(snapshot, new Coordinates(2000, 0, -2000));
+            AddPlayerSpawner(snapshot, new Coordinates(-2000, 0, -2000));
+            AddPlayerSpawner(snapshot, new Coordinates(-2000, 0, 2000));
+
             AddCubeGrid(snapshot, cubeCount);
             CreateSpinner(snapshot, new Coordinates { X = 5.5, Y = 0.5f, Z = 0.0 });
             CreateSpinner(snapshot, new Coordinates { X = -5.5, Y = 0.5f, Z = 0.0 });
@@ -37,15 +41,15 @@ namespace Playground.Editor.SnapshotGenerator
             return snapshot;
         }
 
-        private static void AddPlayerSpawner(Snapshot snapshot)
+        private static void AddPlayerSpawner(Snapshot snapshot, Coordinates playerSpawnerLocation)
         {
             var template = new EntityTemplate();
-            template.AddComponent(new Position.Snapshot(), WorkerUtils.UnityGameLogic);
+            template.AddComponent(new Position.Snapshot(playerSpawnerLocation), WorkerUtils.UnityGameLogic);
             template.AddComponent(new Metadata.Snapshot { EntityType = "PlayerCreator" }, WorkerUtils.UnityGameLogic);
             template.AddComponent(new Persistence.Snapshot(), WorkerUtils.UnityGameLogic);
             template.AddComponent(new PlayerCreator.Snapshot(), WorkerUtils.UnityGameLogic);
 
-            template.SetReadAccess(WorkerUtils.UnityGameLogic, WorkerUtils.UnityClient, WorkerUtils.AndroidClient, WorkerUtils.iOSClient);
+            template.SetReadAccess(WorkerUtils.UnityGameLogic, WorkerUtils.UnityClient, WorkerUtils.MobileClient);
             template.SetComponentWriteAccess(EntityAcl.ComponentId, WorkerUtils.UnityGameLogic);
 
             snapshot.AddEntity(template);
@@ -118,7 +122,7 @@ namespace Playground.Editor.SnapshotGenerator
             template.AddComponent(new SpinnerColor.Snapshot { Color = Color.BLUE }, WorkerUtils.UnityGameLogic);
             template.AddComponent(new SpinnerRotation.Snapshot(), WorkerUtils.UnityGameLogic);
 
-            template.SetReadAccess(WorkerUtils.UnityGameLogic, WorkerUtils.UnityClient, WorkerUtils.AndroidClient, WorkerUtils.iOSClient);
+            template.SetReadAccess(WorkerUtils.UnityGameLogic, WorkerUtils.UnityClient, WorkerUtils.MobileClient);
             template.SetComponentWriteAccess(EntityAcl.ComponentId, WorkerUtils.UnityGameLogic);
 
 
