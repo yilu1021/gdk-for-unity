@@ -1,21 +1,23 @@
-<%(TOC)%>
+# overview
 
-# Mobile Feature Module
+&lt;%\(TOC\)%&gt;
 
-<%(Callout type="warn" message=" Mobile support is in [pre-alpha](https://docs.improbable.io/reference/latest/shared/release-policy#maturity-stages). Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases.")%>
+## Mobile Feature Module
 
-<%(Callout message="
-Before starting with mobile development, make sure you have read:
+&lt;%\(Callout type="warn" message=" Mobile support is in [pre-alpha](https://docs.improbable.io/reference/latest/shared/release-policy#maturity-stages). Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases."\)%&gt;
 
-  * [The SpatialOS GDK for Unity]({{urlRoot}}/reference/overview)
-  * [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
-")%>
+&lt;%\(Callout message=" Before starting with mobile development, make sure you have read:
+
+* [The SpatialOS GDK for Unity](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/reference/overview/README.md)
+* [Workers in the GDK](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/reference/concepts/worker/README.md)
+
+  "\)%&gt;
 
 The Mobile Feature Module enables you to develop games for Android and iOS. SpatialOS games are cross-platform by default, so PC and mobile users can play together in the same deployment.
 
-## Installation
+### Installation
 
-### 1. Add the package
+#### 1. Add the package
 
 Add this feature module to your project via the [Package Manager UI](https://docs.unity3d.com/Packages/com.unity.package-manager-ui@2.0/manual/index.html#specifying-a-local-package-location).
 
@@ -25,7 +27,7 @@ The Mobile Feature Module `package.json` can be found in the [`gdk-for-unity` re
 workers/unity/Packages/com.improbable.gdk.mobile/package.json
 ```
 
-### 2. Reference the assemblies
+#### 2. Reference the assemblies
 
 The Mobile Feature Module contains a single [assembly definition file](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) which you must reference. This process differs depending on whether you have an assembly definition file in your own project or not.
 
@@ -37,11 +39,12 @@ Open your assembly definition file and add `Improbable.Gdk.Mobile` to the refere
 
 If you don't have an assembly definition file in your project, Unity will automatically reference the `Improbable.Gdk.Mobile` assembly for you.
 
-## Getting started with your mobile client-worker
+### Getting started with your mobile client-worker
 
-  * [Ways to run your client]({{urlRoot}}/modules/mobile/run-client)
-  * [Set up Android support for the GDK]({{urlRoot}}/modules/mobile/setup-android)
-  * [Set up iOS support for the GDK]({{urlRoot}}/modules/mobile/setup-ios)
-  * [Prepare your project]({{urlRoot}}/modules/mobile/prepare-project)
-  * [Connect to a local deployment]({{urlRoot}}/modules/mobile/local-deploy)
-  * [Connect to a cloud deployment]({{urlRoot}}/modules/mobile/cloud-deploy)
+* [Ways to run your client](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/run-client/README.md)
+* [Set up Android support for the GDK](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/setup-android/README.md)
+* [Set up iOS support for the GDK](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/setup-ios/README.md)
+* [Prepare your project](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/prepare-project/README.md)
+* [Connect to a local deployment](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/local-deploy/README.md)
+* [Connect to a cloud deployment](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/modules/mobile/cloud-deploy/README.md)
+
