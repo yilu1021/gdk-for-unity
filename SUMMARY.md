@@ -8,9 +8,10 @@
 * [docs](docs/README.md)
   * [modules](docs/modules/README.md)
     * [mobile](docs/modules/mobile/README.md)
+      * [Reconnection Logic for Mobile](docs/modules/mobile/reconnection-logic-for-mobile.md)
       * [local-deploy](docs/modules/mobile/local-deploy.md)
       * [setup-android](docs/modules/mobile/setup-android.md)
-      * [overview](docs/modules/mobile/overview.md)
       * [Test page](docs/modules/mobile/test-page.md)
       * [Connect to a cloud deployment](docs/modules/mobile/connect-to-a-cloud-deployment.md)
+      * [overview](docs/modules/mobile/overview.md)
 
