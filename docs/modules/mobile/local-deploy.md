@@ -11,6 +11,8 @@
 
 ### Prepare your project to connect to a local deployment
 
+To connect your mobile device to a local deployment, you need to configure the Runtime IP parameter. This ensures that your mobile device is able to connect to local deployments running on your machine.
+
 Open your project in your Unity Editor.
 
 1. Select **SpatialOS** &gt; **GDK Tools configuration** to open the configuration window.
