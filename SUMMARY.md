@@ -15,3 +15,8 @@
       * [Connect to a cloud deployment](docs/modules/mobile/connect-to-a-cloud-deployment.md)
       * [overview](docs/modules/mobile/overview.md)
 
+## Group test
+
+* [Page within group](group-test/page-within-group.md)
+* [Page within group](group-test/page-within-group-1.md)
+
