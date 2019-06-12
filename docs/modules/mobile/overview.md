@@ -1,17 +1,17 @@
-# overview
-
-&lt;%\(TOC\)%&gt;
+# Overview
 
 ## Mobile Feature Module
 
-&lt;%\(Callout type="warn" message=" Mobile support is in [pre-alpha](https://docs.improbable.io/reference/latest/shared/release-policy#maturity-stages). Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases."\)%&gt;
+{% hint style="warning" %}
+Mobile support is in pre-alpha. Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases.
+{% endhint %}
 
-&lt;%\(Callout message=" Before starting with mobile development, make sure you have read:
+{% hint style="info" %}
+Before starting with mobile development, make sure you have read:
 
-* [The SpatialOS GDK for Unity](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/reference/overview/README.md)
-* [Workers in the GDK](https://github.com/spatialos/gdk-for-unity/tree/1adc338e9fafa1fdad09b457b5bab54ece3e4ed1/docs/modules/mobile/%7B%7BurlRoot%7D%7D/reference/concepts/worker/README.md)
-
-  "\)%&gt;
+* The SpatialOS GDK for Unity
+* Workers in the GDK
+{% endhint %}
 
 The Mobile Feature Module enables you to develop games for Android and iOS. SpatialOS games are cross-platform by default, so PC and mobile users can play together in the same deployment.
 

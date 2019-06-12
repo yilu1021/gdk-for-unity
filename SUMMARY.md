@@ -13,7 +13,7 @@
       * [setup-android](docs/modules/mobile/setup-android.md)
       * [Test page](docs/modules/mobile/test-page.md)
       * [Connect to a cloud deployment](docs/modules/mobile/connect-to-a-cloud-deployment.md)
-      * [overview](docs/modules/mobile/overview.md)
+      * [Overview](docs/modules/mobile/overview.md)
 
 ## Group test
 
