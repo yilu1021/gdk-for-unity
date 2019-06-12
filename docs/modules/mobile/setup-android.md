@@ -1,6 +1,8 @@
-# setup-android
+---
+description: Follow the instructions on this page to set up android support for the GDK.
+---
 
-&lt;%\(TOC\)%&gt;
+# setup-android
 
 ## Setting up Android support for the GDK
 
