@@ -14,6 +14,7 @@
       * [Test page](docs/modules/mobile/test-page.md)
       * [Connect to a cloud deployment](docs/modules/mobile/connect-to-a-cloud-deployment.md)
       * [test3](docs/modules/mobile/docs-1.md)
+      * [test2](docs/modules/mobile/test2.md)
       * [test34](docs/modules/mobile/test3.md)
       * [Overview](docs/modules/mobile/overview.md)
 
