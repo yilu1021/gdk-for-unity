@@ -5,7 +5,6 @@
 * [.github](.github/README.md)
   * [ISSUE\_TEMPLATE](.github/issue_template.md)
   * [pull\_request\_template](.github/pull_request_template.md)
-* [docs](docs/README.md)
   * [modules](docs/modules/README.md)
     * [mobile](docs/modules/mobile/README.md)
       * [Reconnection Logic for Mobile](docs/modules/mobile/reconnection-logic-for-mobile.md)
