@@ -5,20 +5,20 @@
 <%(Callout message="
 Before reading this document, make sure you have read:
 
-  * [Introduction to query-based interest]({{urlRoot}}/modules/qbi-helper/intro-to-qbi)
+  * [Introduction to query-based interest]({{.Site.BaseURL}}/modules/qbi-helper/intro-to-qbi)
 ")%>
 
-An [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template) is a wrapper around the `Interest` component, providing intuitive methods to add, replace and clear queries from the underlying interest map.
+An [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template) is a wrapper around the `Interest` component, providing intuitive methods to add, replace and clear queries from the underlying interest map.
 
 ## Create a template
 
-You create an empty [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template) by calling `InterestTemplate.Create()`. This is useful when defining a set of interest queries for the first time, for example when defining entity templates.
+You create an empty [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template) by calling `InterestTemplate.Create()`. This is useful when defining a set of interest queries for the first time, for example when defining entity templates.
 
 ```csharp
 var basicInterestTemplate = InterestTemplate.Create();
 ```
 
-You can also construct this from an existing [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template) or a set of interest queries. This creates a deep copy of the [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template), to allow you to modify the queries without affecting the original set.
+You can also construct this from an existing [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template) or a set of interest queries. This creates a deep copy of the [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template), to allow you to modify the queries without affecting the original set.
 
 ```csharp
 var advancedInterestTemplate = InterestTemplate.Create(basicInterestTemplate);
@@ -26,7 +26,7 @@ var advancedInterestTemplate = InterestTemplate.Create(basicInterestTemplate);
 
 ## Modify a template
 
-When modifying an [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template), you must specify which particular component's queries you are modifying. You can either:
+When modifying an [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template), you must specify which particular component's queries you are modifying. You can either:
 
 * provide the component as a type argument
 * provide the component ID as the first argument
@@ -75,7 +75,7 @@ InterestTemplate.Create(basicInterestTemplate)
 
 ### Clear queries
 
-You can either clear queries for a given authoritative component or clear _all_ queries in the [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template).
+You can either clear queries for a given authoritative component or clear _all_ queries in the [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template).
 
 ```csharp
 // Removes all queries added for the Position component
@@ -87,11 +87,11 @@ basicInterestTemplate.ClearAllQueries();
 
 ## Get Interest from the template
 
-After adding, removing or modifying a set of queries, there are two ways to get `Interest` out of the [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template).
+After adding, removing or modifying a set of queries, there are two ways to get `Interest` out of the [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template).
 
 ### Snapshot
 
-To return a [`Snapshot`]({{urlRoot}}/api/core/snapshot) of the `Interest` component that can be used when defining entity templates, call `ToSnapshot()` on the [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template).
+To return a [`Snapshot`]({{.Site.BaseURL}}/api/core/snapshot) of the `Interest` component that can be used when defining entity templates, call `ToSnapshot()` on the [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template).
 
 ```csharp
 // Create an interest template
@@ -109,7 +109,7 @@ entityTemplate.AddComponent(interestTemplate.ToSnapshot(), WorkerUtils.UnityGame
 
 To update `Interest` at execution time, you need to modify the underlying Dictionary within the `Interest` component.
 
-The [`InterestTemplate`]({{urlRoot}}/api/query-based-interest/interest-template) class provides the `AsComponentInterest` method to return this Dictionary. This can be used to update the `Interest` component.
+The [`InterestTemplate`]({{.Site.BaseURL}}/api/query-based-interest/interest-template) class provides the `AsComponentInterest` method to return this Dictionary. This can be used to update the `Interest` component.
 
 ```csharp
 // Create the new interest template

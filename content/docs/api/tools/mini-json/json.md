@@ -1,7 +1,7 @@
 
 # Json Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/tools-index">Tools</a>.<a href="{{urlRoot}}/api/tools/mini-json-index">MiniJSON</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/tools-index">Tools</a>.<a href="{{.Site.BaseURL}}/api/tools/mini-json-index">MiniJSON</a><br/>
 GDK package: Tools<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.tools/MiniJson.cs/#L79">Source</a>
 <style>
@@ -50,7 +50,7 @@ code {
     <tr>
         <td colspan="2">
 <code>Dictionary&lt;string, object&gt; Deserialize(string json)</code></p>
-Parses the string json into a value 
+Parses the string json into a value
 </p><b>Returns:</b></br>An List<object>, a Dictionary<string, object>, a double, an integer,a string, null, true, or false
 
 </p>
@@ -78,7 +78,7 @@ Parses the string json into a value
     <tr>
         <td colspan="2">
 <code>string Serialize(object obj)</code></p>
-Converts a IDictionary / IList object or a simple type (string, int, etc.) into a JSON string 
+Converts a IDictionary / IList object or a simple type (string, int, etc.) into a JSON string
 </p><b>Returns:</b></br>A JSON encoded string, or null if object 'json' is not serializable
 
 </p>

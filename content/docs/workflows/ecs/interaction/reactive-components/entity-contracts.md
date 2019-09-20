@@ -5,8 +5,8 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with:
 
-* [Temporary components]({{urlRoot}}/workflows/ecs/concepts/temporary-components)
-* [Reactive components]({{urlRoot}}/workflows/ecs/interaction/reactive-components/overview)
+* [Temporary components]({{.Site.BaseURL}}/workflows/ecs/concepts/temporary-components)
+* [Reactive components]({{.Site.BaseURL}}/workflows/ecs/interaction/reactive-components/overview)
 ")%>
 
 This documentation describes the guarantees we provide for the reactive components that an ECS entity can have.
@@ -34,9 +34,9 @@ At least one authority component is available on these entities based on the wor
 
 ## Sending updates or messages
 
-* All events added to the `{component name}.EventSender.{event name}`.Events list will be sent the next time the [`SpatialOSSendSystem`]({{urlRoot}}/api/core/spatial-os-send-system) is run.
-* All command requests added to the `{component name}.CommandSenders.{command name}.RequestsToSend`  will be sent the next time the [`SpatialOSSendSystem`]({{urlRoot}}/api/core/spatial-os-send-system) is run.
-* All command responses added to the `{component name}.CommandResponders.{command name}.ResponsesToSend`  will be sent the next time the [`SpatialOSSendSystem`]({{urlRoot}}/api/core/spatial-os-send-system) is run.
+* All events added to the `{component name}.EventSender.{event name}`.Events list will be sent the next time the [`SpatialOSSendSystem`]({{.Site.BaseURL}}/api/core/spatial-os-send-system) is run.
+* All command requests added to the `{component name}.CommandSenders.{command name}.RequestsToSend`  will be sent the next time the [`SpatialOSSendSystem`]({{.Site.BaseURL}}/api/core/spatial-os-send-system) is run.
+* All command responses added to the `{component name}.CommandResponders.{command name}.ResponsesToSend`  will be sent the next time the [`SpatialOSSendSystem`]({{.Site.BaseURL}}/api/core/spatial-os-send-system) is run.
 
 ## Worker entity
 

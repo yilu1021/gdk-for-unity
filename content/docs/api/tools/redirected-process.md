@@ -1,7 +1,7 @@
 
 # RedirectedProcess Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/tools-index">Tools</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/tools-index">Tools</a><br/>
 GDK package: Tools<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.tools/RedirectedProcess.cs/#L51">Source</a>
 <style>
@@ -50,8 +50,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> Command(string command)</code></p>
-Creates the redirected process for the command. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> Command(string command)</code></p>
+Creates the redirected process for the command.
 
 
 </p>
@@ -91,8 +91,8 @@ Creates the redirected process for the command.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> WithArgs(params string [] arguments)</code></p>
-Adds arguments to process command call. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> WithArgs(params string [] arguments)</code></p>
+Adds arguments to process command call.
 
 
 </p>
@@ -119,8 +119,8 @@ Adds arguments to process command call.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> InDirectory(string directory)</code></p>
-Sets which directory run the process in. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> InDirectory(string directory)</code></p>
+Sets which directory run the process in.
 
 
 </p>
@@ -147,8 +147,8 @@ Sets which directory run the process in.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> AddOutputProcessing(Action&lt;string&gt; outputProcessor)</code></p>
-Adds custom processing for regular output of process. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> AddOutputProcessing(Action&lt;string&gt; outputProcessor)</code></p>
+Adds custom processing for regular output of process.
 
 
 </p>
@@ -184,8 +184,8 @@ Adds custom processing for regular output of process.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> AddErrorProcessing(Action&lt;string&gt; errorProcessor)</code></p>
-Adds custom processing for error output of process. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> AddErrorProcessing(Action&lt;string&gt; errorProcessor)</code></p>
+Adds custom processing for error output of process.
 
 
 </p>
@@ -221,8 +221,8 @@ Adds custom processing for error output of process.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process">RedirectedProcess</a> RedirectOutputOptions(<a href="{{urlRoot}}/api/tools/output-redirect-behaviour">OutputRedirectBehaviour</a> redirectBehaviour)</code></p>
-Adds custom processing for error output of process. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process">RedirectedProcess</a> RedirectOutputOptions(<a href="{{.Site.BaseURL}}/api/tools/output-redirect-behaviour">OutputRedirectBehaviour</a> redirectBehaviour)</code></p>
+Adds custom processing for error output of process.
 
 
 </p>
@@ -230,7 +230,7 @@ Adds custom processing for error output of process.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/tools/output-redirect-behaviour">OutputRedirectBehaviour</a> redirectBehaviour</code> : Options for redirecting process output to Debug.Log().</li>
+<li><code><a href="{{.Site.BaseURL}}/api/tools/output-redirect-behaviour">OutputRedirectBehaviour</a> redirectBehaviour</code> : Options for redirecting process output to Debug.Log().</li>
 </ul>
 
 
@@ -249,8 +249,8 @@ Adds custom processing for error output of process.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/tools/redirected-process-result">RedirectedProcessResult</a> Run()</code></p>
-Runs the redirected process and waits for it to return. 
+<code><a href="{{.Site.BaseURL}}/api/tools/redirected-process-result">RedirectedProcessResult</a> Run()</code></p>
+Runs the redirected process and waits for it to return.
 
 
 
@@ -268,8 +268,8 @@ Runs the redirected process and waits for it to return.
     </tr>
     <tr>
         <td colspan="2">
-<code>Task&lt;<a href="{{urlRoot}}/api/tools/redirected-process-result">RedirectedProcessResult</a>&gt; RunAsync(CancellationToken token = default)</code></p>
-Runs the redirected process and returns a task which can be waited on. 
+<code>Task&lt;<a href="{{.Site.BaseURL}}/api/tools/redirected-process-result">RedirectedProcessResult</a>&gt; RunAsync(CancellationToken token = default)</code></p>
+Runs the redirected process and returns a task which can be waited on.
 </p><b>Returns:</b></br>A task which would return the exit code and output.
 
 </p>

@@ -1,7 +1,7 @@
 
 # QueryBasedInterestUtils Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
 GDK package: QueryBasedInterest<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.querybasedinteresthelper/QueryBasedInterestUtils.cs/#L5">Source</a>
 <style>
@@ -44,7 +44,7 @@ code {
     <tr>
         <td colspan="2">
 <code>EdgeLength ToEdgeLength(this Vector3 unityVector)</code></p>
-Extension method for converting a Unity Vector to an EdgeLength. 
+Extension method for converting a Unity Vector to an EdgeLength.
 
 
 </p>

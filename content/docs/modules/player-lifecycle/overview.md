@@ -6,9 +6,9 @@ The module includes the following features:
 
 * Send player creation requests and handle responses.
 * Ability to provide arbitrary serialized data as part of the player creation loop.
-* Send and acknowledge player [heartbeats]({{urlRoot}}/modules/player-lifecycle/heartbeating).
+* Send and acknowledge player [heartbeats]({{.Site.BaseURL}}/modules/player-lifecycle/heartbeating).
 
-You can find more information about the underlying APIs provided in our [API reference docs]({{urlRoot}}/api/player-lifecycle-index).
+You can find more information about the underlying APIs provided in our [API reference docs]({{.Site.BaseURL}}/api/player-lifecycle-index).
 
 ## Installation
 

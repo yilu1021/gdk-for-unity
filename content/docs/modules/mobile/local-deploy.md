@@ -5,8 +5,8 @@
 <%(Callout message="
 Before starting with mobile development, make sure you have read:
 
-* [Setting up Android support for the GDK]({{urlRoot}}/modules/mobile/setup-android)
-* [Setting up iOS support for the GDK]({{urlRoot}}/modules/mobile/setup-ios)
+* [Setting up Android support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-android)
+* [Setting up iOS support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-ios)
 ")%>
 
 ## Prepare your project to connect to a local deployment{#prepare-deployment}
@@ -28,7 +28,7 @@ SpatialOS ready. Access the Inspector at http://localhost:21000/inspector.
 
 ## Choose how to run your mobile client-worker
 
-See [Ways to run your client]({{urlRoot}}/modules/mobile/run-client) for more information.
+See [Ways to run your client]({{.Site.BaseURL}}/modules/mobile/run-client) for more information.
 
 ### Unity Editor or Unity Remote{#in-editor}
 
@@ -49,7 +49,7 @@ See [Ways to run your client]({{urlRoot}}/modules/mobile/run-client) for more in
 
 ### iOS Simulator or iOS device{#ios-device}
 
-> **Note:** You cannot run the [First Person Shooter (FPS) Starter Project]({{urlRoot}}/projects/fps/overview) on the iOS Simulator. This is due to an incompatibility between the [Metal Graphics API](https://developer.apple.com/metal/) used by the project and the iOS Simulator.
+> **Note:** You cannot run the [First Person Shooter (FPS) Starter Project]({{.Site.BaseURL}}/projects/fps/overview) on the iOS Simulator. This is due to an incompatibility between the [Metal Graphics API](https://developer.apple.com/metal/) used by the project and the iOS Simulator.
 
 1. Ensure you have set a valid **Bundle Identifier** for your project. (This can be found in the Player Settings.)
 1. In your Unity Editor, navigate to **SpatialOS** > **Build for local**. Select your mobile worker, and wait for the build to complete.

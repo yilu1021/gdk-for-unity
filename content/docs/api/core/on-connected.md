@@ -1,7 +1,7 @@
 
 # OnConnected Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Components/WorkerEntityComponents.cs/#L21">Source</a>
 <style>
@@ -34,7 +34,7 @@ code {
 
 <b>Notes</b>
 
-- This is a temporary component and the <a href="{{urlRoot}}/api/core/clean-temporary-components-system">Improbable.Gdk.Core.CleanTemporaryComponentsSystem</a> will remove it at the end of the frame. 
+- This is a temporary component and the <a href="{{.Site.BaseURL}}/api/core/clean-temporary-components-system">Improbable.Gdk.Core.CleanTemporaryComponentsSystem</a> will remove it at the end of the frame.
 
 
 

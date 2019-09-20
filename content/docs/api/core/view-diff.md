@@ -1,7 +1,7 @@
 
 # ViewDiff Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ViewDiff.cs/#L9">Source</a>
 <style>
@@ -433,7 +433,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddCreateEntityResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response)</code></p>
+<code>void AddCreateEntityResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -442,7 +442,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 
@@ -461,7 +461,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddDeleteEntityResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response)</code></p>
+<code>void AddDeleteEntityResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -470,7 +470,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 
@@ -489,7 +489,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddReserveEntityIdsResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response)</code></p>
+<code>void AddReserveEntityIdsResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -498,7 +498,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 

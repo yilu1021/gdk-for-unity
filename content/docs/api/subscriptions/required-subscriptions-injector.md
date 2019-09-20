@@ -1,7 +1,7 @@
 
 # RequiredSubscriptionsInjector Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/RequiredSubscriptionsInjector.cs/#L10">Source</a>
 <style>
@@ -45,7 +45,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> RequiredSubscriptionsInjector(object target, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, <a href="{{urlRoot}}/api/subscriptions/subscription-system">SubscriptionSystem</a> subscriptionSystem, Action onEnable = null, Action onDisable = null)</code></p>
+<code> RequiredSubscriptionsInjector(object target, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, <a href="{{.Site.BaseURL}}/api/subscriptions/subscription-system">SubscriptionSystem</a> subscriptionSystem, Action onEnable = null, Action onDisable = null)</code></p>
 
 
 
@@ -55,8 +55,8 @@ code {
 
 <ul>
 <li><code>object target</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
-<li><code><a href="{{urlRoot}}/api/subscriptions/subscription-system">SubscriptionSystem</a> subscriptionSystem</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription-system">SubscriptionSystem</a> subscriptionSystem</code> : </li>
 <li><code>Action onEnable</code> : </li>
 <li><code>Action onDisable</code> : </li>
 </ul>

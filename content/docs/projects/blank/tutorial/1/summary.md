@@ -4,4 +4,4 @@ In this chapter, we introduced the key pieces of the Blank Project, what it cont
 
 In the next chapter, you'll learn how to instantiate a basic level and set up the GameObject Creation module to spawn a player object.
 
-#### Next: [Creating GameObjects]({{urlRoot}}/projects/blank/tutorial/2/overview)
+#### Next: [Creating GameObjects]({{.Site.BaseURL}}/projects/blank/tutorial/2/overview)

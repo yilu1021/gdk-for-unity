@@ -5,15 +5,15 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with:
 
-* [Authority in SpatialOS](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/concepts/interest-authority#authority-also-known-as-write-access)
-* [Authority and interest](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/authority-and-interest/introduction)
+* [Authority in SpatialOS](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/concepts/interest-authority#authority-also-known-as-write-access)
+* [Authority and interest](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/authority-and-interest/introduction)
 ")%>
 
-Authority is how SpatialOS represents which worker instances can write to a specific [SpatialOS component]({{urlRoot}}/reference/glossary#spatialos-component).
+Authority is how SpatialOS represents which worker instances can write to a specific [SpatialOS component]({{.Site.BaseURL}}/reference/glossary#spatialos-component).
 
 ## How authority is represented
 
-For every [SpatialOS component]({{urlRoot}}/reference/glossary#spatialos-component) on a checked out SpatialOS entity, the GDK attaches a component to the ECS entity of the type `{component name}.ComponentAuthority`. This component contains a single field, `HasAuthority`, a `bool` that indicates whether the worker instance has authority over the SpatialOS component.
+For every [SpatialOS component]({{.Site.BaseURL}}/reference/glossary#spatialos-component) on a checked out SpatialOS entity, the GDK attaches a component to the ECS entity of the type `{component name}.ComponentAuthority`. This component contains a single field, `HasAuthority`, a `bool` that indicates whether the worker instance has authority over the SpatialOS component.
 
 > Note that this component does not contain information about `AuthorityLossImminent` notifications. To get these notifications, iterate through the list of authority changes received from `GetAuthorityChangesReceived`.
 
@@ -55,7 +55,7 @@ public class AuthoritativePositionSystem : ComponentSystem
 
 ## How to interact with authority changes
 
-The `GetAuthorityChangesReceived` method on the [`ComponentUpdateSystem`]({{urlRoot}}/api/core/component-update-system) allows you to retrieve a list of all the authority changes for an entity-component pair that have occured since the previous frame.
+The `GetAuthorityChangesReceived` method on the [`ComponentUpdateSystem`]({{.Site.BaseURL}}/api/core/component-update-system) allows you to retrieve a list of all the authority changes for an entity-component pair that have occured since the previous frame.
 
 Below is an example of iterating through all `PlayerInput` components that the worker instance has just gained authority over. You can iterate through the matching components using the ECS `.ForEach` syntax.
 

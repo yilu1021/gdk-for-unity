@@ -1,7 +1,7 @@
 
 # OnDisconnected Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Components/WorkerEntityComponents.cs/#L31">Source</a>
 <style>
@@ -38,7 +38,7 @@ code {
 
 <b>Notes</b>
 
-- This is a temporary component and the <a href="{{urlRoot}}/api/core/clean-temporary-components-system">Improbable.Gdk.Core.CleanTemporaryComponentsSystem</a> will remove it at the end of the frame. 
+- This is a temporary component and the <a href="{{.Site.BaseURL}}/api/core/clean-temporary-components-system">Improbable.Gdk.Core.CleanTemporaryComponentsSystem</a> will remove it at the end of the frame.
 
 
 
@@ -62,7 +62,7 @@ code {
     <tr>
         <td colspan="2">
 <code> string ReasonForDisconnect</code></p>
-The reported reason for disconnecting 
+The reported reason for disconnecting
 
 </td>
     </tr>
@@ -92,7 +92,7 @@ The reported reason for disconnecting
     </tr>
     <tr>
         <td colspan="2">
-<code>bool Equals(<a href="{{urlRoot}}/api/core/on-disconnected">OnDisconnected</a> other)</code></p>
+<code>bool Equals(<a href="{{.Site.BaseURL}}/api/core/on-disconnected">OnDisconnected</a> other)</code></p>
 
 
 
@@ -101,7 +101,7 @@ The reported reason for disconnecting
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/on-disconnected">OnDisconnected</a> other</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/on-disconnected">OnDisconnected</a> other</code> : </li>
 </ul>
 
 

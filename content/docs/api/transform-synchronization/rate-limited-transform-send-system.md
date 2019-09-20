@@ -1,7 +1,7 @@
 
 # RateLimitedTransformSendSystem Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
 GDK package: TransformSynchronization<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.transformsynchronization/Systems/RateLimitedTransformSendSystem.cs/#L10">Source</a>
 <style>

@@ -1,7 +1,7 @@
 
 # TransformUtils Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
 GDK package: TransformSynchronization<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.transformsynchronization/TransformUtils.cs/#L10">Source</a>
 <style>
@@ -50,7 +50,7 @@ code {
     <tr>
         <td colspan="2">
 <code>TransformInternal.Snapshot CreateTransformSnapshot(Vector3 location = default, Quaternion rotation = default, Vector3 velocity = default)</code></p>
-Utility method for creating a TransformInternal Snapshot. 
+Utility method for creating a TransformInternal Snapshot.
 
 
 </p>
@@ -89,7 +89,7 @@ Utility method for creating a TransformInternal Snapshot.
     <tr>
         <td colspan="2">
 <code>Coordinates ToCoordinates(this Vector3 unityVector)</code></p>
-Extension method for converting a Unity Vector to a Coordinates value. 
+Extension method for converting a Unity Vector to a Coordinates value.
 
 
 </p>
@@ -117,7 +117,7 @@ Extension method for converting a Unity Vector to a Coordinates value.
     <tr>
         <td colspan="2">
 <code>FixedPointVector3 ToFixedPointVector3(this Vector3 unityVector)</code></p>
-Extension method for converting a Unity Vector to a FixedPointVector3. 
+Extension method for converting a Unity Vector to a FixedPointVector3.
 
 
 </p>
@@ -145,7 +145,7 @@ Extension method for converting a Unity Vector to a FixedPointVector3.
     <tr>
         <td colspan="2">
 <code>CompressedQuaternion ToCompressedQuaternion(this Quaternion quaternion)</code></p>
-Extension method for converting a Quaternion to a CompressedQuaternion. 
+Extension method for converting a Quaternion to a CompressedQuaternion.
 
 
 </p>

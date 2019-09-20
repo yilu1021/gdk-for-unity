@@ -1,7 +1,7 @@
 
 # LocatorFlow Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/ConnectionFlows.cs/#L69">Source</a>
 <style>
@@ -30,7 +30,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-flow">Improbable.Gdk.Core.IConnectionFlow</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow">Improbable.Gdk.Core.IConnectionFlow</a></code>
 
 
 
@@ -55,7 +55,7 @@ code {
     <tr>
         <td colspan="2">
 <code> string LocatorHost</code></p>
-The host of the Locator to use for the development authentication flow and the Locator. 
+The host of the Locator to use for the development authentication flow and the Locator.
 
 </td>
     </tr>
@@ -70,7 +70,7 @@ The host of the Locator to use for the development authentication flow and the L
     <tr>
         <td colspan="2">
 <code> ushort LocatorPort</code></p>
-The port of the Locator to use for the development authentication flow and the Locator. 
+The port of the Locator to use for the development authentication flow and the Locator.
 
 </td>
     </tr>
@@ -85,7 +85,7 @@ The port of the Locator to use for the development authentication flow and the L
     <tr>
         <td colspan="2">
 <code> string DevAuthToken</code></p>
-The development authentication token to use when connecting via with development authentication. 
+The development authentication token to use when connecting via with development authentication.
 
 </td>
     </tr>
@@ -100,7 +100,7 @@ The development authentication token to use when connecting via with development
     <tr>
         <td colspan="2">
 <code> bool UseDevAuthFlow</code></p>
-Denotes whether we should connect with development authentication. 
+Denotes whether we should connect with development authentication.
 
 </p>
 
@@ -124,7 +124,7 @@ Denotes whether we should connect with development authentication.
     <tr>
         <td colspan="2">
 <code> string LoginToken</code></p>
-The login token to use to connect via the Locator. 
+The login token to use to connect via the Locator.
 
 </td>
     </tr>
@@ -139,7 +139,7 @@ The login token to use to connect via the Locator.
     <tr>
         <td colspan="2">
 <code> string PlayerIdentityToken</code></p>
-The player identity token to use to connect via the Locator. 
+The player identity token to use to connect via the Locator.
 
 </td>
     </tr>
@@ -154,7 +154,7 @@ The player identity token to use to connect via the Locator.
     <tr>
         <td colspan="2">
 <code> bool UseInsecureConnection</code></p>
-Denotes whether to connect to the Locator via an insecure connection or not. 
+Denotes whether to connect to the Locator via an insecure connection or not.
 
 </td>
     </tr>
@@ -183,8 +183,8 @@ Denotes whether to connect to the Locator via an insecure connection or not.
     </tr>
     <tr>
         <td colspan="2">
-<code> LocatorFlow(<a href="{{urlRoot}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a>&gt; initializer = null)</code></p>
-Initializes a new instance of the <a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> class. 
+<code> LocatorFlow(<a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a>&gt; initializer = null)</code></p>
+Initializes a new instance of the <a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> class.
 
 
 </p>
@@ -192,7 +192,7 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/core/locator-flow">Lo
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a>&gt; initializer</code> : Optional. An initializer to seed the data required to connect via the Alpha Locator flow.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a>&gt; initializer</code> : Optional. An initializer to seed the data required to connect via the Alpha Locator flow.</li>
 </ul>
 
 
@@ -224,7 +224,7 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/core/locator-flow">Lo
     <tr>
         <td colspan="2">
 <code>async Task&lt;Connection&gt; CreateAsync(ConnectionParameters parameters, CancellationToken? token = null)</code></p>
-Creates a Connection asynchronously. 
+Creates a Connection asynchronously.
 </p><b>Returns:</b></br>A task that represents the asynchronous creation of the Connection object.
 
 </p>
@@ -253,7 +253,7 @@ Creates a Connection asynchronously.
     <tr>
         <td colspan="2">
 <code>string GetDevelopmentPlayerIdentityToken()</code></p>
-Retrieves a development player identity token using development authentication. 
+Retrieves a development player identity token using development authentication.
 </p><b>Returns:</b></br>The player identity token string.
 
 
@@ -264,7 +264,7 @@ Retrieves a development player identity token using development authentication.
 <b>Exceptions:</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/authentication-failed-exception">AuthenticationFailedException</a></code> : Failed to get a development player identity token.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/authentication-failed-exception">AuthenticationFailedException</a></code> : Failed to get a development player identity token.</li>
 </ul>
 
 
@@ -281,7 +281,7 @@ Retrieves a development player identity token using development authentication.
     <tr>
         <td colspan="2">
 <code>List&lt;LoginTokenDetails&gt; GetDevelopmentLoginTokens(string workerType, string playerIdentityToken)</code></p>
-Retrieves the login tokens for all active deployments that the player can connect to via the development authentication flow. 
+Retrieves the login tokens for all active deployments that the player can connect to via the development authentication flow.
 </p><b>Returns:</b></br>A list of all available login tokens and their deployments.
 
 </p>
@@ -310,7 +310,7 @@ Retrieves the login tokens for all active deployments that the player can connec
     <tr>
         <td colspan="2">
 <code>string SelectLoginToken(List&lt;LoginTokenDetails&gt; loginTokens)</code></p>
-Selects which login token to use to connect via the development authentication flow. 
+Selects which login token to use to connect via the development authentication flow.
 </p><b>Returns:</b></br>The selected login token.
 
 </p>
@@ -338,7 +338,7 @@ Selects which login token to use to connect via the development authentication f
     <tr>
         <td colspan="2">
 <code>string GetPlayerId()</code></p>
-Gets the player ID for the player trying to connect via the development authentication flow. 
+Gets the player ID for the player trying to connect via the development authentication flow.
 </p><b>Returns:</b></br>A string containing the player id.
 
 
@@ -357,7 +357,7 @@ Gets the player ID for the player trying to connect via the development authenti
     <tr>
         <td colspan="2">
 <code>string GetDisplayName()</code></p>
-Retrieves the display name for the player trying to connect via the development authentication flow. 
+Retrieves the display name for the player trying to connect via the development authentication flow.
 </p><b>Returns:</b></br>A string containing the display name.
 
 

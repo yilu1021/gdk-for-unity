@@ -1,7 +1,7 @@
 
 # ForwardingDispatcher Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Logging/ForwardingDispatcher.cs/#L11">Source</a>
 <style>
@@ -30,7 +30,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-log-dispatcher">Improbable.Gdk.Core.ILogDispatcher</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">Improbable.Gdk.Core.ILogDispatcher</a></code>
 
 
 
@@ -56,7 +56,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/worker">Worker</a> Worker { get; set; }</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/core/worker">Worker</a> Worker { get; set; }</code></p>
 
 
 
@@ -102,7 +102,7 @@ code {
     <tr>
         <td colspan="2">
 <code> ForwardingDispatcher(LogType minimumLogLevel = LogType.Warning)</code></p>
-Constructor for the Forwarding Dispatcher 
+Constructor for the Forwarding Dispatcher
 
 
 </p>
@@ -141,8 +141,8 @@ Constructor for the Forwarding Dispatcher
     </tr>
     <tr>
         <td colspan="2">
-<code>void HandleLog(LogType type, <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
-Log locally and conditionally forward to the SpatialOS runtime. 
+<code>void HandleLog(LogType type, <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
+Log locally and conditionally forward to the SpatialOS runtime.
 
 
 </p>
@@ -151,7 +151,7 @@ Log locally and conditionally forward to the SpatialOS runtime.
 
 <ul>
 <li><code>LogType type</code> : The type of the log.</li>
-<li><code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent</code> : A <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> instance.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent</code> : A <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> instance.</li>
 </ul>
 
 
@@ -171,7 +171,7 @@ Log locally and conditionally forward to the SpatialOS runtime.
     <tr>
         <td colspan="2">
 <code>void Dispose()</code></p>
-Unregisters callbacks and ensures that the SpatialOS connection is no longer referenced 
+Unregisters callbacks and ensures that the SpatialOS connection is no longer referenced
 
 
 

@@ -2,19 +2,19 @@
 
 # Readers and Writers: Events
 
-_This document relates to the [MonoBehaviour workflow]({{urlRoot}}/workflows/overview#monobehaviour-centric-workflow)._
+_This document relates to the [MonoBehaviour workflow]({{.Site.BaseURL}}/workflows/overview#monobehaviour-centric-workflow)._
 
 Events are SpatialOS's equivalent of broadcasted messages. They allow you to send messages to all interested workers.
 
-> For more information, see the documentation on [events](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#events).
+> For more information, see the documentation on [events](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#events).
 
 We provide code-generated Readers and Writers for sending and receiving SpatialOS events. Before reading this document, make sure you are familiar with
 
-* [Reader and Writer]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview)
-* [Read and write access]({{urlRoot}}/reference/glossary#authority)
-* [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
+* [Reader and Writer]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview)
+* [Read and write access]({{.Site.BaseURL}}/reference/glossary#authority)
+* [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
 
-We use the following [schema]({{urlRoot}}/reference/glossary#schema) for all examples described in this documentation.
+We use the following [schema]({{.Site.BaseURL}}/reference/glossary#schema) for all examples described in this documentation.
 
 ```schemalang
 package playground;

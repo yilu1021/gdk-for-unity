@@ -1,7 +1,7 @@
 
 # Dynamic Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Dynamic/Dynamic.cs/#L22">Source</a>
 <style>
@@ -26,11 +26,11 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 8ch"><a href="{{urlRoot}}/api/core/dynamic/i-handler">IHandler</a></td>
+<td style="padding: 14px; border: none; width: 8ch"><a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">IHandler</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 8ch"><a href="{{urlRoot}}/api/core/dynamic/v-table">VTable</a></td>
+<td style="padding: 14px; border: none; width: 8ch"><a href="{{.Site.BaseURL}}/api/core/dynamic/v-table">VTable</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -59,7 +59,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void ForEachComponent(<a href="{{urlRoot}}/api/core/dynamic/i-handler">IHandler</a> handler)</code></p>
+<code>void ForEachComponent(<a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">IHandler</a> handler)</code></p>
 
 
 
@@ -68,7 +68,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/dynamic/i-handler">IHandler</a> handler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">IHandler</a> handler</code> : </li>
 </ul>
 
 
@@ -87,7 +87,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void ForComponent(uint componentId, <a href="{{urlRoot}}/api/core/dynamic/i-handler">IHandler</a> handler)</code></p>
+<code>void ForComponent(uint componentId, <a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">IHandler</a> handler)</code></p>
 
 
 
@@ -97,7 +97,7 @@ code {
 
 <ul>
 <li><code>uint componentId</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/dynamic/i-handler">IHandler</a> handler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">IHandler</a> handler</code> : </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 
 # ComponentUpdateSystem Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Systems/ComponentUpdateSystem.cs/#L9">Source</a>
 <style>
@@ -52,7 +52,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendUpdate&lt;T&gt;(in T update, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>void SendUpdate&lt;T&gt;(in T update, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -62,7 +62,7 @@ code {
 
 <ul>
 <li><code>in T update</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -81,7 +81,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendEvent&lt;T&gt;(T eventToSend, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>void SendEvent&lt;T&gt;(T eventToSend, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -91,7 +91,7 @@ code {
 
 <ul>
 <li><code>T eventToSend</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -110,7 +110,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-event-received">ComponentEventReceived</a>&lt;T&gt;&gt; GetEventsReceived&lt;T&gt;()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-event-received">ComponentEventReceived</a>&lt;T&gt;&gt; GetEventsReceived&lt;T&gt;()</code></p>
 
 
 
@@ -129,7 +129,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-event-received">ComponentEventReceived</a>&lt;T&gt;&gt; GetEventsReceived&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-event-received">ComponentEventReceived</a>&lt;T&gt;&gt; GetEventsReceived&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -138,7 +138,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -157,7 +157,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetComponentUpdatesReceived&lt;T&gt;()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetComponentUpdatesReceived&lt;T&gt;()</code></p>
 
 
 
@@ -176,7 +176,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetEntityComponentUpdatesReceived&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetEntityComponentUpdatesReceived&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -185,7 +185,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -204,7 +204,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/authority-change-received">AuthorityChangeReceived</a>&gt; GetAuthorityChangesReceived(uint componentId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/authority-change-received">AuthorityChangeReceived</a>&gt; GetAuthorityChangesReceived(uint componentId)</code></p>
 
 
 
@@ -232,7 +232,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/authority-change-received">AuthorityChangeReceived</a>&gt; GetAuthorityChangesReceived(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/authority-change-received">AuthorityChangeReceived</a>&gt; GetAuthorityChangesReceived(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -241,7 +241,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 
@@ -261,7 +261,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>List&lt;<a href="{{urlRoot}}/api/core/entity-id">EntityId</a>&gt; GetComponentsAdded(uint componentId)</code></p>
+<code>List&lt;<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>&gt; GetComponentsAdded(uint componentId)</code></p>
 
 
 
@@ -289,7 +289,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>List&lt;<a href="{{urlRoot}}/api/core/entity-id">EntityId</a>&gt; GetComponentsRemoved(uint componentId)</code></p>
+<code>List&lt;<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>&gt; GetComponentsRemoved(uint componentId)</code></p>
 
 
 
@@ -317,7 +317,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>Authority GetAuthority(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code>Authority GetAuthority(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -326,7 +326,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 
@@ -346,7 +346,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>T GetComponent&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>T GetComponent&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -355,7 +355,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -374,7 +374,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AcknowledgeAuthorityLoss(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code>void AcknowledgeAuthorityLoss(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -383,7 +383,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 
@@ -403,7 +403,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool HasComponent(uint componentId, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>bool HasComponent(uint componentId, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -413,7 +413,7 @@ code {
 
 <ul>
 <li><code>uint componentId</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 

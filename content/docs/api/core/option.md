@@ -1,7 +1,7 @@
 
 # Option&lt;T&gt; Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Components/Option.cs/#L13">Source</a>
 <style>
@@ -26,14 +26,14 @@ code {
 
 
 
-<p>An implementation of <a href="{{urlRoot}}/api/core/option">Option</a> which is compatible with Unity's ECS. </p>
+<p>An implementation of <a href="{{.Site.BaseURL}}/api/core/option">Option</a> which is compatible with Unity's ECS. </p>
 
 
 </p>
 
 <b>Type parameters</b>
 
-<code>T</code> : The contained type in the <a href="{{urlRoot}}/api/core/option">Option</a>.
+<code>T</code> : The contained type in the <a href="{{.Site.BaseURL}}/api/core/option">Option</a>.
 
 
 </p>
@@ -47,7 +47,7 @@ code {
 
 <b>Notes</b>
 
-- This is required because bool is not blittable by default. 
+- This is required because bool is not blittable by default.
 
 
 
@@ -69,7 +69,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> readonly <a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; Empty</code></p>
+<code> readonly <a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; Empty</code></p>
 
 
 </td>
@@ -97,7 +97,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly bool HasValue</code></p>
-True if the <a href="{{urlRoot}}/api/core/option">Option</a> contains a value, false if not. 
+True if the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> contains a value, false if not.
 
 </td>
     </tr>
@@ -125,7 +125,7 @@ True if the <a href="{{urlRoot}}/api/core/option">Option</a> contains a value, f
     <tr>
         <td colspan="2">
 <code> T Value { get; }</code></p>
-Returns the value contained inside the <a href="{{urlRoot}}/api/core/option">Option</a>. 
+Returns the value contained inside the <a href="{{.Site.BaseURL}}/api/core/option">Option</a>.
 
 
 </p>
@@ -133,7 +133,7 @@ Returns the value contained inside the <a href="{{urlRoot}}/api/core/option">Opt
 <b>Exceptions:</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/empty-option-exception">EmptyOptionException</a></code> : Thrown if the <a href="{{urlRoot}}/api/core/option">Option</a> is empty. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/empty-option-exception">EmptyOptionException</a></code> : Thrown if the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> is empty. </li>
 </ul>
 
 
@@ -163,7 +163,7 @@ Returns the value contained inside the <a href="{{urlRoot}}/api/core/option">Opt
     <tr>
         <td colspan="2">
 <code> Option(T value)</code></p>
-Constructor for an option. 
+Constructor for an option.
 
 
 </p>
@@ -203,15 +203,15 @@ Constructor for an option.
     <tr>
         <td colspan="2">
 <code>bool TryGetValue(out T outValue)</code></p>
-Attempts to get the value contained within the <a href="{{urlRoot}}/api/core/option">Option</a>. 
-</p><b>Returns:</b></br>A bool indicating success. 
+Attempts to get the value contained within the <a href="{{.Site.BaseURL}}/api/core/option">Option</a>.
+</p><b>Returns:</b></br>A bool indicating success.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>out T outValue</code> : When this method returns, contains the value contained within the <a href="{{urlRoot}}/api/core/option">Option</a> if the <a href="{{urlRoot}}/api/core/option">Option</a> is non-empty, otherwise the default value for the type of the outValue parameter. </li>
+<li><code>out T outValue</code> : When this method returns, contains the value contained within the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> if the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> is non-empty, otherwise the default value for the type of the outValue parameter. </li>
 </ul>
 
 
@@ -231,15 +231,15 @@ Attempts to get the value contained within the <a href="{{urlRoot}}/api/core/opt
     <tr>
         <td colspan="2">
 <code>T GetValueOrDefault(T defaultValue)</code></p>
-Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or the provided default value if the <a href="{{urlRoot}}/api/core/option">Option</a> is empty. 
-</p><b>Returns:</b></br>The value contained within the <a href="{{urlRoot}}/api/core/option">Option</a> or the provided value. 
+Gets the value within the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> or the provided default value if the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> is empty.
+</p><b>Returns:</b></br>The value contained within the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> or the provided value.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>T defaultValue</code> : The default value to return if the <a href="{{urlRoot}}/api/core/option">Option</a> is empty. </li>
+<li><code>T defaultValue</code> : The default value to return if the <a href="{{.Site.BaseURL}}/api/core/option">Option</a> is empty. </li>
 </ul>
 
 
@@ -258,7 +258,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
     </tr>
     <tr>
         <td colspan="2">
-<code>bool Equals(<a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; other)</code></p>
+<code>bool Equals(<a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; other)</code></p>
 
 
 
@@ -267,7 +267,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; other</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; other</code> : </li>
 </ul>
 
 
@@ -376,7 +376,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator==(<a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; a, <a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; b)</code></p>
+<code>bool operator==(<a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; a, <a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; b)</code></p>
 
 
 
@@ -385,8 +385,8 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; a</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; b</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; a</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; b</code> : </li>
 </ul>
 
 
@@ -405,7 +405,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator!=(<a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; a, <a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; b)</code></p>
+<code>bool operator!=(<a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; a, <a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; b)</code></p>
 
 
 
@@ -414,8 +414,8 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; a</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; b</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; a</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; b</code> : </li>
 </ul>
 
 
@@ -462,7 +462,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
     </tr>
     <tr>
         <td colspan="2">
-<code>implicit operator T(<a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; option)</code></p>
+<code>implicit operator T(<a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; option)</code></p>
 
 
 
@@ -471,7 +471,7 @@ Gets the value within the <a href="{{urlRoot}}/api/core/option">Option</a> or th
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;T&gt; option</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;T&gt; option</code> : </li>
 </ul>
 
 

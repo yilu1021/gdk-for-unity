@@ -1,7 +1,7 @@
 
 # ISpatialComponentData Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Components/ISpatialComponentData.cs/#L6">Source</a>
 <style>
@@ -49,7 +49,7 @@ code {
     <tr>
         <td colspan="2">
 <code> uint ComponentId { get; }</code></p>
-The component ID of the SpatialOS component as defined in schema. 
+The component ID of the SpatialOS component as defined in schema.
 
 
 </td>

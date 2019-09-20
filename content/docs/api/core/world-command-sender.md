@@ -1,7 +1,7 @@
 
 # WorldCommandSender Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/StandardSubscriptionManagers/WorldCommands.cs/#L102">Source</a>
 <style>
@@ -113,7 +113,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendCreateEntityCommand(<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a> request, Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a>&gt; callback = null)</code></p>
+<code>void SendCreateEntityCommand(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a> request, Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a>&gt; callback = null)</code></p>
 
 
 
@@ -122,8 +122,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a> request</code> : </li>
-<li><code>Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a>&gt; callback</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a> request</code> : </li>
+<li><code>Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a>&gt; callback</code> : </li>
 </ul>
 
 
@@ -142,7 +142,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendDeleteEntityCommand(<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a> request, Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a>&gt; callback = null)</code></p>
+<code>void SendDeleteEntityCommand(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a> request, Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a>&gt; callback = null)</code></p>
 
 
 
@@ -151,8 +151,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a> request</code> : </li>
-<li><code>Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a>&gt; callback</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a> request</code> : </li>
+<li><code>Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a>&gt; callback</code> : </li>
 </ul>
 
 
@@ -171,7 +171,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendReserveEntityIdsCommand(<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a> request, Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a>&gt; callback = null)</code></p>
+<code>void SendReserveEntityIdsCommand(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a> request, Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a>&gt; callback = null)</code></p>
 
 
 
@@ -180,8 +180,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a> request</code> : </li>
-<li><code>Action&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a>&gt; callback</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a> request</code> : </li>
+<li><code>Action&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a>&gt; callback</code> : </li>
 </ul>
 
 

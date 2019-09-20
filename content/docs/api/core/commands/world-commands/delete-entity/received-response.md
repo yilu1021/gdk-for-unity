@@ -1,7 +1,7 @@
 
 # ReceivedResponse Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/commands-index">Commands</a>.<a href="{{urlRoot}}/api/core/commands/world-commands">WorldCommands</a>.<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity">DeleteEntity</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/commands-index">Commands</a>.<a href="{{.Site.BaseURL}}/api/core/commands/world-commands">WorldCommands</a>.<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity">DeleteEntity</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Commands/WorldCommands/DeleteEntity.cs/#L48">Source</a>
 <style>
@@ -29,7 +29,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/commands/i-received-command-response">Improbable.Gdk.Core.Commands.IReceivedCommandResponse</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/commands/i-received-command-response">Improbable.Gdk.Core.Commands.IReceivedCommandResponse</a></code>
 
 
 
@@ -69,7 +69,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly StatusCode StatusCode</code></p>
-The status code of the command response. If equal to StatusCode.Success then the command succeeded. 
+The status code of the command response. If equal to StatusCode.Success then the command succeeded.
 
 </td>
     </tr>
@@ -84,7 +84,7 @@ The status code of the command response. If equal to StatusCode.Success then the
     <tr>
         <td colspan="2">
 <code> readonly string Message</code></p>
-The failure message of the command. Will only be non-null if the command failed. 
+The failure message of the command. Will only be non-null if the command failed.
 
 </td>
     </tr>
@@ -98,8 +98,8 @@ The failure message of the command. Will only be non-null if the command failed.
     </tr>
     <tr>
         <td colspan="2">
-<code> readonly <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> EntityId</code></p>
-The Entity ID that was the target of the DeleteEntity command. 
+<code> readonly <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> EntityId</code></p>
+The Entity ID that was the target of the DeleteEntity command.
 
 </td>
     </tr>
@@ -113,8 +113,8 @@ The Entity ID that was the target of the DeleteEntity command.
     </tr>
     <tr>
         <td colspan="2">
-<code> readonly <a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">Request</a> RequestPayload</code></p>
-The request payload that was originally sent with this command. 
+<code> readonly <a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">Request</a> RequestPayload</code></p>
+The request payload that was originally sent with this command.
 
 </td>
     </tr>
@@ -129,7 +129,7 @@ The request payload that was originally sent with this command.
     <tr>
         <td colspan="2">
 <code> readonly object Context</code></p>
-The context object that was provided when sending the command. 
+The context object that was provided when sending the command.
 
 </td>
     </tr>
@@ -144,7 +144,7 @@ The context object that was provided when sending the command.
     <tr>
         <td colspan="2">
 <code> readonly long RequestId</code></p>
-The unique request ID of this command. Will match the request ID in the corresponding request. 
+The unique request ID of this command. Will match the request ID in the corresponding request.
 
 </td>
     </tr>
@@ -175,8 +175,8 @@ The unique request ID of this command. Will match the request ID in the correspo
     <tr>
         <td colspan="2">
 <code>long IReceivedCommandResponse. GetRequestId()</code></p>
-Gets the request ID from the request. For use in generic methods. 
-</p><b>Returns:</b></br>The request ID associated with the request 
+Gets the request ID from the request. For use in generic methods.
+</p><b>Returns:</b></br>The request ID associated with the request
 
 
 

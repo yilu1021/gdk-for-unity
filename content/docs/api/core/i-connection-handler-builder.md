@@ -1,7 +1,7 @@
 
 # IConnectionHandlerBuilder Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/IConnectionHandlerBuilder.cs/#L10">Source</a>
 <style>
@@ -21,7 +21,7 @@ code {
 
 
 
-<p>Intermediate object for building a <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> object. </p>
+<p>Intermediate object for building a <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> object. </p>
 
 
 
@@ -50,7 +50,7 @@ code {
     <tr>
         <td colspan="2">
 <code> string WorkerType { get; }</code></p>
-The type of worker that the resulting connection handler will represent. 
+The type of worker that the resulting connection handler will represent.
 
 
 </td>
@@ -79,8 +79,8 @@ The type of worker that the resulting connection handler will represent.
     </tr>
     <tr>
         <td colspan="2">
-<code>Task&lt;<a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a>&gt; CreateAsync(CancellationToken? token = null)</code></p>
-Creates a <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> asynchronously. 
+<code>Task&lt;<a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a>&gt; CreateAsync(CancellationToken? token = null)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> asynchronously.
 </p><b>Returns:</b></br>A task that represents the asynchronous creation of the connection handler object.
 
 </p>

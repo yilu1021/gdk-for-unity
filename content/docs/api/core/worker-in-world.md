@@ -1,7 +1,7 @@
 
 # WorkerInWorld Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/WorkerInWorld.cs/#L16">Source</a>
 <style>
@@ -32,7 +32,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/worker">Improbable.Gdk.Core.Worker</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/worker">Improbable.Gdk.Core.Worker</a></code>
 
 
 
@@ -57,7 +57,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly Vector3 Origin</code></p>
-The origin of the worker in global Unity space. 
+The origin of the worker in global Unity space.
 
 </td>
     </tr>
@@ -85,7 +85,7 @@ The origin of the worker in global Unity space.
     <tr>
         <td colspan="2">
 <code> World World { get; }</code></p>
-The ECS world associated with this worker. 
+The ECS world associated with this worker.
 
 
 </td>
@@ -101,7 +101,7 @@ The ECS world associated with this worker.
     <tr>
         <td colspan="2">
 <code> Action&lt;string&gt; OnDisconnect {  }</code></p>
-An event that triggers when the worker is disconnected. 
+An event that triggers when the worker is disconnected.
 
 
 </td>
@@ -128,8 +128,8 @@ An event that triggers when the worker is disconnected.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;<a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a>&gt; CreateWorkerInWorldAsync(<a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder, string workerType, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, Vector3 origin, CancellationToken? token = null)</code></p>
-Creates a <a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> object asynchronously. 
+<code>async Task&lt;<a href="{{.Site.BaseURL}}/api/core/worker-in-world">WorkerInWorld</a>&gt; CreateWorkerInWorldAsync(<a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder, string workerType, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, Vector3 origin, CancellationToken? token = null)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/core/worker-in-world">WorkerInWorld</a> object asynchronously.
 </p><b>Returns:</b></br>A task which represents the asynchronous creation of a worker.
 
 </p>
@@ -137,9 +137,9 @@ Creates a <a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> objec
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder</code> : A builder which describes how to create the <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder</code> : A builder which describes how to create the <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker. </li>
 <li><code>string workerType</code> : The type of worker to connect as.</li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : The logger to use for this worker.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : The logger to use for this worker.</li>
 <li><code>Vector3 origin</code> : </li>
 <li><code>CancellationToken? token</code> : A cancellation token which will cancel this asynchronous operation</li>
 </ul>
@@ -172,7 +172,7 @@ Creates a <a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> objec
     </tr>
     <tr>
         <td colspan="2">
-<code> WorkerInWorld(<a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler, string workerType, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, Vector3 origin)</code></p>
+<code> WorkerInWorld(<a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler, string workerType, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, Vector3 origin)</code></p>
 
 
 
@@ -181,9 +181,9 @@ Creates a <a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> objec
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler</code> : </li>
 <li><code>string workerType</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
 <li><code>Vector3 origin</code> : </li>
 </ul>
 

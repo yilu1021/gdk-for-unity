@@ -9,7 +9,7 @@ Note that the bandwidth reported in the Network Analyzer is calculated from the 
 
 This can be used to indicate how changes will affect bandwidth, but should not be relied upon for precise measurement or cost.
 
-Please use the [cloud metrics](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/operate/metrics) if you wish to have more precise measurements.
+Please use the [cloud metrics](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/operate/metrics) if you wish to have more precise measurements.
 ")%>
 
 ## Usage
@@ -22,7 +22,7 @@ Enter Play mode to start the data collection.
 
 The window lists all SpatialOS components in your project and displays bandwidth usage for component update ops for each component. The data shown is collected over 60 frames and then normalized to show an approximate reading per second.
 
-<img src="{{assetRoot}}assets/modules/debug/network-analyzer.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/debug/network-analyzer.png" style="margin: 0 auto; width: auto; display: block;" />
 
 ### Metrics
 
@@ -39,7 +39,7 @@ The window lists all SpatialOS components in your project and displays bandwidth
 
 The Network Analyzer only shows the bandwidth usage of a single worker at a time. If you have multiple workers running in the Editor, you can select which worker you wish to see data for by using the dropdown at the top of the window.
 
-<img src="{{assetRoot}}assets/modules/debug/network-analyzer-worker-selection.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/debug/network-analyzer-worker-selection.png" style="margin: 0 auto; width: auto; display: block;" />
 
 ### Component update loopback
 

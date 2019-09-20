@@ -29,7 +29,7 @@ The section of the Deployment Launcher window that you use to launch deployments
 
 <%(#Expandable title="Full deployment configuration from the FPS Starter Project.")%>
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/deployment-configurations-label.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/deployment-configurations-label.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(/Expandable)%>
 
@@ -37,7 +37,7 @@ The section of the Deployment Launcher window that you use to launch deployments
 
 A deployment configuration is used to describe what parameters a deployment should be launched with.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/dpl-configs.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/dpl-configs.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(#Expandable title="Fields")%>
 
@@ -45,11 +45,11 @@ A deployment configuration is used to describe what parameters a deployment shou
 | --- | --- | --- |
 | Assembly Name | ✔️ | The identifier of an assembly you have uploaded. |
 | Deployment Name | ✔️ | The name you wish to give to the deployment. |
-| Snapshot Path | ❌ | Path to the [snapshot](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#snapshot) you wish to start the deployment with, relative from the root of your SpatialOS project. |
+| Snapshot Path | ❌ | Path to the [snapshot](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#snapshot) you wish to start the deployment with, relative from the root of your SpatialOS project. |
 | Launch Config | ✔️ | Path to the launch configuration you wish to start the deployment with, relative from the root of your SpatialOS project. |
 | Region | ✔️ | The geographical region code that the deployment is running in. |
-| Tags | ❌ | Metadata that can be added to a deployment. Some tags have built-in functionality. For example, the `dev_login` tag is used to connect into deployment through the [development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication). |
-| Simulated Player Deployments | ❌ | A set of child deployments responsible for running [simulated players]({{urlRoot}}/reference/glossary#simulated-player) that connect into the parent deployment. These deployments are launched after the parent deployment has successfully started. |
+| Tags | ❌ | Metadata that can be added to a deployment. Some tags have built-in functionality. For example, the `dev_login` tag is used to connect into deployment through the [development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication). |
+| Simulated Player Deployments | ❌ | A set of child deployments responsible for running [simulated players]({{.Site.BaseURL}}/reference/glossary#simulated-player) that connect into the parent deployment. These deployments are launched after the parent deployment has successfully started. |
 
 <%(/Expandable)%>
 
@@ -58,7 +58,7 @@ A deployment configuration is used to describe what parameters a deployment shou
 | Button name | Description |
 | --- | --- |
 | Add new deployment configuration | When pressed, this creates a new deployment configuration. |
-| Add simulated player deployment | When pressed, this creates a new [simulated player]({{urlRoot}}/reference/glossary#simulated-player) deployment configuration as a child of a parent deployment. |
+| Add simulated player deployment | When pressed, this creates a new [simulated player]({{.Site.BaseURL}}/reference/glossary#simulated-player) deployment configuration as a child of a parent deployment. |
 | Remove (➖) | When pressed, this removes a deployment from the list of configurations. |
 
 <%(/Expandable)%>
@@ -68,9 +68,9 @@ A deployment configuration is used to describe what parameters a deployment shou
 The remove button (➖) is used to either:
 
 * Remove a full deployment configuration.
-* Remove a [simulated player]({{urlRoot}}/reference/glossary#simulated-player) deployment from its parent deployment configuration.
+* Remove a [simulated player]({{.Site.BaseURL}}/reference/glossary#simulated-player) deployment from its parent deployment configuration.
 
-![]({{assetRoot}}assets/modules/deployment-launcher/remove-simplayer-dpl-config.png)
+![]({{.Site.BaseURL}}docs/assets/modules/deployment-launcher/remove-simplayer-dpl-config.png)
 
 ")%>
 
@@ -81,7 +81,7 @@ Simulated player deployments inherit the following fields from their parent depl
 * Assembly name
 * Region
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/dpl-configs-sim.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/dpl-configs-sim.png" style="margin: 0 auto; width: auto; display: block;" />
 
 In addition, each simulated player deployment is assigned a deployment name based on its parent. For example, given a `parent_deployment_name`, a simulated player deployment is given a name of the format:
 
@@ -95,12 +95,12 @@ Where N is in range [1, number of simulated player deployments]
 
 | Field | Required? | Description |
 | --- | --- | --- |
-| Snapshot Path | ❌ | Path to the [snapshot](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#snapshot) you wish to start the deployment with, relative from the root of your SpatialOS project. |
+| Snapshot Path | ❌ | Path to the [snapshot](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#snapshot) you wish to start the deployment with, relative from the root of your SpatialOS project. |
 | Launch Config | ✔️ | Path to the launch configuration you wish to start the deployment with, relative from the root of your SpatialOS project. |
 | Region | ✔️ | The geographical region code that the deployment is running in. |
-| Tags | ❌ | Metadata that can be added to a deployment. Some tags have built-in functionality. For example, the `dev_login` tag is used to connect into deployment through the [development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication). |
-| Flag Prefix | ✔️ | The prefix to include on worker flags that the Deployment Launcher adds to simulated player deployments. This should follow [worker flag naming conventions](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/worker-configuration/worker-flags#naming-conventions). |
-| Worker Type | ✔️ | The worker type of the [simulated player coordinator]({{urlRoot}}/reference/glossary#simulated-player-coordinator), responsible for managing [simulated players]({{urlRoot}}/reference/glossary#simulated-player) in the child deployment and connecting them to the parent deployment. |
+| Tags | ❌ | Metadata that can be added to a deployment. Some tags have built-in functionality. For example, the `dev_login` tag is used to connect into deployment through the [development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication). |
+| Flag Prefix | ✔️ | The prefix to include on worker flags that the Deployment Launcher adds to simulated player deployments. This should follow [worker flag naming conventions](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/worker-configuration/worker-flags#naming-conventions). |
+| Worker Type | ✔️ | The worker type of the [simulated player coordinator]({{.Site.BaseURL}}/reference/glossary#simulated-player-coordinator), responsible for managing [simulated players]({{.Site.BaseURL}}/reference/glossary#simulated-player) in the child deployment and connecting them to the parent deployment. |
 
 <%(/Expandable)%>
 
@@ -108,7 +108,7 @@ Where N is in range [1, number of simulated player deployments]
 
 In the deployment configuration panel, select which deployment you wish to launch from the drop-down list. Start your deployment by selecting **Launch deployment**.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/choose-launch-config.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/choose-launch-config.png" style="margin: 0 auto; width: auto; display: block;" />
 
 ## Expected behaviour
 
@@ -210,7 +210,7 @@ The simulated player coordinator worker type can be chosen from a drop-down list
 
 When you press the **Launch deployment** button, the Deployment Launcher starts launching the deployments specified in the configuration chosen in the adjacent drop-down menu.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/choose-launch-config.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/choose-launch-config.png" style="margin: 0 auto; width: auto; display: block;" />
 
 For each deployment launched, you should see a notification similar to the following at the bottom of the deployment launcher window:
 
@@ -222,7 +222,7 @@ Assembly reloading locked.
 <%(Callout message="
 When a deployment successfully launches:
 
-* The [Console](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#console) page for the deployment automatically opens in your browser.
+* The [Console](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#console) page for the deployment automatically opens in your browser.
 * The notification at the bottom of the Deployment Launcher window disappears.
 ")%>
 

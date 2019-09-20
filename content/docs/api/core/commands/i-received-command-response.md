@@ -1,7 +1,7 @@
 
 # IReceivedCommandResponse Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/commands-index">Commands</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/commands-index">Commands</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Commands/CommandComponents.cs/#L20">Source</a>
 <style>
@@ -22,7 +22,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-received-message">Improbable.Gdk.Core.IReceivedMessage</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-received-message">Improbable.Gdk.Core.IReceivedMessage</a></code>
 
 
 
@@ -52,8 +52,8 @@ code {
     <tr>
         <td colspan="2">
 <code>long GetRequestId()</code></p>
-Gets the request ID from the request. For use in generic methods. 
-</p><b>Returns:</b></br>The request ID associated with the request 
+Gets the request ID from the request. For use in generic methods.
+</p><b>Returns:</b></br>The request ID associated with the request
 
 
 

@@ -8,7 +8,7 @@
 
 The build dependencies for developing for iOS can be installed directly through the Unity Hub.
 
-![]({{assetRoot}}assets/modules/mobile/add-ios-dependencies.png)
+![]({{.Site.BaseURL}}docs/assets/modules/mobile/add-ios-dependencies.png)
 
 ### I have an existing Unity installation
 
@@ -23,7 +23,7 @@ The build dependencies for developing for iOS can be installed directly through 
 
 ### I don't have an existing Unity installation
 
-Please follow the steps in [Setup & installation]({{urlRoot}}/machine-setup) and additionally select the **iOS Build Support** module when installing Unity.
+Please follow the steps in [Setup & installation]({{.Site.BaseURL}}/machine-setup) and additionally select the **iOS Build Support** module when installing Unity.
 
 ## 2. Install Xcode and the command line tools
 

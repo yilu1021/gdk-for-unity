@@ -5,7 +5,7 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with:
 
-* [SpatialOS component commands](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/commands#component-commands)
+* [SpatialOS component commands](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/commands#component-commands)
 ")%>
 
 For each command defined in your schema components, the GDK generates the following types:
@@ -15,11 +15,11 @@ For each command defined in your schema components, the GDK generates the follow
 * `{component name}.{command name}.Response`
 * `{component name}.{command name}.ReceivedResponse`
 
-The GDK also provides the [`CommandSystem`]({{urlRoot}}/api/core/command-system), which contains several methods that are used for sending and receiving command requests and responses.
+The GDK also provides the [`CommandSystem`]({{.Site.BaseURL}}/api/core/command-system), which contains several methods that are used for sending and receiving command requests and responses.
 
 ## How to send command requests
 
-The [`CommandSystem`]({{urlRoot}}/api/core/command-system) provides a `SendRequest` method, which sends a command request of type `T`. This method takes a command request object of type `{component name}.{command name}.Request` as its argument.
+The [`CommandSystem`]({{.Site.BaseURL}}/api/core/command-system) provides a `SendRequest` method, which sends a command request of type `T`. This method takes a command request object of type `{component name}.{command name}.Request` as its argument.
 
 The example below shows how to send a command request.
 
@@ -69,9 +69,9 @@ public class SendSpawnCubeRequestSystem : ComponentSystem
 
 ## How to handle command requests and send responses
 
-The [`CommandSystem`]({{urlRoot}}/api/core/command-system) has a `GetRequests<T>` method, which retrieves a list of received command requests of type `T` received by the worker instance. In this case, `T` must be of type `{component name}.{command name}.ReceivedRequest`. Iterate through the list returned from `GetRequests<T>` to handle each received command request.
+The [`CommandSystem`]({{.Site.BaseURL}}/api/core/command-system) has a `GetRequests<T>` method, which retrieves a list of received command requests of type `T` received by the worker instance. In this case, `T` must be of type `{component name}.{command name}.ReceivedRequest`. Iterate through the list returned from `GetRequests<T>` to handle each received command request.
 
-To send a response back, the [`CommandSystem`]({{urlRoot}}/api/core/command-system) provides a `SendResponse` method, which requires a response object of type `{component name}.{command name}.Response` as its argument.
+To send a response back, the [`CommandSystem`]({{.Site.BaseURL}}/api/core/command-system) provides a `SendResponse` method, which requires a response object of type `{component name}.{command name}.Response` as its argument.
 
 The example below shows how to handle a command request and send a command response back.
 
@@ -119,7 +119,7 @@ public class HandleSpawnCubeRequestSystem : ComponentSystem
 
 ## How to handle command responses
 
-The [`CommandSystem`]({{urlRoot}}/api/core/command-system) has a `GetResponses<T>` method, which retrieves a list of received command responses of type `T` received by the worker instance. In this case, `T` must be of type `{component name}.{command name}.ReceivedResponse`. Iterate through the list returned from `GetResponses<T>` to handle each received command response.
+The [`CommandSystem`]({{.Site.BaseURL}}/api/core/command-system) has a `GetResponses<T>` method, which retrieves a list of received command responses of type `T` received by the worker instance. In this case, `T` must be of type `{component name}.{command name}.ReceivedResponse`. Iterate through the list returned from `GetResponses<T>` to handle each received command response.
 
 The example below shows how to handle a command response.
 

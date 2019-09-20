@@ -2,7 +2,7 @@
 
 This tutorial series aims to teach you how to perform basic SpatialOS interactions using the GDK for Unity.
 
-<img src="{{assetRoot}}assets/gdk-architecture-2.png" style="float: right; width: 60%; margin: 0 0 0 0;" />
+<img src="{{.Site.BaseURL}}docs/assets/gdk-architecture-2.png" style="float: right; width: 60%; margin: 0 0 0 0;" />
 
 The GDK is composed of three layers:
 
@@ -16,4 +16,4 @@ Starting from the [Blank Project](https://github.com/spatialos/gdk-for-unity-bla
 
 In the first chapter of the series, you’re going to look at what the Blank Project contains, run the Blank project locally on your machine, and explore how the included Player Lifecycle module works.
 
-#### Next: [What is SpatialOS?]({{urlRoot}}/projects/blank/tutorial/1/spatialos)
+#### Next: [What is SpatialOS?]({{.Site.BaseURL}}/projects/blank/tutorial/1/spatialos)

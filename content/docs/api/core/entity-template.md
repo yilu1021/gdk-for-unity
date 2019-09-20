@@ -1,7 +1,7 @@
 
 # EntityTemplate Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Utility/EntityTemplate.cs/#L11">Source</a>
 <style>
@@ -21,7 +21,7 @@ code {
 
 
 
-<p>Utility class to help build SpatialOS entities. An <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> can be mutated be used multiple times. </p>
+<p>Utility class to help build SpatialOS entities. An <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> can be mutated be used multiple times. </p>
 
 
 
@@ -51,7 +51,7 @@ code {
     <tr>
         <td colspan="2">
 <code>string GetWorkerAccessAttribute(string workerId)</code></p>
-Constructs a worker access attribute, given a worker ID. 
+Constructs a worker access attribute, given a worker ID.
 </p><b>Returns:</b></br>A string representing the worker access attribute.
 
 </p>
@@ -92,7 +92,7 @@ Constructs a worker access attribute, given a worker ID.
     <tr>
         <td colspan="2">
 <code>void AddComponent&lt;TSnapshot&gt;(TSnapshot snapshot, string writeAccess)</code></p>
-Adds a SpatialOS component to the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>. 
+Adds a SpatialOS component to the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.
 
 
 </p>
@@ -111,7 +111,7 @@ Adds a SpatialOS component to the <a href="{{urlRoot}}/api/core/entity-template"
 <b>Notes:</b>
 
 <ul>
-<li>EntityACL is handled automatically by the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>, so a EntityACL snapshot will be ignored. </li>
+<li>EntityACL is handled automatically by the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>, so a EntityACL snapshot will be ignored. </li>
 </ul>
 
 
@@ -131,7 +131,7 @@ Adds a SpatialOS component to the <a href="{{urlRoot}}/api/core/entity-template"
 <b>Exceptions:</b>
 
 <ul>
-<li><code>InvalidOperationException</code> : Thrown if the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> already contains a component snapshot of type TSnapshot. </li>
+<li><code>InvalidOperationException</code> : Thrown if the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> already contains a component snapshot of type TSnapshot. </li>
 </ul>
 
 
@@ -148,7 +148,7 @@ Adds a SpatialOS component to the <a href="{{urlRoot}}/api/core/entity-template"
     <tr>
         <td colspan="2">
 <code>TSnapshot? GetComponent&lt;TSnapshot&gt;()</code></p>
-Attempts to get a component snapshot stored in the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>. 
+Attempts to get a component snapshot stored in the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.
 </p><b>Returns:</b></br>The component snapshot, if the component snapshot exists, null otherwise.
 
 
@@ -176,7 +176,7 @@ Attempts to get a component snapshot stored in the <a href="{{urlRoot}}/api/core
     <tr>
         <td colspan="2">
 <code>bool HasComponent(uint componentId)</code></p>
-Checks if a component snapshot is stored in the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>. 
+Checks if a component snapshot is stored in the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.
 </p><b>Returns:</b></br>True, if the component snapshot exists, false otherwise.
 
 </p>
@@ -204,7 +204,7 @@ Checks if a component snapshot is stored in the <a href="{{urlRoot}}/api/core/en
     <tr>
         <td colspan="2">
 <code>bool HasComponent&lt;TSnapshot&gt;()</code></p>
-Checks if a component snapshot is stored in the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>. 
+Checks if a component snapshot is stored in the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.
 </p><b>Returns:</b></br>True, if the component snapshot exists, false otherwise.
 
 
@@ -232,7 +232,7 @@ Checks if a component snapshot is stored in the <a href="{{urlRoot}}/api/core/en
     <tr>
         <td colspan="2">
 <code>void SetComponent&lt;TSnapshot&gt;(TSnapshot snapshot)</code></p>
-Sets a component snapshot in the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>. 
+Sets a component snapshot in the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.
 
 
 </p>
@@ -240,7 +240,7 @@ Sets a component snapshot in the <a href="{{urlRoot}}/api/core/entity-template">
 <b>Parameters</b>
 
 <ul>
-<li><code>TSnapshot snapshot</code> : The component snapshot that will be inserted into the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>.</li>
+<li><code>TSnapshot snapshot</code> : The component snapshot that will be inserted into the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>.</li>
 </ul>
 
 
@@ -250,7 +250,7 @@ Sets a component snapshot in the <a href="{{urlRoot}}/api/core/entity-template">
 <b>Notes:</b>
 
 <ul>
-<li>This will override a snapshot of type TSnapshot in the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> if one already exists. </li>
+<li>This will override a snapshot of type TSnapshot in the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> if one already exists. </li>
 </ul>
 
 
@@ -278,7 +278,7 @@ Sets a component snapshot in the <a href="{{urlRoot}}/api/core/entity-template">
     <tr>
         <td colspan="2">
 <code>void RemoveComponent&lt;TSnapshot&gt;()</code></p>
-Removes a component snapshot from the <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a>, if it exists. 
+Removes a component snapshot from the <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a>, if it exists.
 
 
 
@@ -306,7 +306,7 @@ Removes a component snapshot from the <a href="{{urlRoot}}/api/core/entity-templ
     <tr>
         <td colspan="2">
 <code>string GetComponentWriteAccess(uint componentId)</code></p>
-Retrieves the write access worker attribute for a given component. 
+Retrieves the write access worker attribute for a given component.
 </p><b>Returns:</b></br>The write access worker attribute, if it exists, null otherwise.
 
 </p>
@@ -334,7 +334,7 @@ Retrieves the write access worker attribute for a given component.
     <tr>
         <td colspan="2">
 <code>string GetComponentWriteAccess&lt;TSnapshot&gt;()</code></p>
-Retrieves the write access worker attribute for a given component. 
+Retrieves the write access worker attribute for a given component.
 </p><b>Returns:</b></br>The write access worker attribute, if it exists, null otherwise.
 
 
@@ -362,7 +362,7 @@ Retrieves the write access worker attribute for a given component.
     <tr>
         <td colspan="2">
 <code>void SetComponentWriteAccess(uint componentId, string writeAccess)</code></p>
-Sets the write access worker attribute for a given component. 
+Sets the write access worker attribute for a given component.
 
 
 </p>
@@ -391,7 +391,7 @@ Sets the write access worker attribute for a given component.
     <tr>
         <td colspan="2">
 <code>void SetComponentWriteAccess&lt;TSnapshot&gt;(string writeAccess)</code></p>
-Sets the write access worker attribute for a given component. 
+Sets the write access worker attribute for a given component.
 
 
 </p>
@@ -428,7 +428,7 @@ Sets the write access worker attribute for a given component.
     <tr>
         <td colspan="2">
 <code>void SetReadAccess(params string [] attributes)</code></p>
-Sets the worker attributes which should have read access over this entity. 
+Sets the worker attributes which should have read access over this entity.
 
 
 </p>
@@ -456,7 +456,7 @@ Sets the worker attributes which should have read access over this entity.
     <tr>
         <td colspan="2">
 <code>Entity GetEntity()</code></p>
-Creates an Entity instance from this template. 
+Creates an Entity instance from this template.
 </p><b>Returns:</b></br>The Entity object.
 
 
@@ -483,9 +483,9 @@ Creates an Entity instance from this template.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> GetEntitySnapshot()</code></p>
-Creates an <a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> from this template. 
-</p><b>Returns:</b></br>The <a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> object.
+<code><a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> GetEntitySnapshot()</code></p>
+Creates an <a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> from this template.
+</p><b>Returns:</b></br>The <a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> object.
 
 
 

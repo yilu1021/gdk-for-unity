@@ -1,7 +1,7 @@
 
 # EntitySnapshot Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Utility/EntitySnapshot.cs/#L9">Source</a>
 <style>
@@ -52,7 +52,7 @@ code {
     <tr>
         <td colspan="2">
 <code>T? GetComponentSnapshot&lt;T&gt;()</code></p>
-Gets the SpatialOS component snapshot if present. 
+Gets the SpatialOS component snapshot if present.
 </p><b>Returns:</b></br>The component snapshot, if it exists, or null otherwise.
 
 
@@ -80,7 +80,7 @@ Gets the SpatialOS component snapshot if present.
     <tr>
         <td colspan="2">
 <code>bool TryGetComponentSnapshot&lt;T&gt;(out T snapshot)</code></p>
-Attempts to get the SpatialOS component if present. 
+Attempts to get the SpatialOS component if present.
 </p><b>Returns:</b></br>True, if the component exists; false otherwise.
 
 </p>
@@ -117,7 +117,7 @@ Attempts to get the SpatialOS component if present.
     <tr>
         <td colspan="2">
 <code>void AddComponentSnapshot&lt;T&gt;(T component)</code></p>
-Adds a component to this snapshot. 
+Adds a component to this snapshot.
 
 
 </p>

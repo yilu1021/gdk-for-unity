@@ -1,7 +1,7 @@
 
 # IDiffUpdateStorage&lt;T&gt; Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/DiffStorage.cs/#L49">Source</a>
 <style>
@@ -22,7 +22,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-component-diff-storage">Improbable.Gdk.Core.IComponentDiffStorage</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-component-diff-storage">Improbable.Gdk.Core.IComponentDiffStorage</a></code>
 
 
 
@@ -51,7 +51,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddUpdate(<a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt; update)</code></p>
+<code>void AddUpdate(<a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt; update)</code></p>
 
 
 
@@ -60,7 +60,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt; update</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt; update</code> : </li>
 </ul>
 
 
@@ -79,7 +79,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetUpdates()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetUpdates()</code></p>
 
 
 
@@ -98,7 +98,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{urlRoot}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetUpdates(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/received-messages-span">ReceivedMessagesSpan</a>&lt;<a href="{{.Site.BaseURL}}/api/core/component-update-received">ComponentUpdateReceived</a>&lt;T&gt;&gt; GetUpdates(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -107,7 +107,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 

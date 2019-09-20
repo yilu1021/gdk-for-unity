@@ -5,9 +5,9 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with:
 
-  * [Basic player spawning]({{urlRoot}}/modules/player-lifecycle/basic-player-creation)
-  * [Creating entity templates]({{urlRoot}}/reference/concepts/entity-templates)
-  * [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
+  * [Basic player spawning]({{.Site.BaseURL}}/modules/player-lifecycle/basic-player-creation)
+  * [Creating entity templates]({{.Site.BaseURL}}/reference/concepts/entity-templates)
+  * [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
 ")%>
 
 ## How to manually send player creation requests
@@ -26,7 +26,7 @@ var playerCreationSystem = World.GetExistingSystem<SendCreatePlayerRequestSystem
 playerCreationSystem.RequestPlayerCreation();
 ```
 
-To find out more about the `RequestPlayerCreation` method, take a look at the `SendCreatePlayerRequestSystem` [API reference documentation]({{urlRoot}}/api/player-lifecycle/send-create-player-request-system#methods).
+To find out more about the `RequestPlayerCreation` method, take a look at the `SendCreatePlayerRequestSystem` [API reference documentation]({{.Site.BaseURL}}/api/player-lifecycle/send-create-player-request-system#methods).
 
 ### Add a player creation callback
 

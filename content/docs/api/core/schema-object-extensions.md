@@ -1,7 +1,7 @@
 
 # SchemaObjectExtensions Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/SchemaObjectExtensions.cs/#L5">Source</a>
 <style>
@@ -43,7 +43,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddEntityId(this SchemaObject obj, uint fieldId, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>void AddEntityId(this SchemaObject obj, uint fieldId, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -54,7 +54,7 @@ code {
 <ul>
 <li><code>this SchemaObject obj</code> : </li>
 <li><code>uint fieldId</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -73,7 +73,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> GetEntityIdStruct(this SchemaObject obj, uint fieldId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> GetEntityIdStruct(this SchemaObject obj, uint fieldId)</code></p>
 
 
 
@@ -102,7 +102,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> IndexEntityIdStruct(this SchemaObject obj, uint fieldId, uint index)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> IndexEntityIdStruct(this SchemaObject obj, uint fieldId, uint index)</code></p>
 
 
 
@@ -132,7 +132,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddEntity(this SchemaObject obj, uint fieldId, <a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> snapshot)</code></p>
+<code>void AddEntity(this SchemaObject obj, uint fieldId, <a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> snapshot)</code></p>
 
 
 
@@ -143,7 +143,7 @@ code {
 <ul>
 <li><code>this SchemaObject obj</code> : </li>
 <li><code>uint fieldId</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> snapshot</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> snapshot</code> : </li>
 </ul>
 
 
@@ -162,7 +162,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> GetEntity(this SchemaObject obj, uint fieldId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> GetEntity(this SchemaObject obj, uint fieldId)</code></p>
 
 
 
@@ -191,7 +191,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-snapshot">EntitySnapshot</a> IndexEntity(this SchemaObject obj, uint fieldId, uint index)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/entity-snapshot">EntitySnapshot</a> IndexEntity(this SchemaObject obj, uint fieldId, uint index)</code></p>
 
 
 

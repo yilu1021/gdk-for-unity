@@ -23,9 +23,9 @@ Or add it to your `Packages/manifest.json`:
 
 Please refer to the detailed documentation for each of the functions of the Deployment Launcher:
 
-* [Upload an assembly]({{urlRoot}}/modules/deployment-launcher/upload-assemblies)
-* [Configure and launch a deployment]({{urlRoot}}/modules/deployment-launcher/launch-deployments)
-* [Manage live deployments]({{urlRoot}}/modules/deployment-launcher/manage-deployments)
+* [Upload an assembly]({{.Site.BaseURL}}/modules/deployment-launcher/upload-assemblies)
+* [Configure and launch a deployment]({{.Site.BaseURL}}/modules/deployment-launcher/launch-deployments)
+* [Manage live deployments]({{.Site.BaseURL}}/modules/deployment-launcher/manage-deployments)
 
 ### Change my project in the Deployment Launcher
 
@@ -34,4 +34,4 @@ The Deployment Launcher reads your SpatialOS project name from the `spatialos.js
 1. Change the project name in your `spatialos.json`.
 2. Press the refresh button in the Deployment Launcher window, next to the **Project Name** label to reload the project name.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/refresh-button.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/refresh-button.png" style="margin: 0 auto; width: auto; display: block;" />

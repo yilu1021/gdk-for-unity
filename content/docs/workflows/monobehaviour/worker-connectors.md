@@ -5,21 +5,21 @@
 <%(Callout message="
 Before reading this document, make sure you have read:
 
-  * [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
-  * [Connection flows]({{urlRoot}}/reference/concepts/connection-flows)
+  * [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
+  * [Connection flows]({{.Site.BaseURL}}/reference/concepts/connection-flows)
 ")%>
 
-To expose the [`Worker`]({{urlRoot}}/api/core/worker) class in the MonoBehaviour workflow, the GDK provides an abstract [`WorkerConnector`]({{urlRoot}}/api/core/worker-connector) MonoBehaviour.
+To expose the [`Worker`]({{.Site.BaseURL}}/api/core/worker) class in the MonoBehaviour workflow, the GDK provides an abstract [`WorkerConnector`]({{.Site.BaseURL}}/api/core/worker-connector) MonoBehaviour.
 
 This class provides methods for connecting and managing the lifecycle of your worker-instance. You can derive from `WorkerConnector` and use those MonoBehaviours to create multiple server-worker or client-worker instances in one Scene by adding it to multiple GameObjects, each GameObject creating a different worker instance.
 
 <%(#Expandable title="GameObject transform translation")%>
-When you have multiple worker instances represented as GameObjects in a Scene, you are likely to have multiple SpatialOS entities [checked out]({{urlRoot}}/reference/glossary#authority) to each worker instance. To make sure you don’t have GameObjects that are linked to the same SpatialOS entity in different workers in the same location, we use an offset for each GameObject against the origin of the worker GameObject. We call the offset of the worker GameObject origin, the “translation”.
+When you have multiple worker instances represented as GameObjects in a Scene, you are likely to have multiple SpatialOS entities [checked out]({{.Site.BaseURL}}/reference/glossary#authority) to each worker instance. To make sure you don’t have GameObjects that are linked to the same SpatialOS entity in different workers in the same location, we use an offset for each GameObject against the origin of the worker GameObject. We call the offset of the worker GameObject origin, the “translation”.
 <%(/Expandable)%>
 
 ## How to create your own WorkerConnector
 
-You can inherit from the [`WorkerConnector`]({{urlRoot}}/api/core/worker-connector) class to create your own connection logic.
+You can inherit from the [`WorkerConnector`]({{.Site.BaseURL}}/api/core/worker-connector) class to create your own connection logic.
 
 <%(#Expandable title="Example worker connector implementation")%>
 
@@ -96,14 +96,14 @@ The `SpatialOSConnectionHandlerBuilder` object is central to this framework. It 
 
 ### What connection parameters should I use
 
-The [`WorkerConnector`]({{urlRoot}}/api/core/worker-connector) class has a `CreateConnectionParameters(string workerType)` method which returns reasonable defaults for your `ConnectionParameters`. You can then tweak these to fit your use case. For example:
+The [`WorkerConnector`]({{.Site.BaseURL}}/api/core/worker-connector) class has a `CreateConnectionParameters(string workerType)` method which returns reasonable defaults for your `ConnectionParameters`. You can then tweak these to fit your use case. For example:
 
 - If you are implementing a client worker, you may want to use the `KCP` networking stack.
-- If you are debugging the low level networking of a worker, you may want to enable [protocol logging](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/debugging#protocol-logging).
+- If you are debugging the low level networking of a worker, you may want to enable [protocol logging](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/debugging#protocol-logging).
 
 ### How do I populate my connection flow parameters
 
-Each of the [connection flows]({{urlRoot}}/reference/concepts/connection-flows) have parameters that need to be configured to ensure a successful connection.
+Each of the [connection flows]({{.Site.BaseURL}}/reference/concepts/connection-flows) have parameters that need to be configured to ensure a successful connection.
 
 The GDK provides the `IConnectionFlowInitializer<TConnectionFlow>` interface as part of the small framework mentioned above. This interface represents an object which knows how to initialize a connection flow of type `TConnectionFlow`. The GDK provides two implementations:
 
@@ -112,13 +112,13 @@ The GDK provides the `IConnectionFlowInitializer<TConnectionFlow>` interface as 
 
 ## How do I customize the connection flows
 
-The Locator connection flow has callbacks to the user during the connection process. The `LocatorFlow` object provides a reasonable default implementation for these callbacks, but you may want to customize this to suit your connection & authentication logic. 
+The Locator connection flow has callbacks to the user during the connection process. The `LocatorFlow` object provides a reasonable default implementation for these callbacks, but you may want to customize this to suit your connection & authentication logic.
 
-To customize these flows, simply inherit from the relevant flow object and override the methods that you want to tweak. Please refer to the API documentation for more detail on the [`LocatorFlow`]({{urlRoot}}/api/core/locator-flow).
+To customize these flows, simply inherit from the relevant flow object and override the methods that you want to tweak. Please refer to the API documentation for more detail on the [`LocatorFlow`]({{.Site.BaseURL}}/api/core/locator-flow).
 
 ## Example implementation
 
-In the GDK’s [Blank project](https://github.com/spatialos/gdk-for-unity-blank-project), we provide an example implementation of a server-worker, client-worker, and mobile client-worker derived from the [`WorkerConnector`]({{urlRoot}}/api/core/worker-connector). There are three example scripts and four example Scenes.
+In the GDK’s [Blank project](https://github.com/spatialos/gdk-for-unity-blank-project), we provide an example implementation of a server-worker, client-worker, and mobile client-worker derived from the [`WorkerConnector`]({{.Site.BaseURL}}/api/core/worker-connector). There are three example scripts and four example Scenes.
 
 ### Scripts
 

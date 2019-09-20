@@ -1,7 +1,7 @@
 
 # InterestTemplate Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
 GDK package: QueryBasedInterest<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.querybasedinteresthelper/InterestTemplate.cs/#L11">Source</a>
 <style>
@@ -50,9 +50,9 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> Create()</code></p>
-Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
-</p><b>Returns:</b></br>A new <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> Create()</code></p>
+Creates a new <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
+</p><b>Returns:</b></br>A new <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 
 
@@ -69,16 +69,16 @@ Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">I
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> Create(<a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> interestTemplate)</code></p>
-Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object given an existing <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a>. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> Create(<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> interestTemplate)</code></p>
+Creates a new <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object given an existing <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a>.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> interestTemplate</code> : An existing <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a>. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> interestTemplate</code> : An existing <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a>. </li>
 </ul>
 
 
@@ -106,9 +106,9 @@ Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">I
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> Create(Dictionary&lt;uint, ComponentInterest&gt; interest)</code></p>
-Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object from the content of an existing Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> Create(Dictionary&lt;uint, ComponentInterest&gt; interest)</code></p>
+Creates a new <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object from the content of an existing Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -156,17 +156,17 @@ Creates a new <a href="{{urlRoot}}/api/query-based-interest/interest-template">I
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries&lt;T&gt;(<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
-Add InterestQueries to the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
+Add InterestQueries to the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -176,7 +176,7 @@ Add InterestQueries to the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
 </ul>
 
 
@@ -203,9 +203,9 @@ Add InterestQueries to the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries(uint componentId, <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
-Add InterestQueries to the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries(uint componentId, <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
+Add InterestQueries to the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -213,8 +213,8 @@ Add InterestQueries to the Interest component.
 
 <ul>
 <li><code>uint componentId</code> : Component ID of the authoritative component to add the InterestQueries to. </li>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -224,7 +224,7 @@ Add InterestQueries to the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
 </ul>
 
 
@@ -242,16 +242,16 @@ Add InterestQueries to the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries&lt;T&gt;(IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
-Add InterestQueries to the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries&lt;T&gt;(IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
+Add InterestQueries to the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -261,7 +261,7 @@ Add InterestQueries to the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. </li>
 </ul>
 
 
@@ -288,9 +288,9 @@ Add InterestQueries to the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries(uint componentId, IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
-Add InterestQueries to the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> AddQueries(uint componentId, IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
+Add InterestQueries to the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -298,7 +298,7 @@ Add InterestQueries to the Interest component.
 
 <ul>
 <li><code>uint componentId</code> : Component ID of the authoritative component to add the InterestQueries to. </li>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -308,7 +308,7 @@ Add InterestQueries to the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. No queries are added if interestQueries is empty. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to update the Interest component. No queries are added if interestQueries is empty. </li>
 </ul>
 
 
@@ -326,17 +326,17 @@ Add InterestQueries to the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries&lt;T&gt;(<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
-Replaces a component's InterestQueries in the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
+Replaces a component's InterestQueries in the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -346,7 +346,7 @@ Replaces a component's InterestQueries in the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
 </ul>
 
 
@@ -373,9 +373,9 @@ Replaces a component's InterestQueries in the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries(uint componentId, <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
-Replaces a component's InterestQueries in the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries(uint componentId, <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery, params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries)</code></p>
+Replaces a component's InterestQueries in the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -383,8 +383,8 @@ Replaces a component's InterestQueries in the Interest component.
 
 <ul>
 <li><code>uint componentId</code> : Component ID of the authoritative component to replace InterestQueries of. </li>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> interestQuery</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> to add for a given authoritative component. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> [] interestQueries</code> : Further InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -394,7 +394,7 @@ Replaces a component's InterestQueries in the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
 </ul>
 
 
@@ -412,16 +412,16 @@ Replaces a component's InterestQueries in the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries&lt;T&gt;(IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
-Replaces a component's InterestQueries in the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries&lt;T&gt;(IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
+Replaces a component's InterestQueries in the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -431,7 +431,7 @@ Replaces a component's InterestQueries in the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. </li>
 </ul>
 
 
@@ -458,9 +458,9 @@ Replaces a component's InterestQueries in the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries(uint componentId, IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
-Replaces a component's InterestQueries in the Interest component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ReplaceQueries(uint componentId, IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries)</code></p>
+Replaces a component's InterestQueries in the Interest component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -468,7 +468,7 @@ Replaces a component's InterestQueries in the Interest component.
 
 <ul>
 <li><code>uint componentId</code> : Component ID of the authoritative component to replace InterestQueries of. </li>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>&gt; interestQueries</code> : Set of InterestQueries to add for a given authoritative component. </li>
 </ul>
 
 
@@ -478,7 +478,7 @@ Replaces a component's InterestQueries in the Interest component.
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. No queries are replaced if interestQueries is empty. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> must be provided to replace a component's interest. No queries are replaced if interestQueries is empty. </li>
 </ul>
 
 
@@ -496,9 +496,9 @@ Replaces a component's InterestQueries in the Interest component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearQueries&lt;T&gt;()</code></p>
-Clears all InterestQueries for a given authoritative component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearQueries&lt;T&gt;()</code></p>
+Clears all InterestQueries for a given authoritative component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 
 
@@ -524,9 +524,9 @@ Clears all InterestQueries for a given authoritative component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearQueries(uint componentId)</code></p>
-Clears all InterestQueries for a given authoritative component. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearQueries(uint componentId)</code></p>
+Clears all InterestQueries for a given authoritative component.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 </p>
 
@@ -552,9 +552,9 @@ Clears all InterestQueries for a given authoritative component.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearAllQueries()</code></p>
-Clears all InterestQueries. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-template">InterestTemplate</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> ClearAllQueries()</code></p>
+Clears all InterestQueries.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-template">InterestTemplate</a> object.
 
 
 
@@ -572,8 +572,8 @@ Clears all InterestQueries.
     <tr>
         <td colspan="2">
 <code>Interest.Snapshot ToSnapshot()</code></p>
-Builds the Interest snapshot. 
-</p><b>Returns:</b></br>A Interest.Snapshot object. 
+Builds the Interest snapshot.
+</p><b>Returns:</b></br>A Interest.Snapshot object.
 
 
 
@@ -591,8 +591,8 @@ Builds the Interest snapshot.
     <tr>
         <td colspan="2">
 <code>Dictionary&lt;uint, ComponentInterest&gt; AsComponentInterest()</code></p>
-Returns the underlying data of an Interest component. 
-</p><b>Returns:</b></br>A Dictionary<uint, ComponentInterest>. 
+Returns the underlying data of an Interest component.
+</p><b>Returns:</b></br>A Dictionary<uint, ComponentInterest>.
 
 
 

@@ -1,7 +1,7 @@
 
 # MobileConnectionParametersInitializer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/mobile-index">Mobile</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/mobile-index">Mobile</a><br/>
 GDK package: Mobile<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.mobile/Utility/MobileConnectionParametersInitializer.cs/#L6">Source</a>
 <style>
@@ -22,7 +22,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-parameter-initializer">Improbable.Gdk.Core.IConnectionParameterInitializer</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-parameter-initializer">Improbable.Gdk.Core.IConnectionParameterInitializer</a></code>
 
 
 
@@ -52,7 +52,7 @@ code {
     <tr>
         <td colspan="2">
 <code>void Initialize(ConnectionParameters connectionParameters)</code></p>
-Initializes the connection parameters. 
+Initializes the connection parameters.
 
 
 </p>

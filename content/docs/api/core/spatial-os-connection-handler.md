@@ -1,7 +1,7 @@
 
 # SpatialOSConnectionHandler Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/SpatialOSConnectionHandler/SpatialOSConnectionHandler.cs/#L7">Source</a>
 <style>
@@ -23,7 +23,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-handler">Improbable.Gdk.Core.IConnectionHandler</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler">Improbable.Gdk.Core.IConnectionHandler</a></code>
 
 
 
@@ -92,7 +92,7 @@ code {
     <tr>
         <td colspan="2">
 <code>bool IsConnected()</code></p>
-Gets a value indicating whether the underlying connection is connected. 
+Gets a value indicating whether the underlying connection is connected.
 </p><b>Returns:</b></br>True if the underlying connection is connected, false otherwise.
 
 
@@ -111,7 +111,7 @@ Gets a value indicating whether the underlying connection is connected.
     <tr>
         <td colspan="2">
 <code>string GetWorkerId()</code></p>
-Gets the worker ID for this worker. 
+Gets the worker ID for this worker.
 </p><b>Returns:</b></br>The worker ID.
 
 
@@ -130,7 +130,7 @@ Gets the worker ID for this worker.
     <tr>
         <td colspan="2">
 <code>List&lt;string&gt; GetWorkerAttributes()</code></p>
-Gets the worker attributes for this worker. 
+Gets the worker attributes for this worker.
 </p><b>Returns:</b></br>The list of worker attributes.
 
 
@@ -148,8 +148,8 @@ Gets the worker attributes for this worker.
     </tr>
     <tr>
         <td colspan="2">
-<code>void GetMessagesReceived(ref <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> viewDiff)</code></p>
-Populates the <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> object using the messages received since the last time this was called. 
+<code>void GetMessagesReceived(ref <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> viewDiff)</code></p>
+Populates the <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> object using the messages received since the last time this was called.
 
 
 </p>
@@ -157,7 +157,7 @@ Populates the <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> object using
 <b>Parameters</b>
 
 <ul>
-<li><code>ref <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> viewDiff</code> : The <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> to populate.</li>
+<li><code>ref <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> viewDiff</code> : The <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> to populate.</li>
 </ul>
 
 
@@ -176,8 +176,8 @@ Populates the <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> object using
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> GetMessagesToSendContainer()</code></p>
-Gets the current messages to send container. 
+<code><a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> GetMessagesToSendContainer()</code></p>
+Gets the current messages to send container.
 </p><b>Returns:</b></br>The messages to send container.
 
 
@@ -195,8 +195,8 @@ Gets the current messages to send container.
     </tr>
     <tr>
         <td colspan="2">
-<code>void PushMessagesToSend(<a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
-Adds a set of <a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> to be sent. 
+<code>void PushMessagesToSend(<a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
+Adds a set of <a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> to be sent.
 
 
 </p>
@@ -204,8 +204,8 @@ Adds a set of <a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a>
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : The set of messages to send.</li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : The set of messages to send.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
 </ul>
 
 

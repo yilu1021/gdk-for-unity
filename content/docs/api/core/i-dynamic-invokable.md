@@ -1,7 +1,7 @@
 
 # IDynamicInvokable Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Dynamic/IDynamicInvokable.cs/#L3">Source</a>
 <style>
@@ -73,7 +73,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void InvokeHandler(<a href="{{urlRoot}}/api/core/dynamic/i-handler">Dynamic.IHandler</a> handler)</code></p>
+<code>void InvokeHandler(<a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">Dynamic.IHandler</a> handler)</code></p>
 
 
 
@@ -82,7 +82,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/dynamic/i-handler">Dynamic.IHandler</a> handler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/dynamic/i-handler">Dynamic.IHandler</a> handler</code> : </li>
 </ul>
 
 

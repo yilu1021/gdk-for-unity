@@ -10,7 +10,7 @@ The section of the Deployment Launcher window that you use to manage live deploy
 
 Initially, the Deployment Launcher does not know of any deployments. It only updates its known list of deployments when requested.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/manage-deployments-empty.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/manage-deployments-empty.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(#Expandable title="Buttons")%>
 
@@ -24,7 +24,7 @@ Initially, the Deployment Launcher does not know of any deployments. It only upd
 
 When there are live cloud deployments running, this section is updated with a list of these live deployments and some metadata about them. The deployment metadata is **read-only**.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/manage-deployments.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/manage-deployments.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(#Expandable title="Metadata")%>
 
@@ -42,7 +42,7 @@ When there are live cloud deployments running, this section is updated with a li
 
 | Button name | Description |
 | --- | --- |
-| Open the SpatialOS Console (🌐) | When pressed, the [Console](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#console) page for the selected cloud deployment opens in your browser. |
+| Open the SpatialOS Console (🌐) | When pressed, the [Console](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#console) page for the selected cloud deployment opens in your browser. |
 | Stop deployment | When pressed, this begins to stop a deployment chosen from the list of running cloud deployments. |
 
 <%(/Expandable)%>
@@ -76,7 +76,7 @@ You can stop the Deployment Launcher retrieving an updated list of deployments b
 
 When you press the **Stop deployment** button, the Deployment Launcher sends a request to stop the deployment chosen from the adjacent drop-down option.
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/stop-deployments-choice.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/stop-deployments-choice.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(Callout type="warn" message="
 

@@ -1,7 +1,7 @@
 
 # EntitySubscriptions Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/EntitySubscriptions.cs/#L7">Source</a>
 <style>
@@ -43,7 +43,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/subscriptions/subscription">Subscription</a>&lt;T&gt; Subscribe&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, World world)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription">Subscription</a>&lt;T&gt; Subscribe&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, World world)</code></p>
 
 
 
@@ -52,7 +52,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>World world</code> : </li>
 </ul>
 
@@ -72,7 +72,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void TryRegisterManager&lt;T&gt;(<a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager, World world)</code></p>
+<code>void TryRegisterManager&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager, World world)</code></p>
 
 
 
@@ -81,7 +81,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
 <li><code>World world</code> : </li>
 </ul>
 
@@ -101,7 +101,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void TryRegisterManager(Type type, <a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager, World world)</code></p>
+<code>void TryRegisterManager(Type type, <a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager, World world)</code></p>
 
 
 
@@ -111,7 +111,7 @@ code {
 
 <ul>
 <li><code>Type type</code> : </li>
-<li><code><a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
 <li><code>World world</code> : </li>
 </ul>
 

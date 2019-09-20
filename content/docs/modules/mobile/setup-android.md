@@ -6,7 +6,7 @@
 
 The dependencies for developing for Android can be installed directly through the Unity Hub.
 
-![]({{assetRoot}}assets/modules/mobile/add-android-dependencies.png)
+![]({{.Site.BaseURL}}docs/assets/modules/mobile/add-android-dependencies.png)
 
 ### I have an existing Unity installation
 
@@ -21,7 +21,7 @@ The dependencies for developing for Android can be installed directly through th
 
 ### I don't have an existing Unity installation
 
-Please follow the steps in [Setup & installation]({{urlRoot}}/machine-setup) and additionally select the **Android Build Support**, **Android SDK & NDK tools**, and **Open JDK** modules when installing Unity.
+Please follow the steps in [Setup & installation]({{.Site.BaseURL}}/machine-setup) and additionally select the **Android Build Support**, **Android SDK & NDK tools**, and **Open JDK** modules when installing Unity.
 
 ## 2. Prepare your physical device
 

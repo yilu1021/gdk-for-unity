@@ -1,7 +1,7 @@
 
 # WorldCommandSerializer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/WorldCommandSerializer.cs/#L5">Source</a>
 <style>
@@ -22,7 +22,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-command-serializer">Improbable.Gdk.Core.ICommandSerializer</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-serializer">Improbable.Gdk.Core.ICommandSerializer</a></code>
 
 
 
@@ -51,7 +51,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void Serialize(<a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{urlRoot}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages, <a href="{{urlRoot}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData)</code></p>
+<code>void Serialize(<a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{.Site.BaseURL}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages, <a href="{{.Site.BaseURL}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData)</code></p>
 
 
 
@@ -60,9 +60,9 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData</code> : </li>
 </ul>
 
 

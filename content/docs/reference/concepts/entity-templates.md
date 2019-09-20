@@ -5,11 +5,11 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with:
 
-  * [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
-  * [Standard schema library components](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#standard-schema-library-components)
+  * [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
+  * [Standard schema library components](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#standard-schema-library-components)
 ")%>
 
-An [`EntityTemplate`]({{urlRoot}}/api/core/entity-template) specifies what [components]({{urlRoot}}/reference/glossary#spatialos-component) a [SpatialOS entity]({{urlRoot}}/reference/glossary#spatialos-entity) contains, the initial values of these components and which [layers](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#layers) get [write access]({{urlRoot}}/reference//glossary#authority) to each component.
+An [`EntityTemplate`]({{.Site.BaseURL}}/api/core/entity-template) specifies what [components]({{.Site.BaseURL}}/reference/glossary#spatialos-component) a [SpatialOS entity]({{.Site.BaseURL}}/reference/glossary#spatialos-entity) contains, the initial values of these components and which [layers](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#layers) get [write access]({{.Site.BaseURL}}/reference//glossary#authority) to each component.
 
 ## How to define an entity template
 
@@ -25,11 +25,11 @@ An `EntityTemplate` can be mutated and used multiple times.
 
 All SpatialOS entities require the `Position` and `EntityAcl` components.
 
-The `Position` component must be added to the entity template manually. It is used by SpatialOS for [load-balancing](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/worker-configuration/load-balancing) purposes and [relative constraints in query-based interest](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/authority-and-interest/interest/query-based-interest-qbi#constraints).
+The `Position` component must be added to the entity template manually. It is used by SpatialOS for [load-balancing](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/worker-configuration/load-balancing) purposes and [relative constraints in query-based interest](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/authority-and-interest/interest/query-based-interest-qbi#constraints).
 
-The `EntityAcl` component is automatically handled by the [`EntityTemplate`]({{urlRoot}}/api/core/entity-template) class. This component determines which types of workers have read access to an entity and, for each component, which type of worker can have write access. Note that at any point in time, only instance of a worker can be authoritative over an entity's component.
+The `EntityAcl` component is automatically handled by the [`EntityTemplate`]({{.Site.BaseURL}}/api/core/entity-template) class. This component determines which types of workers have read access to an entity and, for each component, which type of worker can have write access. Note that at any point in time, only instance of a worker can be authoritative over an entity's component.
 
-> To learn more about the standard schema library components, [go to this documentation](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#standard-schema-library-components).
+> To learn more about the standard schema library components, [go to this documentation](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#standard-schema-library-components).
 
 To add components to the entity template and specify which worker type has write access over the component, use the `AddComponent` method.
 
@@ -60,4 +60,4 @@ In addition to adding components and setting read access, the `EntityTemplate` c
 * getting or overriding component write access attributes for a given component in the template
 * creating an `Entity` instance from the template
 
-You can find more information about these methods in the [API reference documentation]({{urlRoot}}/api/core/entity-template#entitytemplate-class).
+You can find more information about these methods in the [API reference documentation]({{.Site.BaseURL}}/api/core/entity-template#entitytemplate-class).

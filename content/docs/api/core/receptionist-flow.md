@@ -1,7 +1,7 @@
 
 # ReceptionistFlow Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/ConnectionFlows.cs/#L27">Source</a>
 <style>
@@ -30,7 +30,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-flow">Improbable.Gdk.Core.IConnectionFlow</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow">Improbable.Gdk.Core.IConnectionFlow</a></code>
 
 
 
@@ -55,7 +55,7 @@ code {
     <tr>
         <td colspan="2">
 <code> string ReceptionistHost</code></p>
-The IP address of the Receptionist to use when connecting. 
+The IP address of the Receptionist to use when connecting.
 
 </td>
     </tr>
@@ -70,7 +70,7 @@ The IP address of the Receptionist to use when connecting.
     <tr>
         <td colspan="2">
 <code> ushort ReceptionistPort</code></p>
-The port of the Receptionist to use when connecting. 
+The port of the Receptionist to use when connecting.
 
 </td>
     </tr>
@@ -85,7 +85,7 @@ The port of the Receptionist to use when connecting.
     <tr>
         <td colspan="2">
 <code> string WorkerId</code></p>
-The worker ID to use for the worker connection that will be created when CreateAsync is called. 
+The worker ID to use for the worker connection that will be created when CreateAsync is called.
 
 </td>
     </tr>
@@ -114,8 +114,8 @@ The worker ID to use for the worker connection that will be created when CreateA
     </tr>
     <tr>
         <td colspan="2">
-<code> ReceptionistFlow(string workerId, <a href="{{urlRoot}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a>&gt; initializer = null)</code></p>
-Initializes a new instance of the <a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a> class. 
+<code> ReceptionistFlow(string workerId, <a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a>&gt; initializer = null)</code></p>
+Initializes a new instance of the <a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a> class.
 
 
 </p>
@@ -124,7 +124,7 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/core/receptionist-flo
 
 <ul>
 <li><code>string workerId</code> : The worker ID to use for the worker connection.</li>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a>&gt; initializer</code> : Optional. An initializer to seed the data required to connect via the Receptionist flow.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">IConnectionFlowInitializer</a>&lt;<a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a>&gt; initializer</code> : Optional. An initializer to seed the data required to connect via the Receptionist flow.</li>
 </ul>
 
 
@@ -156,7 +156,7 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/core/receptionist-flo
     <tr>
         <td colspan="2">
 <code>async Task&lt;Connection&gt; CreateAsync(ConnectionParameters parameters, CancellationToken? token = null)</code></p>
-Creates a Connection asynchronously. 
+Creates a Connection asynchronously.
 </p><b>Returns:</b></br>A task that represents the asynchronous creation of the Connection object.
 
 </p>

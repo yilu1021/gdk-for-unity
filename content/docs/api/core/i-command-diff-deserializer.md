@@ -1,7 +1,7 @@
 
 # ICommandDiffDeserializer Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/MessageSerialization.cs/#L13">Source</a>
 <style>
@@ -83,7 +83,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddRequestToDiff(CommandRequestOp op, <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff)</code></p>
+<code>void AddRequestToDiff(CommandRequestOp op, <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff)</code></p>
 
 
 
@@ -93,7 +93,7 @@ code {
 
 <ul>
 <li><code>CommandRequestOp op</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
 </ul>
 
 
@@ -112,7 +112,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddResponseToDiff(CommandResponseOp op, <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff, <a href="{{urlRoot}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData)</code></p>
+<code>void AddResponseToDiff(CommandResponseOp op, <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff, <a href="{{.Site.BaseURL}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData)</code></p>
 
 
 
@@ -122,8 +122,8 @@ code {
 
 <ul>
 <li><code>CommandResponseOp op</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData</code> : </li>
 </ul>
 
 

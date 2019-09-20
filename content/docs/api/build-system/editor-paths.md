@@ -1,7 +1,7 @@
 
 # EditorPaths Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/build-system-index">BuildSystem</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/build-system-index">BuildSystem</a><br/>
 GDK package: BuildSystem<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.buildsystem/Util/EditorPaths.cs/#L12">Source</a>
 <style>
@@ -29,7 +29,7 @@ code {
 
 <b>Notes</b>
 
-- All directories should be in Unity path format e.g. "Foo/Bar". 
+- All directories should be in Unity path format e.g. "Foo/Bar".
 
 
 
@@ -52,7 +52,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly string SpatialAssemblyDirectory</code></p>
-The path to the SpatialOS assembly directory where SpatialOS assembly artifacts are placed. 
+The path to the SpatialOS assembly directory where SpatialOS assembly artifacts are placed.
 
 </td>
     </tr>

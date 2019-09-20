@@ -14,7 +14,7 @@ Refer to the [Unity system requirements](https://unity3d.com/unity/system-requir
 
 ### 3. Network settings
 
-To configure your network to work with SpatialOS, refer to the [SpatialOS network settings](https://docs.improbable.io/reference/latest/shared/setup/requirements#network-settings). 
+To configure your network to work with SpatialOS, refer to the [SpatialOS network settings](https://docs.improbable.io/reference/latest/shared/setup/requirements#network-settings).
 
 ### 4. Install the GDK dependencies
 
@@ -44,7 +44,7 @@ Make sure you download the **Installer** version, and refer to the matrix below 
 
 **Step 3.** Run the **<a href="https://console.improbable.io/installer/download/stable/latest/win" data-track-link="SpatialOS Installer Downloaded|product=Docs|platform=Win|label=Win" target="_blank">SpatialOS Installer</a>**
 
-- This installs the [SpatialOS CLI]({{urlRoot}}/reference/glossary#spatial-command-line-tool-cli) , the [SpatialOS Launcher]({{urlRoot}}/reference/glossary#launcher), and 32-bit and 64-bit Visual C++ Redistributables.
+- This installs the [SpatialOS CLI]({{.Site.BaseURL}}/reference/glossary#spatial-command-line-tool-cli) , the [SpatialOS Launcher]({{.Site.BaseURL}}/reference/glossary#launcher), and 32-bit and 64-bit Visual C++ Redistributables.
 
 **Step 4.** Install a **code editor** if you don't have one already
 
@@ -68,7 +68,7 @@ You need to install the **.NET Core cross-platform development** and **Game deve
 
 - As you install [Visual Studio](https://www.visualstudio.com/downloads/), select the **Workloads** tab in the Installer. If you already have Visual Studio installed, you can find the **Workloads** tab by opening Visual Studio Installer and, in the **Products** section, selecting **Modify** for Visual Studio 2017. If you can't see the **Modify** option, select **More**.
 
-![Click Modify to find the Workloads tab.]({{assetRoot}}assets/setup/windows/visualstudioworkloads.png)
+![Click Modify to find the Workloads tab.]({{.Site.BaseURL}}docs/assets/setup/windows/visualstudioworkloads.png)
 
 Once you have navigated to the **Workloads** tab:
 
@@ -112,7 +112,7 @@ Make sure you download the **Installer** version, and refer to the matrix below 
 
 **Step 3.** Run the **<a href="https://console.improbable.io/installer/download/stable/latest/mac" data-track-link="SpatialOS Installer Downloaded|product=Docs|platform=Mac|label=Mac" target="_blank">SpatialOS installer</a>**
 
-- This installs the [SpatialOS CLI]({{urlRoot}}/reference/glossary#spatial-command-line-tool-cli) , the [SpatialOS Launcher]({{urlRoot}}/reference/glossary#launcher), and 32-bit and 64-bit Visual C++ Redistributables.
+- This installs the [SpatialOS CLI]({{.Site.BaseURL}}/reference/glossary#spatial-command-line-tool-cli) , the [SpatialOS Launcher]({{.Site.BaseURL}}/reference/glossary#launcher), and 32-bit and 64-bit Visual C++ Redistributables.
 
 **Step 4.** Install a **code editor** if you don't have one already
 

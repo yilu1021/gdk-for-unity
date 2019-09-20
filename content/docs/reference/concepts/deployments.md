@@ -2,7 +2,7 @@
 
 # Deployments
 
-<%(Callout type="warn" message="Before you deploy your game, you need to build its workers. See the documentation on [building workers]({{urlRoot}}/modules/build-system/editor-menu).")%>
+<%(Callout type="warn" message="Before you deploy your game, you need to build its workers. See the documentation on [building workers]({{.Site.BaseURL}}/modules/build-system/editor-menu).")%>
 
 When you want to try out your game, you need to run a deployment of the game. This means launching SpatialOS itself. SpatialOS sets up the game world and optionally starts up the server-workers needed to run the game world.
 
@@ -18,15 +18,15 @@ Before you launch a deployment, you need to ensure that it is configured correct
 
 The launch configuration file specifies the parameters of your game world as well as your load balancing configuration. The load balancing configuration determines the worker-instances that the SpatialOS Runtime starts and how they are balanced across your game world.
 
-For more information, see the [comprehensive launch configuration documentation](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/project-layout/launch-config#launch-configuration-file).
+For more information, see the [comprehensive launch configuration documentation](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/project-layout/launch-config#launch-configuration-file).
 
 > **Note:** If the SpatialOS Runtime fails to start a worker in a deployment that you were expecting, double check that your load balancing configuration is correct.
 
 ### Worker configuration
 
-The worker configuration file specifies the parameters of a specific worker-type as well as describing how the SpatialOS Runtime should start them. 
+The worker configuration file specifies the parameters of a specific worker-type as well as describing how the SpatialOS Runtime should start them.
 
-For more information, see the [comprehensive worker configuration documentation](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/project-layout/introduction#configuration-file).
+For more information, see the [comprehensive worker configuration documentation](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/project-layout/introduction#configuration-file).
 
 > **Note:** The `build` section of the worker configuration files are **not** used by the GDK for Unity.
 
@@ -52,4 +52,4 @@ Then, select **SpatialOS** > **Launch standalone client** to launch the built ou
 
 ## Cloud deployment
 
-Check out our [Deployment Launcher feature module]({{urlRoot}}/modules/deployment-launcher/overview) for details on launching a cloud deployment.
+Check out our [Deployment Launcher feature module]({{.Site.BaseURL}}/modules/deployment-launcher/overview) for details on launching a cloud deployment.

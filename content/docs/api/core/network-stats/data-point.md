@@ -1,7 +1,7 @@
 
 # DataPoint Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/network-stats-index">NetworkStats</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/network-stats-index">NetworkStats</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/NetworkStats/DataPoint.cs/#L3">Source</a>
 <style>
@@ -89,7 +89,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/data-point">DataPoint</a> operator+(<a href="{{urlRoot}}/api/core/network-stats/data-point">DataPoint</a> first, <a href="{{urlRoot}}/api/core/network-stats/data-point">DataPoint</a> second)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/data-point">DataPoint</a> operator+(<a href="{{.Site.BaseURL}}/api/core/network-stats/data-point">DataPoint</a> first, <a href="{{.Site.BaseURL}}/api/core/network-stats/data-point">DataPoint</a> second)</code></p>
 
 
 
@@ -98,8 +98,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/data-point">DataPoint</a> first</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/data-point">DataPoint</a> second</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/data-point">DataPoint</a> first</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/data-point">DataPoint</a> second</code> : </li>
 </ul>
 
 

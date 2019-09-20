@@ -3,21 +3,21 @@
 # Remote profiling
 
 <%(Callout message="
-This page discusses how to connect the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) to a worker running in a cloud deployment. 
+This page discusses how to connect the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) to a worker running in a cloud deployment.
 
 Before reading this page, make sure you are familiar with:
 
-  * [Build configuration]({{urlRoot}}/modules/build-system/build-config)
-  * [Deploying]({{urlRoot}}/modules/deployment-launcher/overview)
+  * [Build configuration]({{.Site.BaseURL}}/modules/build-system/build-config)
+  * [Deploying]({{.Site.BaseURL}}/modules/deployment-launcher/overview)
 ")%>
 
 The [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) offers the ability to connect to an instance of your game running on a different machine. You can utilize this to profile a Unity worker running in a cloud deployment.
 
 ## 1. Configure your workers
 
-The Unity Profiler connects to your worker via a host and port combination. The worker will only expose this port, if you enable the `Development Build` option for this worker. You can configure this via the [build configuration]({{urlRoot}}/modules/build-system/build-config) asset.
+The Unity Profiler connects to your worker via a host and port combination. The worker will only expose this port, if you enable the `Development Build` option for this worker. You can configure this via the [build configuration]({{.Site.BaseURL}}/modules/build-system/build-config) asset.
 
-1. Find and open the instance of the [build configuration]({{urlRoot}}/modules/build-system/build-config) asset in the Unity Editor Inspector.
+1. Find and open the instance of the [build configuration]({{.Site.BaseURL}}/modules/build-system/build-config) asset in the Unity Editor Inspector.
 2. Expand the section for the worker type that you want to profile.
 3. Expand the `Cloud Build Options` section within that worker type.
 4. Click on the `Linux` tab to configure the `Linux` build options.
@@ -25,7 +25,7 @@ The Unity Profiler connects to your worker via a host and port combination. The 
 
 <%(#Expandable title="What should it look like when you're done?")%>
 
-![]({{assetRoot}}assets/workflows/remote-profiling-build-config.png)
+![]({{.Site.BaseURL}}docs/assets/workflows/remote-profiling-build-config.png)
 
 <%(/Expandable)%>
 
@@ -39,7 +39,7 @@ Now that you configured your worker correctly to allow remote profiling, you can
 
 ## 3. Upload worker assemblies & launch deployment
 
-Use the [Deployment Launcher feature module]({{urlRoot}}/modules/deployment-launcher/overview) to upload the built out worker assemblies and launch a deployment.
+Use the [Deployment Launcher feature module]({{.Site.BaseURL}}/modules/deployment-launcher/overview) to upload the built out worker assemblies and launch a deployment.
 
 ## 4. Find the profiling port
 
@@ -70,7 +70,7 @@ Fill in the following information in the Port Forwarding window:
 
 It should look similar to the following:
 
-![]({{assetRoot}}assets/workflows/remote-profiling-window.png)
+![]({{.Site.BaseURL}}docs/assets/workflows/remote-profiling-window.png)
 
 > **Note:** The window will do some validation on the input and let you know if something looks a little off.
 
@@ -78,7 +78,7 @@ Select the `Forward Port` button to start the port forwarding in the background.
 
 Its done when the window looks something like:
 
-![]({{assetRoot}}assets/workflows/remote-profiling-window-success.png)
+![]({{.Site.BaseURL}}docs/assets/workflows/remote-profiling-window-success.png)
 
 > **Note:** You must leave this window open until you are done profiling your worker. Closing the window will stop the port forwarding operation in the background.
 

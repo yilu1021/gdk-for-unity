@@ -2,18 +2,18 @@
 
 # Snapshots
 
-A [snapshot]({{urlRoot}}/reference/glossary#snapshot) is a representation of the state of a simulated world at some point in time. It stores each [persistent]({{urlRoot}}/reference/glossary#persistence) [entity]({{urlRoot}}/reference/glossary#spatialos-entity) and the values of their [components’]({{urlRoot}}/reference/glossary#spatialos-component) properties.
+A [snapshot]({{.Site.BaseURL}}/reference/glossary#snapshot) is a representation of the state of a simulated world at some point in time. It stores each [persistent]({{.Site.BaseURL}}/reference/glossary#persistence) [entity]({{.Site.BaseURL}}/reference/glossary#spatialos-entity) and the values of their [components’]({{.Site.BaseURL}}/reference/glossary#spatialos-component) properties.
 
-You use a snapshot as the starting point for your [world]({{urlRoot}}/reference/glossary#spatialos-world) when you [deploy]({{urlRoot}}/reference/glossary#deploying).
+You use a snapshot as the starting point for your [world]({{.Site.BaseURL}}/reference/glossary#spatialos-world) when you [deploy]({{.Site.BaseURL}}/reference/glossary#deploying).
 
 ## How to create a snapshot
 
-Currently, you generate a snapshot with code. The GDK provides a [`Snapshot`]({{urlRoot}}/api/core/snapshot) class which allows you to easily add entities and write the snapshot to disk. A snapshot consists of a set of entities. In the GDK, these entities are defined by [its template]({{urlRoot}}/reference/concepts/entity-templates).
+Currently, you generate a snapshot with code. The GDK provides a [`Snapshot`]({{.Site.BaseURL}}/api/core/snapshot) class which allows you to easily add entities and write the snapshot to disk. A snapshot consists of a set of entities. In the GDK, these entities are defined by [its template]({{.Site.BaseURL}}/reference/concepts/entity-templates).
 
 A simple example of generating a snapshot:
 
 ```csharp
-public static void GenerateSnapshot() 
+public static void GenerateSnapshot()
 {
     // Create a snapshot object
     var snapshot = new Snapshot();
@@ -41,7 +41,7 @@ A common usage pattern is to expose the snapshot generation through a Unity Edit
 
 You can start a local deployment via the Unity Editor menu: **SpatialOS** > **Local launch** (Ctrl+L/Cmd+L). This starts a deployment with the snapshot found at `<spatialos_project_root>/snapshots/default.snapshot`. If you wish to launch via the CLI or with a different snapshot, see the section below.
 
-You can start a cloud deployment using the [Deployment Launcher Feature Module]({{urlRoot}}/modules/deployment-launcher/overview). This feature module allows you to configure which snapshot you want to start your cloud deployment with.
+You can start a cloud deployment using the [Deployment Launcher Feature Module]({{.Site.BaseURL}}/modules/deployment-launcher/overview). This feature module allows you to configure which snapshot you want to start your cloud deployment with.
 
 <%(#Expandable title="Launching a local deployment via the CLI or with a different snapshot")%>
 You can launch a local deployment with the CLI using the following command:

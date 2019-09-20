@@ -5,16 +5,16 @@
 <%(Callout message="
 Before reading this document, make sure you have read:
 
-* [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
+* [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
 ")%>
 
-Each worker has an ECS world to represent the entities currently in a [worker's view]({{urlRoot}}/reference/glossary#worker-s-view). This world contains a worker entity, which can be uniquely identified by the [`WorkerEntityTag`]({{urlRoot}}/api/core/worker-entity-tag) component attached to it.
+Each worker has an ECS world to represent the entities currently in a [worker's view]({{.Site.BaseURL}}/reference/glossary#worker-s-view). This world contains a worker entity, which can be uniquely identified by the [`WorkerEntityTag`]({{.Site.BaseURL}}/api/core/worker-entity-tag) component attached to it.
 
-The worker entity enables you to react to changes in the connection to the Runtime. That is, whether the worker is connected to the [Runtime]({{urlRoot}}/reference/glossary#spatialos-runtime) or not.
+The worker entity enables you to react to changes in the connection to the Runtime. That is, whether the worker is connected to the [Runtime]({{.Site.BaseURL}}/reference/glossary#spatialos-runtime) or not.
 
 ## How to run logic when the worker has just connected
 
-The GDK adds the [`OnConnected`]({{urlRoot}}/api/core/on-connected) [temporary component]({{urlRoot}}/workflows/ecs/concepts/temporary-components) to your worker entity when it has just connected.
+The GDK adds the [`OnConnected`]({{.Site.BaseURL}}/api/core/on-connected) [temporary component]({{.Site.BaseURL}}/workflows/ecs/concepts/temporary-components) to your worker entity when it has just connected.
 
 **Example usage**
 
@@ -46,7 +46,7 @@ public class HandleConnectSystem : ComponentSystem
 
 ## How to run logic when the worker has just disconnected
 
-The GDK adds the [`OnDisconnected`]({{urlRoot}}/api/core/on-disconnected) [temporary component]({{urlRoot}}/workflows/ecs/concepts/temporary-components) to your worker entity when it has just disconnected. This component contains a single string field storing the reason for disconnecting.
+The GDK adds the [`OnDisconnected`]({{.Site.BaseURL}}/api/core/on-disconnected) [temporary component]({{.Site.BaseURL}}/workflows/ecs/concepts/temporary-components) to your worker entity when it has just disconnected. This component contains a single string field storing the reason for disconnecting.
 
 **Example usage**
 

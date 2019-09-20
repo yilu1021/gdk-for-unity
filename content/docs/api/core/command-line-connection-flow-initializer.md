@@ -1,7 +1,7 @@
 
 # CommandLineConnectionFlowInitializer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/ConnectionFlowInitializers.cs/#L24">Source</a>
 <style>
@@ -21,7 +21,7 @@ code {
 
 
 
-<p>Represents an object which can initialize the <a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a>, <a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a>, and <a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> connection flows from the command line. </p>
+<p>Represents an object which can initialize the <a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a>, <a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a>, and <a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> connection flows from the command line. </p>
 
 
 
@@ -29,8 +29,8 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;ReceptionistFlow&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;LocatorFlow&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;ReceptionistFlow&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;LocatorFlow&gt;</a></code>
 
 
 
@@ -89,8 +89,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/connection-service">ConnectionService</a> GetConnectionService()</code></p>
-Gets the connection service to use based on command line arguments. 
+<code><a href="{{.Site.BaseURL}}/api/core/connection-service">ConnectionService</a> GetConnectionService()</code></p>
+Gets the connection service to use based on command line arguments.
 </p><b>Returns:</b></br>The connection service to use.
 
 
@@ -108,7 +108,7 @@ Gets the connection service to use based on command line arguments.
     </tr>
     <tr>
         <td colspan="2">
-<code>void Initialize(<a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist)</code></p>
+<code>void Initialize(<a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist)</code></p>
 
 
 
@@ -117,7 +117,7 @@ Gets the connection service to use based on command line arguments.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist</code> : </li>
 </ul>
 
 
@@ -136,7 +136,7 @@ Gets the connection service to use based on command line arguments.
     </tr>
     <tr>
         <td colspan="2">
-<code>void Initialize(<a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> locator)</code></p>
+<code>void Initialize(<a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> locator)</code></p>
 
 
 
@@ -145,7 +145,7 @@ Gets the connection service to use based on command line arguments.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> locator</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> locator</code> : </li>
 </ul>
 
 

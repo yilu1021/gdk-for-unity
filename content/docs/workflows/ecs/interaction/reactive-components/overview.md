@@ -12,17 +12,17 @@ You can enable reactive components and their related systems by adding `USE_LEGA
 
 When the GDK receives an update or message from SpatialOS, a _reactive component_  is placed on the associated ECS entity at the start of the frame. A reactive component contains a list of all the updates or messages received, so they can be processed by any system that you want to _react_ to the change or message.
 
-Reactive components are removed by the GDK at the end of each frame, as they are implemented as a [temporary component]({{urlRoot}}/workflows/ecs/concepts/temporary-components).
+Reactive components are removed by the GDK at the end of each frame, as they are implemented as a [temporary component]({{.Site.BaseURL}}/workflows/ecs/concepts/temporary-components).
 
 ## Reactive component types
 
 These are the types of reactive component available:
 
-* `AuthorityChanges`: All updates to the [authority](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/authority-and-interest/introduction) the current worker instance has over a SpatialOS component.
-* `ReceivedUpdates`:  All received [SpatialOS component updates](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/operations#component-related-operations) for the current SpatialOS entity.
-* `ReceivedEvents`: All received [events](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/object-interaction#events) for the current entity.
-* `CommandRequests`: All received [command](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/commands) requests.
-* `CommandResponses`: All received [command](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/commands) responses.
+* `AuthorityChanges`: All updates to the [authority](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/authority-and-interest/introduction) the current worker instance has over a SpatialOS component.
+* `ReceivedUpdates`:  All received [SpatialOS component updates](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/operations#component-related-operations) for the current SpatialOS entity.
+* `ReceivedEvents`: All received [events](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/object-interaction#events) for the current entity.
+* `CommandRequests`: All received [command](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/commands) requests.
+* `CommandResponses`: All received [command](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/commands) responses.
 * `ComponentAdded<T>`: Denotes that a SpatialOS component of type `T` has been added to this entity.
 * `ComponentRemoved<T>`: Denotes that a SpatialOS component of type `T` has been removed to this entity.
 

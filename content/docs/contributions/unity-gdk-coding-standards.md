@@ -2,7 +2,7 @@
 
 # SpatialOS GDK for Unity C# coding standards
 
-![Header Image]({{assetRoot}}assets/unity-gdk-header-cartoon.png)
+![Header Image]({{.Site.BaseURL}}docs/assets/unity-gdk-header-cartoon.png)
 
 _[&copy; 2018 xkcd](https://xkcd.com/license.html)_
 

@@ -1,7 +1,7 @@
 
 # EntityId Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/EntityId.cs/#L12">Source</a>
 <style>
@@ -39,7 +39,7 @@ code {
 
 <b>Notes</b>
 
-- Instances of this type should be treated as transient identifiers that will not be consistent between different runs of the same simulation. 
+- Instances of this type should be treated as transient identifiers that will not be consistent between different runs of the same simulation.
 
 
 
@@ -63,7 +63,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly long Id</code></p>
-The value of the <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>. 
+The value of the <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>.
 
 </p>
 
@@ -102,7 +102,7 @@ The value of the <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>.
     <tr>
         <td colspan="2">
 <code> EntityId(long id)</code></p>
-Constructs a new instance of an <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>. 
+Constructs a new instance of an <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>.
 
 
 </p>
@@ -142,7 +142,7 @@ Constructs a new instance of an <a href="{{urlRoot}}/api/core/entity-id">EntityI
     <tr>
         <td colspan="2">
 <code>bool IsValid()</code></p>
-Whether this represents a valid SpatialOS entity ID. Specifically, 
+Whether this represents a valid SpatialOS entity ID. Specifically,
 </p><b>Returns:</b></br>True iff valid.
 
 
@@ -169,7 +169,7 @@ Whether this represents a valid SpatialOS entity ID. Specifically,
     </tr>
     <tr>
         <td colspan="2">
-<code>bool Equals(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> obj)</code></p>
+<code>bool Equals(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> obj)</code></p>
 
 
 
@@ -178,7 +178,7 @@ Whether this represents a valid SpatialOS entity ID. Specifically,
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> obj</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> obj</code> : </li>
 </ul>
 
 
@@ -287,8 +287,8 @@ Whether this represents a valid SpatialOS entity ID. Specifically,
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator==(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId1, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId2)</code></p>
-Returns true if entityId1 is exactly equal to entityId2. 
+<code>bool operator==(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId1, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId2)</code></p>
+Returns true if entityId1 is exactly equal to entityId2.
 
 
 </p>
@@ -296,8 +296,8 @@ Returns true if entityId1 is exactly equal to entityId2.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId1</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId2</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId1</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId2</code> : </li>
 </ul>
 
 
@@ -316,8 +316,8 @@ Returns true if entityId1 is exactly equal to entityId2.
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator!=(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId1, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId2)</code></p>
-Returns true if entityId1 is not exactly equal to entityId2. 
+<code>bool operator!=(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId1, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId2)</code></p>
+Returns true if entityId1 is not exactly equal to entityId2.
 
 
 </p>
@@ -325,8 +325,8 @@ Returns true if entityId1 is not exactly equal to entityId2.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId1</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId2</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId1</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId2</code> : </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 
 # ConcurrentOpListConverter Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/MultithreadedSpatialOSConnectionHandler/ConcurrentOpListConverter.cs/#L18">Source</a>
 <style>
@@ -29,7 +29,7 @@ code {
 
 <b>Notes</b>
 
-- This is not able to interrupt the deserialization thread to exchange diffs, which could increase latency when under heavy load. If this presents a problem it could be improved with either a more complicated lock or a lock free approach. Similarly if part of a critical section is received regularly the diffs may often not be possible to exchange, increasing latency. To solve this we could buffer critical sections into an intermediate object and then move them to the main diff. However this case is unlikely and the overhead associated with fixing it may be undesirable. 
+- This is not able to interrupt the deserialization thread to exchange diffs, which could increase latency when under heavy load. If this presents a problem it could be improved with either a more complicated lock or a lock free approach. Similarly if part of a critical section is received regularly the diffs may often not be possible to exchange, increasing latency. To solve this we could buffer critical sections into an intermediate object and then move them to the main diff. However this case is unlikely and the overhead associated with fixing it may be undesirable.
 
 
 
@@ -57,8 +57,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void ParseOpListIntoDiff(OpList opList, <a href="{{urlRoot}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData)</code></p>
-Iterate over the op list and populate a <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> from the data contained. Must not be called again before it returns. 
+<code>void ParseOpListIntoDiff(OpList opList, <a href="{{.Site.BaseURL}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData)</code></p>
+Iterate over the op list and populate a <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> from the data contained. Must not be called again before it returns.
 
 
 </p>
@@ -67,7 +67,7 @@ Iterate over the op list and populate a <a href="{{urlRoot}}/api/core/view-diff"
 
 <ul>
 <li><code>OpList opList</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/command-meta-data-aggregate">CommandMetaDataAggregate</a> commandMetaData</code> : </li>
 </ul>
 
 
@@ -86,8 +86,8 @@ Iterate over the op list and populate a <a href="{{urlRoot}}/api/core/view-diff"
     </tr>
     <tr>
         <td colspan="2">
-<code>bool TryGetViewDiff(out <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> viewDiff)</code></p>
-Try to get a diff containing ops deserialized since the last call. If successful the diff may only contain part of the last op list. 
+<code>bool TryGetViewDiff(out <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> viewDiff)</code></p>
+Try to get a diff containing ops deserialized since the last call. If successful the diff may only contain part of the last op list.
 </p><b>Returns:</b></br>True if the diffs could be exchanged and false otherwise.
 
 </p>
@@ -95,7 +95,7 @@ Try to get a diff containing ops deserialized since the last call. If successful
 <b>Parameters</b>
 
 <ul>
-<li><code>out <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> viewDiff</code> : </li>
+<li><code>out <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> viewDiff</code> : </li>
 </ul>
 
 

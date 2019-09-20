@@ -1,7 +1,7 @@
 
 # SpatialdManager Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/test-utils-index">TestUtils</a>.<a href="{{urlRoot}}/api/test-utils/editor-index">Editor</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/test-utils-index">TestUtils</a>.<a href="{{.Site.BaseURL}}/api/test-utils/editor-index">Editor</a><br/>
 GDK package: TestUtils<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.testutils/Editor/SpatialdManager.cs/#L15">Source</a>
 <style>
@@ -39,7 +39,7 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 15ch"><a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a></td>
+<td style="padding: 14px; border: none; width: 15ch"><a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a></td>
 <td style="padding: 14px; border: none;">Represents a local deployment. </td>
 </tr>
 </table>
@@ -68,8 +68,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;<a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager">SpatialdManager</a>&gt; Start()</code></p>
-Starts SpatialD. 
+<code>async Task&lt;<a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager">SpatialdManager</a>&gt; Start()</code></p>
+Starts SpatialD.
 
 
 
@@ -118,8 +118,8 @@ Starts SpatialD.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;<a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a>&gt; StartLocalDeployment(string name, string deploymentJsonPath, string snapshotFileName = &quot;default.snapshot&quot;)</code></p>
-Starts a local deployment asynchronously. 
+<code>async Task&lt;<a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a>&gt; StartLocalDeployment(string name, string deploymentJsonPath, string snapshotFileName = &quot;default.snapshot&quot;)</code></p>
+Starts a local deployment asynchronously.
 </p><b>Returns:</b></br>A task which represents the deployment that was started.
 
 </p>
@@ -158,8 +158,8 @@ Starts a local deployment asynchronously.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task StopLocalDeployment(<a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a> deployment)</code></p>
-Stops a local deployment asynchronously. 
+<code>async Task StopLocalDeployment(<a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a> deployment)</code></p>
+Stops a local deployment asynchronously.
 </p><b>Returns:</b></br>A task which represents the operation to stop the deployment.
 
 </p>
@@ -167,7 +167,7 @@ Stops a local deployment asynchronously.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a> deployment</code> : The deployment to stop.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a> deployment</code> : The deployment to stop.</li>
 </ul>
 
 
@@ -195,8 +195,8 @@ Stops a local deployment asynchronously.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;List&lt;<a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a>&gt;&gt; GetRunningDeployments()</code></p>
-Gets the details of currently running deployments asynchronously. 
+<code>async Task&lt;List&lt;<a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager/local-deployment">LocalDeployment</a>&gt;&gt; GetRunningDeployments()</code></p>
+Gets the details of currently running deployments asynchronously.
 </p><b>Returns:</b></br>A task which represents list of
 
 

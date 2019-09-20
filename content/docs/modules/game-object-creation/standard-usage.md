@@ -4,11 +4,11 @@
 
 ## Set up your GameObject prefabs
 
-The [`GameObjectCreatorFromMetadata`]({{urlRoot}}/api/game-object-creation/game-object-creator-from-metadata) class is the default implementation for spawning GameObjects for your SpatialOS entities. This class expects your GameObject prefabs to be in a particular place in your project.
+The [`GameObjectCreatorFromMetadata`]({{.Site.BaseURL}}/api/game-object-creation/game-object-creator-from-metadata) class is the default implementation for spawning GameObjects for your SpatialOS entities. This class expects your GameObject prefabs to be in a particular place in your project.
 
 The `GameObjectCreatorFromMetadata` uses the `entity_type` field in the `Metadata` component along with the worker instance's type to determine which prefab to spawn.
 
-<%(Callout message="You can set the `entity_type` field in the `Metadata` component when declaring your [EntityTemplate]({{urlRoot}}/reference/concepts/entity-templates).")%>
+<%(Callout message="You can set the `entity_type` field in the `Metadata` component when declaring your [EntityTemplate]({{.Site.BaseURL}}/reference/concepts/entity-templates).")%>
 
 For a given worker type `<worker-type>` it will first look for a prefab at:
 
@@ -32,7 +32,7 @@ This leads to the following rules for representing a SpatialOS Entity as a GameO
 
 ## Set up your worker connector
 
-You then need to add the underlying systems to your worker. Open your [`WorkerConnector` implementation]({{urlRoot}}/workflows/monobehaviour/worker-connectors) and add the following line to the `HandleWorkerConnectionEstablished` method.
+You then need to add the underlying systems to your worker. Open your [`WorkerConnector` implementation]({{.Site.BaseURL}}/workflows/monobehaviour/worker-connectors) and add the following line to the `HandleWorkerConnectionEstablished` method.
 
 ```csharp
     GameObjectCreationHelper.EnableStandardGameObjectCreation(Worker.World);

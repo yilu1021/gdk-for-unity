@@ -1,7 +1,7 @@
 
 # SerializedMessagesToSend Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/SerializedMessagesToSend.cs/#L9">Source</a>
 <style>
@@ -76,7 +76,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SerializeFrom(<a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{urlRoot}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData)</code></p>
+<code>void SerializeFrom(<a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{.Site.BaseURL}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData)</code></p>
 
 
 
@@ -85,8 +85,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/command-meta-data">CommandMetaData</a> commandMetaData</code> : </li>
 </ul>
 
 
@@ -124,7 +124,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/command-meta-data">CommandMetaData</a> SendAndClear(Connection connection, <a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/command-meta-data">CommandMetaData</a> SendAndClear(Connection connection, <a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
 
 
 
@@ -134,7 +134,7 @@ code {
 
 <ul>
 <li><code>Connection connection</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
 </ul>
 
 

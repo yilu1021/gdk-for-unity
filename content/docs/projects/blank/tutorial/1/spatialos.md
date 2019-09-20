@@ -10,21 +10,21 @@ But while it runs your game and manages the infrastructure for you, SpatialOS al
 
 The traditional ways to develop large online games mean that you’re either limited by the capacity of a single game server, or you have to shard your game world.
 
-![Traditional client-server architecture]({{assetRoot}}assets/concepts/trad-client-server.png)
+![Traditional client-server architecture]({{.Site.BaseURL}}docs/assets/concepts/trad-client-server.png)
 
 SpatialOS works differently: it brings together many servers so they’re working as one. But it does this in a way that makes a single world which looks seamless to players.
 
-![SpatialOS architecture]({{assetRoot}}assets/concepts/deployment.png)
+![SpatialOS architecture]({{.Site.BaseURL}}docs/assets/concepts/deployment.png)
 
 To make that work, you need to do some things differently.
 
 You’ll need to build your game using an entity-component-worker architecture, writing server-side code in a way that enables SpatialOS to stitch servers together. Instead of writing a single game server, you’ll write **server-workers**: server-side programs that are only responsible for handling a part of the world at a time. The part of the world is their area of **authority**.
 
-![Server-workers: area of authority]({{assetRoot}}assets/concepts/authority-areas.png)
+![Server-workers: area of authority]({{.Site.BaseURL}}docs/assets/concepts/authority-areas.png)
 
 In order to be able to simulate the world properly, server-worker instances need to see a slightly bigger area than the area they’re responsible for:
 
-![Server-workers: area of interest]({{assetRoot}}assets/concepts/interest-areas.gif)
+![Server-workers: area of interest]({{.Site.BaseURL}}docs/assets/concepts/interest-areas.gif)
 
 ## SpatialOS world
 
@@ -36,7 +36,7 @@ Entities are the objects in your game. All of the data that you want to share be
 
 For example, in a world with rabbits and lettuces, you'd have `Rabbit` entities and `Lettuce` entities, each with certain components. These components in turn would have certain properties:
 
-![Entities example]({{assetRoot}}assets/concepts/component-details.png)
+![Entities example]({{.Site.BaseURL}}docs/assets/concepts/component-details.png)
 
 As a developer working with SpatialOS, you will:
 
@@ -57,13 +57,13 @@ A major reason to use SpatialOS is to exceed those limits: instead of one server
 
 In SpatialOS, you have a separately-defined game world, outside of any code you write. This is because SpatialOS is designed to exceed the limits of the game world a single server could hold. So instead, SpatialOS coordinates multiple programs to do that. We call these programs **server-workers**.
 
-![Server-workers on the world]({{assetRoot}}assets/concepts/workers-world.png)
+![Server-workers on the world]({{.Site.BaseURL}}docs/assets/concepts/workers-world.png)
 
 As a developer using SpatialOS, you will write the game code that runs within server-worker instances.
 
 SpatialOS will run instances of server-workers, and use their combined computation to simulate the whole world. This means that the server-worker instances don’t know anything about each other - they might not even be on the same machine in the cloud. So when you’re writing the code for server-workers, you need to write code that can cope with only knowing about part of the world.
 
-![Server-workers with the world]({{assetRoot}}assets/concepts/workers-machines.png)
+![Server-workers with the world]({{.Site.BaseURL}}docs/assets/concepts/workers-machines.png)
 
 This - writing code to deal with an arbitrary, not-necessarily-contiguous part of the world - is the largest paradigm change when using SpatialOS, the biggest difference from standard game development. This idea will have the biggest impact on the way you architect features for your game.
 
@@ -75,7 +75,7 @@ One of the decisions you need to make as a developer is, “How many server-work
 
 To decide this, you’re working out how much computation your world needs, and how many server-worker instances you need to do that work. When you decide this, you split the world up - there are a few different ways you can do this - into regions; each region will be the area of authority of a server-worker instance.
 
-[Read more about authority](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/concepts/authority-and-interest)
+[Read more about authority](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/concepts/authority-and-interest)
 
 For local development, one instance might be enough. However, we definitely recommend trying to scale and test your game early on with at least two server-worker instances running your world.
 
@@ -89,7 +89,7 @@ As you learned above, you decide how many server-worker instances your world nee
 
 SpatialOS also mediates client-worker connections.
 
-![Deployment diagram]({{assetRoot}}assets/concepts/deployment.png)
+![Deployment diagram]({{.Site.BaseURL}}docs/assets/concepts/deployment.png)
 
 ### Client-workers
 
@@ -97,7 +97,7 @@ Because each client-worker instance is tied to a player, and runs on the player'
 
 Like server-workers, client-workers can only see a part of the world. However, client-workers can see across server-worker boundaries, as shown in the diagram below:
 
-![Client-worker diagram]({{assetRoot}}assets/concepts/client-workers.png)
+![Client-worker diagram]({{.Site.BaseURL}}docs/assets/concepts/client-workers.png)
 
 ## Persistence, scale, and complexity
 
@@ -107,12 +107,12 @@ Like server-workers, client-workers can only see a part of the world. However, c
 
 **Complexity**: You don’t just have to have one type of server-worker. You can have many types, looking after many different systems in your game world, letting you layer up functionality without overloading your servers. (You’re not limited to one system per server-worker type - each server-worker type can potentially look after several systems.)
 
-![Layers of server-workers: flat view]({{assetRoot}}assets/concepts/layers-load-balancing.png)
+![Layers of server-workers: flat view]({{.Site.BaseURL}}docs/assets/concepts/layers-load-balancing.png)
 
 ## What we provide
 
-We run your game in the cloud for you, managing all the infrastructure, so you don't have to worry about how to make your game run on a distributed architecture. We also provide a [collection of tools](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/tools-overview) to help test, deploy and run your games.
+We run your game in the cloud for you, managing all the infrastructure, so you don't have to worry about how to make your game run on a distributed architecture. We also provide a [collection of tools](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/tools-overview) to help test, deploy and run your games.
 
-The GDK for Unity is an integration built on top of a low-level [SDK](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/sdks-and-data-overview), enabling developers to more naturally create Unity games for SpatialOS.
+The GDK for Unity is an integration built on top of a low-level [SDK](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/sdks-and-data-overview), enabling developers to more naturally create Unity games for SpatialOS.
 
-#### Next: [Project walkthrough]({{urlRoot}}/projects/blank/tutorial/1/project-walkthrough)
+#### Next: [Project walkthrough]({{.Site.BaseURL}}/projects/blank/tutorial/1/project-walkthrough)

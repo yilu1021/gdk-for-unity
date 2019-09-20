@@ -1,7 +1,7 @@
 
 # MobileConnectionFlowInitializer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/mobile-index">Mobile</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/mobile-index">Mobile</a><br/>
 GDK package: Mobile<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.mobile/Utility/MobileConnectionFlowInitializer.cs/#L8">Source</a>
 <style>
@@ -23,8 +23,8 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;ReceptionistFlow&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;LocatorFlow&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;ReceptionistFlow&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow-initializer">Improbable.Gdk.Core.IConnectionFlowInitializer&lt;LocatorFlow&gt;</a></code>
 
 
 
@@ -34,15 +34,15 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer/command-line-settings-provider">CommandLineSettingsProvider</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer/command-line-settings-provider">CommandLineSettingsProvider</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer/player-prefs-settings-provider">PlayerPrefsSettingsProvider</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer/player-prefs-settings-provider">PlayerPrefsSettingsProvider</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -72,7 +72,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> MobileConnectionFlowInitializer(params <a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a> [] settingsProviders)</code></p>
+<code> MobileConnectionFlowInitializer(params <a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a> [] settingsProviders)</code></p>
 
 
 
@@ -81,7 +81,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code>params <a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a> [] settingsProviders</code> : </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer/i-mobile-settings-provider">IMobileSettingsProvider</a> [] settingsProviders</code> : </li>
 </ul>
 
 
@@ -112,7 +112,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/connection-service">ConnectionService</a> GetConnectionService()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/connection-service">ConnectionService</a> GetConnectionService()</code></p>
 
 
 
@@ -131,7 +131,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void Initialize(<a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist)</code></p>
+<code>void Initialize(<a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist)</code></p>
 
 
 
@@ -140,7 +140,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/receptionist-flow">ReceptionistFlow</a> receptionist</code> : </li>
 </ul>
 
 
@@ -159,7 +159,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void Initialize(<a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> locator)</code></p>
+<code>void Initialize(<a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> locator)</code></p>
 
 
 
@@ -168,7 +168,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/locator-flow">LocatorFlow</a> locator</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/locator-flow">LocatorFlow</a> locator</code> : </li>
 </ul>
 
 

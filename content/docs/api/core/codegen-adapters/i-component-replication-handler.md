@@ -1,7 +1,7 @@
 
 # IComponentReplicationHandler Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/codegen-adapters-index">CodegenAdapters</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/codegen-adapters-index">CodegenAdapters</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/CodegenAdapters/IComponentReplicationHandler.cs/#L6">Source</a>
 <style>
@@ -89,7 +89,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendUpdates(NativeArray&lt;ArchetypeChunk&gt; chunkArray, ComponentSystemBase system, EntityManager entityManager, <a href="{{urlRoot}}/api/core/component-update-system">ComponentUpdateSystem</a> componentUpdateSystem)</code></p>
+<code>void SendUpdates(NativeArray&lt;ArchetypeChunk&gt; chunkArray, ComponentSystemBase system, EntityManager entityManager, <a href="{{.Site.BaseURL}}/api/core/component-update-system">ComponentUpdateSystem</a> componentUpdateSystem)</code></p>
 
 
 
@@ -101,7 +101,7 @@ code {
 <li><code>NativeArray&lt;ArchetypeChunk&gt; chunkArray</code> : </li>
 <li><code>ComponentSystemBase system</code> : </li>
 <li><code>EntityManager entityManager</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/component-update-system">ComponentUpdateSystem</a> componentUpdateSystem</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/component-update-system">ComponentUpdateSystem</a> componentUpdateSystem</code> : </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 
 # ProcessExtensions Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/test-utils-index">TestUtils</a>.<a href="{{urlRoot}}/api/test-utils/editor-index">Editor</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/test-utils-index">TestUtils</a>.<a href="{{.Site.BaseURL}}/api/test-utils/editor-index">Editor</a><br/>
 GDK package: TestUtils<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.testutils/Editor/SpatialDeploymentManager.cs/#L149">Source</a>
 <style>

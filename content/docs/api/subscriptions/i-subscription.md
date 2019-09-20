@@ -1,7 +1,7 @@
 
 # ISubscription Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/Subscription.cs/#L7">Source</a>
 <style>
@@ -59,7 +59,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> EntityId { get; }</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> EntityId { get; }</code></p>
 
 
 
@@ -89,7 +89,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void SetAvailabilityHandler(<a href="{{urlRoot}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> handler)</code></p>
+<code>void SetAvailabilityHandler(<a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> handler)</code></p>
 
 
 
@@ -98,7 +98,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> handler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> handler</code> : </li>
 </ul>
 
 
@@ -117,7 +117,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> GetAvailabilityHandler()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription-availability-handler">ISubscriptionAvailabilityHandler</a> GetAvailabilityHandler()</code></p>
 
 
 

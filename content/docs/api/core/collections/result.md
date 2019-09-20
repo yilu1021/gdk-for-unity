@@ -1,7 +1,7 @@
 
 # Result&lt;T, E&gt; Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/collections-index">Collections</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/collections-index">Collections</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Collections/Result.cs/#L10">Source</a>
 <style>
@@ -56,7 +56,7 @@ code {
     <tr>
         <td colspan="2">
 <code> bool IsOkay</code></p>
-True if the result contains a success, false otherwise. 
+True if the result contains a success, false otherwise.
 
 </td>
     </tr>
@@ -71,7 +71,7 @@ True if the result contains a success, false otherwise.
     <tr>
         <td colspan="2">
 <code> bool IsError</code></p>
-True if the result contains an error, false otherwise. 
+True if the result contains an error, false otherwise.
 
 </td>
     </tr>
@@ -99,8 +99,8 @@ True if the result contains an error, false otherwise.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/collections/result">Result</a>&lt;T, E&gt; Ok(T value)</code></p>
-Creates a result which contains a success value. 
+<code><a href="{{.Site.BaseURL}}/api/core/collections/result">Result</a>&lt;T, E&gt; Ok(T value)</code></p>
+Creates a result which contains a success value.
 </p><b>Returns:</b></br>The result object.
 
 </p>
@@ -127,8 +127,8 @@ Creates a result which contains a success value.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/collections/result">Result</a>&lt;T, E&gt; Error(E error)</code></p>
-Creates a result which contains an error. 
+<code><a href="{{.Site.BaseURL}}/api/core/collections/result">Result</a>&lt;T, E&gt; Error(E error)</code></p>
+Creates a result which contains an error.
 </p><b>Returns:</b></br>The result object.
 
 </p>
@@ -169,7 +169,7 @@ Creates a result which contains an error.
     <tr>
         <td colspan="2">
 <code>T Unwrap()</code></p>
-Attempts to get the success value from the result. 
+Attempts to get the success value from the result.
 </p><b>Returns:</b></br>The success value of the result.
 
 
@@ -197,7 +197,7 @@ Attempts to get the success value from the result.
     <tr>
         <td colspan="2">
 <code>E UnwrapError()</code></p>
-Attempts to get the error from the result. 
+Attempts to get the error from the result.
 </p><b>Returns:</b></br>The error from the result.
 
 

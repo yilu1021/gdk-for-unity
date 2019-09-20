@@ -1,7 +1,7 @@
 
 # Constraint Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
 GDK package: QueryBasedInterest<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.querybasedinteresthelper/Constraint.cs/#L11">Source</a>
 <style>
@@ -50,9 +50,9 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Sphere(double radius, Coordinates center)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Sphere QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Sphere(double radius, Coordinates center)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Sphere QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -79,9 +79,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Sphere(double radius, double centerX, double centerY, double centerZ)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Sphere QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Sphere(double radius, double centerX, double centerY, double centerZ)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Sphere QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -110,9 +110,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Cylinder(double radius, Coordinates center)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Cylinder QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Cylinder(double radius, Coordinates center)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Cylinder QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -139,9 +139,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Cylinder(double radius, double centerX, double centerY, double centerZ)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Cylinder QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Cylinder(double radius, double centerX, double centerY, double centerZ)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Cylinder QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -170,9 +170,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Box(double xWidth, double yHeight, double zDepth, Coordinates center)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Box queryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Box(double xWidth, double yHeight, double zDepth, Coordinates center)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Box queryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -201,9 +201,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Box(double xWidth, double yHeight, double zDepth, double centerX, double centerY, double centerZ)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Box QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Box(double xWidth, double yHeight, double zDepth, double centerX, double centerY, double centerZ)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Box QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -234,9 +234,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> RelativeSphere(double radius)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeSphere QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> RelativeSphere(double radius)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeSphere QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -253,7 +253,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>This <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> defines a sphere relative to the position of the entity. </li>
+<li>This <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> defines a sphere relative to the position of the entity. </li>
 </ul>
 
 
@@ -271,9 +271,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> RelativeCylinder(double radius)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeCylinder QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> RelativeCylinder(double radius)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeCylinder QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -290,7 +290,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>This <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> defines a cylinder relative to the position of the entity. </li>
+<li>This <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> defines a cylinder relative to the position of the entity. </li>
 </ul>
 
 
@@ -308,9 +308,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> RelativeBox(double xWidth, double yHeight, double zDepth)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeBox QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> RelativeBox(double xWidth, double yHeight, double zDepth)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a RelativeBox QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -329,7 +329,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>This <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> defines a box relative to the position of the entity. </li>
+<li>This <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> defines a box relative to the position of the entity. </li>
 </ul>
 
 
@@ -347,16 +347,16 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> EntityId(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an EntityId QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> EntityId(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an EntityId QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : EntityId of an entity to interested in. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : EntityId of an entity to interested in. </li>
 </ul>
 
 
@@ -375,9 +375,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Component&lt;T&gt;()</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an Component QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Component&lt;T&gt;()</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an Component QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 
 
@@ -403,9 +403,9 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Component(uint componentId)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with a Component QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Component(uint componentId)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with a Component QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
@@ -431,17 +431,17 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> All(<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint, params <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> [] constraints)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an And QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> All(<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint, params <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> [] constraints)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an And QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : First <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> in the list of conjunctions. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> [] constraints</code> : Further Constraints for the list of conjunctions. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> in the list of conjunctions. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> [] constraints</code> : Further Constraints for the list of conjunctions. </li>
 </ul>
 
 
@@ -451,7 +451,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "All" QueryConstraint. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "All" QueryConstraint. </li>
 </ul>
 
 
@@ -469,16 +469,16 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> All(IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an And QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> All(IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an And QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints</code> : Constraints for the list of conjunctions. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints</code> : Constraints for the list of conjunctions. </li>
 </ul>
 
 
@@ -488,7 +488,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "All" QueryConstraint. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "All" QueryConstraint. </li>
 </ul>
 
 
@@ -506,17 +506,17 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Any(<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint, params <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> [] constraints)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an Or QueryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Any(<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint, params <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> [] constraints)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an Or QueryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : First <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> in the list of disjunctions. </li>
-<li><code>params <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> [] constraints</code> : Further Constraints for the list of disjunctions. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : First <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> in the list of disjunctions. </li>
+<li><code>params <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> [] constraints</code> : Further Constraints for the list of disjunctions. </li>
 </ul>
 
 
@@ -526,7 +526,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "Any" QueryConstraint. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "Any" QueryConstraint. </li>
 </ul>
 
 
@@ -544,16 +544,16 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> Any(IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints)</code></p>
-Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object with an Or queryConstraint. 
-</p><b>Returns:</b></br>A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> Any(IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object with an Or queryConstraint.
+</p><b>Returns:</b></br>A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code>IEnumerable&lt;<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints</code> : Set of Constraints for the list of disjunctions. </li>
+<li><code>IEnumerable&lt;<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a>&gt; constraints</code> : Set of Constraints for the list of disjunctions. </li>
 </ul>
 
 
@@ -563,7 +563,7 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
 <b>Notes:</b>
 
 <ul>
-<li>At least one <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "Any" QueryConstraint. </li>
+<li>At least one <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> must be provided to create a valid "Any" QueryConstraint. </li>
 </ul>
 
 
@@ -595,8 +595,8 @@ Creates a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</
     <tr>
         <td colspan="2">
 <code>ComponentInterest.QueryConstraint AsQueryConstraint()</code></p>
-Returns a QueryConstraint object from a <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a>. 
-</p><b>Returns:</b></br>A QueryConstraint object. 
+Returns a QueryConstraint object from a <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a>.
+</p><b>Returns:</b></br>A QueryConstraint object.
 
 
 

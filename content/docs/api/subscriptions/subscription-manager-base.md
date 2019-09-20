@@ -1,7 +1,7 @@
 
 # SubscriptionManagerBase Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/SubscriptionManagerBase.cs/#L6">Source</a>
 <style>
@@ -73,7 +73,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>abstract <a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> SubscribeTypeErased(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>abstract <a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> SubscribeTypeErased(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -82,7 +82,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -101,7 +101,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>abstract void Cancel(<a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> subscription)</code></p>
+<code>abstract void Cancel(<a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> subscription)</code></p>
 
 
 
@@ -110,7 +110,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> subscription</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> subscription</code> : </li>
 </ul>
 
 
@@ -129,7 +129,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>abstract void ResetValue(<a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> subscription)</code></p>
+<code>abstract void ResetValue(<a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> subscription)</code></p>
 
 
 
@@ -138,7 +138,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> subscription</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> subscription</code> : </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 
 # Snapshot Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Utility/Snapshot.cs/#L10">Source</a>
 <style>
@@ -21,7 +21,7 @@ code {
 
 
 
-<p>Convenience wrapper around the WorkerSDK <a href="{{urlRoot}}/api/core/snapshot">Snapshot</a> API. </p>
+<p>Convenience wrapper around the WorkerSDK <a href="{{.Site.BaseURL}}/api/core/snapshot">Snapshot</a> API. </p>
 
 
 
@@ -78,8 +78,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> AddEntity(<a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> entityTemplate)</code></p>
-Adds an entity to the snapshot 
+<code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> AddEntity(<a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> entityTemplate)</code></p>
+Adds an entity to the snapshot
 </p><b>Returns:</b></br>The entity ID assigned to the entity in the snapshot.
 
 </p>
@@ -87,7 +87,7 @@ Adds an entity to the snapshot
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> entityTemplate</code> : The entity to be added to the snapshot.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> entityTemplate</code> : The entity to be added to the snapshot.</li>
 </ul>
 
 
@@ -116,7 +116,7 @@ Adds an entity to the snapshot
     <tr>
         <td colspan="2">
 <code>void WriteToFile(string path)</code></p>
-Writes the snapshot out to a file. 
+Writes the snapshot out to a file.
 
 
 </p>

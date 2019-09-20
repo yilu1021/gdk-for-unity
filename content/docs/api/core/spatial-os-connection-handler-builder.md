@@ -1,7 +1,7 @@
 
 # SpatialOSConnectionHandlerBuilder Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/SpatialOSConnectionHandlerBuilder.cs/#L8">Source</a>
 <style>
@@ -23,7 +23,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-handler-builder">Improbable.Gdk.Core.IConnectionHandlerBuilder</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">Improbable.Gdk.Core.IConnectionHandlerBuilder</a></code>
 
 
 
@@ -79,8 +79,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetConnectionFlow(<a href="{{urlRoot}}/api/core/i-connection-flow">IConnectionFlow</a> flow)</code></p>
-Sets the connection flow implementation to use when creating the underlying SpatialOS connection. 
+<code><a href="{{.Site.BaseURL}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetConnectionFlow(<a href="{{.Site.BaseURL}}/api/core/i-connection-flow">IConnectionFlow</a> flow)</code></p>
+Sets the connection flow implementation to use when creating the underlying SpatialOS connection.
 </p><b>Returns:</b></br>Itself
 
 </p>
@@ -88,7 +88,7 @@ Sets the connection flow implementation to use when creating the underlying Spat
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-flow">IConnectionFlow</a> flow</code> : The connection flow implementation.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-flow">IConnectionFlow</a> flow</code> : The connection flow implementation.</li>
 </ul>
 
 
@@ -107,8 +107,8 @@ Sets the connection flow implementation to use when creating the underlying Spat
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetThreadingMode(ThreadingMode mode)</code></p>
-Sets the threading mode for the resultant <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a>. 
+<code><a href="{{.Site.BaseURL}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetThreadingMode(ThreadingMode mode)</code></p>
+Sets the threading mode for the resultant <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a>.
 </p><b>Returns:</b></br>Itself
 
 </p>
@@ -135,8 +135,8 @@ Sets the threading mode for the resultant <a href="{{urlRoot}}/api/core/i-connec
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetConnectionParameters(ConnectionParameters parameters)</code></p>
-Sets the connection parameters to use for the underlying SpatialOS connection. 
+<code><a href="{{.Site.BaseURL}}/api/core/spatial-os-connection-handler-builder">SpatialOSConnectionHandlerBuilder</a> SetConnectionParameters(ConnectionParameters parameters)</code></p>
+Sets the connection parameters to use for the underlying SpatialOS connection.
 </p><b>Returns:</b></br>Itself
 
 </p>
@@ -163,8 +163,8 @@ Sets the connection parameters to use for the underlying SpatialOS connection.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;<a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a>&gt; CreateAsync(CancellationToken? token = null)</code></p>
-Creates a <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> asynchronously. 
+<code>async Task&lt;<a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a>&gt; CreateAsync(CancellationToken? token = null)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> asynchronously.
 </p><b>Returns:</b></br>A task that represents the asynchronous creation of the connection handler object.
 
 </p>

@@ -5,12 +5,12 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with
 
-  * [SpatialOS events](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/object-interaction#events)
+  * [SpatialOS events](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/object-interaction#events)
 ")%>
 
 ## Sending events
 
-A worker instance can send an event using the `SendEvent` method on the [`ComponentUpdateSystem`]({{urlRoot}}/api/core/component-update-system).
+A worker instance can send an event using the `SendEvent` method on the [`ComponentUpdateSystem`]({{.Site.BaseURL}}/api/core/component-update-system).
 
 You must instantiate and populate an instance of the event payload, the type of which is `{component name}.{event name}.Event`, when sending the event.
 
@@ -54,7 +54,7 @@ public class SendChangeColorEvent : ComponentSystem
 
 ## Receiving events
 
-The `GetEventsReceived<T>` method on the [`ComponentUpdateSystem`]({{urlRoot}}/api/core/component-update-system) allows you to retrieve a list of all the events, given the event type `T`, that have been received since the previous frame.
+The `GetEventsReceived<T>` method on the [`ComponentUpdateSystem`]({{.Site.BaseURL}}/api/core/component-update-system) allows you to retrieve a list of all the events, given the event type `T`, that have been received since the previous frame.
 
 The example below shows how to use this method to handle events a worker receives.
 

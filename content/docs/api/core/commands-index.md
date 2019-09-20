@@ -4,7 +4,7 @@
 <li><a href="#interfaces">Interfaces</a>
 </ul></nav>
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br />
 </sup>
 
@@ -15,7 +15,7 @@ GDK package: Core<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/world-commands">WorldCommands</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/world-commands">WorldCommands</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -29,23 +29,23 @@ GDK package: Core<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/i-command-request">ICommandRequest</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/i-command-request">ICommandRequest</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/i-command-response">ICommandResponse</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/i-command-response">ICommandResponse</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/i-raw-received-command-response">IRawReceivedCommandResponse</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/i-raw-received-command-response">IRawReceivedCommandResponse</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/i-received-command-request">IReceivedCommandRequest</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/i-received-command-request">IReceivedCommandRequest</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 27ch"><a href="{{urlRoot}}/api/core/commands/i-received-command-response">IReceivedCommandResponse</a></td>
+<td style="padding: 14px; border: none; width: 27ch"><a href="{{.Site.BaseURL}}/api/core/commands/i-received-command-response">IReceivedCommandResponse</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>

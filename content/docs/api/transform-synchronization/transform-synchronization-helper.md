@@ -1,7 +1,7 @@
 
 # TransformSynchronizationHelper Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/transform-synchronization-index">TransformSynchronization</a><br/>
 GDK package: TransformSynchronization<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.transformsynchronization/TransformSynchronizationHelper.cs/#L7">Source</a>
 <style>
@@ -43,7 +43,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddTransformSynchronizationComponents(<a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template, string writeAccess, Vector3 location = default(Vector3), Vector3 velocity = default(Vector3))</code></p>
+<code>void AddTransformSynchronizationComponents(<a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template, string writeAccess, Vector3 location = default(Vector3), Vector3 velocity = default(Vector3))</code></p>
 
 
 
@@ -52,7 +52,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template</code> : </li>
 <li><code>string writeAccess</code> : </li>
 <li><code>Vector3 location</code> : </li>
 <li><code>Vector3 velocity</code> : </li>
@@ -74,7 +74,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddTransformSynchronizationComponents(<a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template, string writeAccess, UnityEngine.Quaternion rotation, Vector3 location = default(Vector3), Vector3 velocity = default(Vector3))</code></p>
+<code>void AddTransformSynchronizationComponents(<a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template, string writeAccess, UnityEngine.Quaternion rotation, Vector3 location = default(Vector3), Vector3 velocity = default(Vector3))</code></p>
 
 
 
@@ -83,7 +83,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template</code> : </li>
 <li><code>string writeAccess</code> : </li>
 <li><code>UnityEngine.Quaternion rotation</code> : </li>
 <li><code>Vector3 location</code> : </li>

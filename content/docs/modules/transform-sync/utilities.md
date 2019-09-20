@@ -2,7 +2,7 @@
 
 # Transform utilities
 
-The transform synchronization module includes a [`TransformUtils`]({{urlRoot}}/api/transform-synchronization/transform-utils) class, populated with a set of static methods that makes it nicer to use the feature module.
+The transform synchronization module includes a [`TransformUtils`]({{.Site.BaseURL}}/api/transform-synchronization/transform-utils) class, populated with a set of static methods that makes it nicer to use the feature module.
 
 ## Type conversion methods
 

@@ -34,7 +34,7 @@ When your local instance of SpatialOS is ready, you should see the following mes
 
 Open the `DevelopmentScene` found in the `Assets/Scenes/` folder. You should find a `ClientWorker` and `GameLogicWorker` present in the Scene hierarchy.
 
-<img src="{{assetRoot}}assets/blank/tutorial/1/development-scene-hierarchy.png" style="margin: 0 auto; width: 25%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/development-scene-hierarchy.png" style="margin: 0 auto; width: 25%; display: block;" />
 
 Select the Play button. This connects both a client-worker and a server-worker to your local deployment.
 
@@ -66,23 +66,23 @@ The Inspector is a web-based tool that you use to explore the current state of a
 * The worker instances connected to the deployment.
 * The authority and interest regions for each worker instance.
 
-You can learn more about the Inspector [here](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/operate/inspector).
+You can learn more about the Inspector [here](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/operate/inspector).
 
 In a browser of your choice, navigate to `localhost:21000/inspector`. You should be able to validate that two workers are connected to the deployment:
 
-<img src="{{assetRoot}}assets/blank/tutorial/1/inspector-workers-list.png" style="margin: 0 auto; width: 50%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/inspector-workers-list.png" style="margin: 0 auto; width: 50%; display: block;" />
 
 Looking further down, notice that there are four entities in your world:
 
 <div style="text-align:center">
-<img src="{{assetRoot}}assets/blank/tutorial/1/inspector-entities-hover.png" style="margin: 0 auto; width: 27%; display: inline-block;" />
-<img src="{{assetRoot}}assets/blank/tutorial/1/inspector-entities-list.png" style="margin: 0 auto; width: 55%; display: inline-block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/inspector-entities-hover.png" style="margin: 0 auto; width: 27%; display: inline-block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/inspector-entities-list.png" style="margin: 0 auto; width: 55%; display: inline-block;" />
 </div>
 
-The `UnityGameLogic-worker` and `UnityClient-worker` are worker entities. These types of entities are spawned and deleted automatically by SpatialOS when a worker of that type connects or disconnects. We will not cover worker entities or system entities in this tutorial, but you can read more about them [here](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/system-entities).
+The `UnityGameLogic-worker` and `UnityClient-worker` are worker entities. These types of entities are spawned and deleted automatically by SpatialOS when a worker of that type connects or disconnects. We will not cover worker entities or system entities in this tutorial, but you can read more about them [here](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/system-entities).
 
 `PlayerCreator` entities are used by the PlayerLifecycle module to handle player creation requests. If your world does not contain at least one `PlayerCreator` entity, the PlayerLifecycle module will not work. To meet this minimum requirement, the default snapshot in the Blank Project includes a `PlayerCreator` entity.
 
 The `Player` entity is then created by the Player Lifecycle module as soon as the client-worker connects to the deployment.
 
-#### Next: [GDK Player lifecycle]({{urlRoot}}/projects/blank/tutorial/1/player-lifecycle)
+#### Next: [GDK Player lifecycle]({{.Site.BaseURL}}/projects/blank/tutorial/1/player-lifecycle)

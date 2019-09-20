@@ -1,7 +1,7 @@
 
 # WorldCommandsReceivedStorage Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/WorldCommandsReceivedStorage.cs/#L10">Source</a>
 <style>
@@ -22,11 +22,11 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-command-diff-storage">Improbable.Gdk.Core.ICommandDiffStorage</a></code>
-<code><a href="{{urlRoot}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.CreateEntity.ReceivedResponse&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.DeleteEntity.ReceivedResponse&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.ReserveEntityIds.ReceivedResponse&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.EntityQuery.ReceivedResponse&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-diff-storage">Improbable.Gdk.Core.ICommandDiffStorage</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.CreateEntity.ReceivedResponse&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.DeleteEntity.ReceivedResponse&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.ReserveEntityIds.ReceivedResponse&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-diff-command-response-storage">Improbable.Gdk.Core.IDiffCommandResponseStorage&lt;WorldCommands.EntityQuery.ReceivedResponse&gt;</a></code>
 
 
 
@@ -74,7 +74,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response)</code></p>
+<code>void AddResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -83,7 +83,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/received-response">WorldCommands.CreateEntity.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 
@@ -102,7 +102,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response)</code></p>
+<code>void AddResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -111,7 +111,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">WorldCommands.DeleteEntity.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 
@@ -130,7 +130,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddResponse(<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response)</code></p>
+<code>void AddResponse(<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response)</code></p>
 
 
 
@@ -139,7 +139,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/received-response">WorldCommands.ReserveEntityIds.ReceivedResponse</a> response</code> : </li>
 </ul>
 
 

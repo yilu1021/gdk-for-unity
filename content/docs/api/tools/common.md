@@ -1,7 +1,7 @@
 
 # Common Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/tools-index">Tools</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/tools-index">Tools</a><br/>
 GDK package: Tools<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.tools/Common.cs/#L14">Source</a>
 <style>
@@ -74,7 +74,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly string SpatialProjectRootDir</code></p>
-The absolute path to the root folder of the SpatialOS project. 
+The absolute path to the root folder of the SpatialOS project.
 
 </td>
     </tr>
@@ -89,7 +89,7 @@ The absolute path to the root folder of the SpatialOS project.
     <tr>
         <td colspan="2">
 <code> readonly string BuildScratchDirectory</code></p>
-The path to the Unity project build directory that worker build artifacts are placed into. 
+The path to the Unity project build directory that worker build artifacts are placed into.
 
 </td>
     </tr>
@@ -104,7 +104,7 @@ The path to the Unity project build directory that worker build artifacts are pl
     <tr>
         <td colspan="2">
 <code> string SpatialBinary</code></p>
-The absolute path to the  binary, or an empty string if it doesn't exist. 
+The absolute path to the  binary, or an empty string if it doesn't exist.
 
 </td>
     </tr>
@@ -119,7 +119,7 @@ The absolute path to the  binary, or an empty string if it doesn't exist.
     <tr>
         <td colspan="2">
 <code> string DotNetBinary</code></p>
-The absolute path to the  binary, or an empty string if it doesn't exist. 
+The absolute path to the  binary, or an empty string if it doesn't exist.
 
 </td>
     </tr>
@@ -164,7 +164,7 @@ The absolute path to the  binary, or an empty string if it doesn't exist.
     <tr>
         <td colspan="2">
 <code>string GetPackagePath(string packageName)</code></p>
-Finds the path for a given package referenced directly in the manifest.json, or indirectly referenced as a package dependency. 
+Finds the path for a given package referenced directly in the manifest.json, or indirectly referenced as a package dependency.
 
 
 </p>
@@ -192,7 +192,7 @@ Finds the path for a given package referenced directly in the manifest.json, or 
     <tr>
         <td colspan="2">
 <code>bool CheckDependencies()</code></p>
-Checks whether  and  exist on the PATH. 
+Checks whether  and  exist on the PATH.
 
 
 

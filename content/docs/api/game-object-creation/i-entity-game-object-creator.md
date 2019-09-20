@@ -1,7 +1,7 @@
 
 # IEntityGameObjectCreator Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/game-object-creation-index">GameObjectCreation</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/game-object-creation-index">GameObjectCreation</a><br/>
 GDK package: GameObjectCreation<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.gameobjectcreation/IEntityGameObjectCreator.cs/#L12">Source</a>
 <style>
@@ -51,17 +51,17 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void OnEntityCreated(<a href="{{urlRoot}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a> entity, <a href="{{urlRoot}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker)</code></p>
-Called when a new SpatialOS Entity is checked out by the worker. 
-</p><b>Returns:</b></br>A GameObject to be linked to the entity, or null if no GameObject should be linked. 
+<code>void OnEntityCreated(<a href="{{.Site.BaseURL}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a> entity, <a href="{{.Site.BaseURL}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker)</code></p>
+Called when a new SpatialOS Entity is checked out by the worker.
+</p><b>Returns:</b></br>A GameObject to be linked to the entity, or null if no GameObject should be linked.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a> entity</code> : </li>
-<li><code><a href="{{urlRoot}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a> entity</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker</code> : </li>
 </ul>
 
 
@@ -80,8 +80,8 @@ Called when a new SpatialOS Entity is checked out by the worker.
     </tr>
     <tr>
         <td colspan="2">
-<code>void OnEntityRemoved(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
-Called when a SpatialOS Entity is removed from the worker's view. 
+<code>void OnEntityRemoved(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+Called when a SpatialOS Entity is removed from the worker's view.
 
 
 </p>
@@ -89,7 +89,7 @@ Called when a SpatialOS Entity is removed from the worker's view.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 

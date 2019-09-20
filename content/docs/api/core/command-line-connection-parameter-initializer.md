@@ -1,7 +1,7 @@
 
 # CommandLineConnectionParameterInitializer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/ConnectionHandlers/ConnectionParameterInitializers.cs/#L18">Source</a>
 <style>
@@ -23,7 +23,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-connection-parameter-initializer">Improbable.Gdk.Core.IConnectionParameterInitializer</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-connection-parameter-initializer">Improbable.Gdk.Core.IConnectionParameterInitializer</a></code>
 
 
 
@@ -83,7 +83,7 @@ code {
     <tr>
         <td colspan="2">
 <code>void Initialize(ConnectionParameters connectionParameters)</code></p>
-Initializes the connection parameters. 
+Initializes the connection parameters.
 
 
 </p>

@@ -1,7 +1,7 @@
 
 # WorkerId Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/StandardSubscriptionManagers/WorkerIdSubscriptionManager.cs/#L35">Source</a>
 <style>
@@ -121,7 +121,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool Equals(<a href="{{urlRoot}}/api/subscriptions/worker-id">WorkerId</a> other)</code></p>
+<code>bool Equals(<a href="{{.Site.BaseURL}}/api/subscriptions/worker-id">WorkerId</a> other)</code></p>
 
 
 
@@ -130,7 +130,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/worker-id">WorkerId</a> other</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/worker-id">WorkerId</a> other</code> : </li>
 </ul>
 
 
@@ -220,7 +220,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>implicit operator string(<a href="{{urlRoot}}/api/subscriptions/worker-id">WorkerId</a> workerId)</code></p>
+<code>implicit operator string(<a href="{{.Site.BaseURL}}/api/subscriptions/worker-id">WorkerId</a> workerId)</code></p>
 
 
 
@@ -229,7 +229,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/worker-id">WorkerId</a> workerId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/worker-id">WorkerId</a> workerId</code> : </li>
 </ul>
 
 

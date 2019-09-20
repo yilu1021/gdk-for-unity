@@ -1,7 +1,7 @@
 
 # SingletonScriptableObject&lt;TSelf&gt; Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/editor-index">Editor</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/editor-index">Editor</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Editor/SingletonScriptableObject.cs/#L19">Source</a>
 <style>
@@ -42,7 +42,7 @@ code {
 
 <b>Notes</b>
 
-- This differs from Unity's ScriptableSingleton<T> in that: null is returned if no instance of TSelf is found. In Unity's implementation, an instance of TSelf will be created for you. 
+- This differs from Unity's ScriptableSingleton<T> in that: null is returned if no instance of TSelf is found. In Unity's implementation, an instance of TSelf will be created for you.
 
 
 
@@ -69,7 +69,7 @@ code {
     <tr>
         <td colspan="2">
 <code>TSelf GetInstance()</code></p>
-Finds the instance of TSelf 
+Finds the instance of TSelf
 </p><b>Returns:</b></br>The instance of TSelf if one exists, null otherwise.
 
 

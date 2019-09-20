@@ -1,7 +1,7 @@
 
 # TestLogDispatcher Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/test-utils-index">TestUtils</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/test-utils-index">TestUtils</a><br/>
 GDK package: TestUtils<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.testutils/TestLogDispatcher.cs/#L17">Source</a>
 <style>
@@ -29,14 +29,14 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-log-dispatcher">Improbable.Gdk.Core.ILogDispatcher</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">Improbable.Gdk.Core.ILogDispatcher</a></code>
 
 
 </p>
 
 <b>Notes</b>
 
-- The expected usage is to use EnterExpectingScope() with a using block. This methods returns a Disposable object which you can mark logs as expected. When the object is disposed - it will assert against any logs. 
+- The expected usage is to use EnterExpectingScope() with a using block. This methods returns a Disposable object which you can mark logs as expected. When the object is disposed - it will assert against any logs.
 
 
 </p>
@@ -45,7 +45,7 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 14ch"><a href="{{urlRoot}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a></td>
+<td style="padding: 14px; border: none; width: 14ch"><a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -73,7 +73,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/worker">Core.Worker</a> Worker { get; set; }</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/core/worker">Core.Worker</a> Worker { get; set; }</code></p>
 
 
 
@@ -119,7 +119,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void HandleLog(LogType type, <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
+<code>void HandleLog(LogType type, <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
 
 
 
@@ -129,7 +129,7 @@ code {
 
 <ul>
 <li><code>LogType type</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent</code> : </li>
 </ul>
 
 
@@ -148,9 +148,9 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> EnterExpectingScope()</code></p>
-Creates and returns an disposable <a href="{{urlRoot}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> object. This is intended to be used with a using block. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> instance.
+<code><a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> EnterExpectingScope()</code></p>
+Creates and returns an disposable <a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> object. This is intended to be used with a using block.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> instance.
 
 
 
@@ -160,7 +160,7 @@ Creates and returns an disposable <a href="{{urlRoot}}/api/test-utils/test-log-d
 <b>Exceptions:</b>
 
 <ul>
-<li><code>InvalidOperationException</code> : Throws if you already have an un-disposed <a href="{{urlRoot}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> from this logger. </li>
+<li><code>InvalidOperationException</code> : Throws if you already have an un-disposed <a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher/expecting-scope">ExpectingScope</a> from this logger. </li>
 </ul>
 
 

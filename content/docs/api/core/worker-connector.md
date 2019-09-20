@@ -1,7 +1,7 @@
 
 # WorkerConnector Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/WorkerConnector.cs/#L18">Source</a>
 <style>
@@ -57,7 +57,7 @@ code {
     <tr>
         <td colspan="2">
 <code> int MaxConnectionAttempts</code></p>
-The number of connection attempts before giving up. 
+The number of connection attempts before giving up.
 
 </td>
     </tr>
@@ -71,8 +71,8 @@ The number of connection attempts before giving up.
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> Worker</code></p>
-Represents a SpatialOS worker. 
+<code> <a href="{{.Site.BaseURL}}/api/core/worker-in-world">WorkerInWorld</a> Worker</code></p>
+Represents a SpatialOS worker.
 
 </p>
 
@@ -108,8 +108,8 @@ Represents a SpatialOS worker.
     </tr>
     <tr>
         <td colspan="2">
-<code> Action&lt;<a href="{{urlRoot}}/api/core/worker">Worker</a>&gt; OnWorkerCreationFinished {  }</code></p>
-An event that triggers when the worker has been fully created. 
+<code> Action&lt;<a href="{{.Site.BaseURL}}/api/core/worker">Worker</a>&gt; OnWorkerCreationFinished {  }</code></p>
+An event that triggers when the worker has been fully created.
 
 
 </td>
@@ -215,8 +215,8 @@ An event that triggers when the worker has been fully created.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task Connect(<a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> builder, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logger)</code></p>
-Asynchronously connects a worker to the SpatialOS runtime. 
+<code>async Task Connect(<a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> builder, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logger)</code></p>
+Asynchronously connects a worker to the SpatialOS runtime.
 
 
 </p>
@@ -224,8 +224,8 @@ Asynchronously connects a worker to the SpatialOS runtime.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> builder</code> : Describes how to create a <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker.</li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logger</code> : The logger for the worker to use.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> builder</code> : Describes how to create a <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logger</code> : The logger for the worker to use.</li>
 </ul>
 
 
@@ -291,7 +291,7 @@ Asynchronously connects a worker to the SpatialOS runtime.
     </tr>
     <tr>
         <td colspan="2">
-<code>ConnectionParameters CreateConnectionParameters(string workerType, <a href="{{urlRoot}}/api/core/i-connection-parameter-initializer">IConnectionParameterInitializer</a> initializer = null)</code></p>
+<code>ConnectionParameters CreateConnectionParameters(string workerType, <a href="{{.Site.BaseURL}}/api/core/i-connection-parameter-initializer">IConnectionParameterInitializer</a> initializer = null)</code></p>
 
 
 
@@ -301,7 +301,7 @@ Asynchronously connects a worker to the SpatialOS runtime.
 
 <ul>
 <li><code>string workerType</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-parameter-initializer">IConnectionParameterInitializer</a> initializer</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-parameter-initializer">IConnectionParameterInitializer</a> initializer</code> : </li>
 </ul>
 
 

@@ -2,18 +2,18 @@
 
 # Readers and Writers: Lifecycle
 
-_This document relates to the [MonoBehaviour workflow]({{urlRoot}}/workflows/overview)._
+_This document relates to the [MonoBehaviour workflow]({{.Site.BaseURL}}/workflows/overview)._
 
 Before reading this document, make sure you are familiar with
 
-* [Workers]({{urlRoot}}/reference/concepts/worker)
-* [Readers and Writers]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview)
+* [Workers]({{.Site.BaseURL}}/reference/concepts/worker)
+* [Readers and Writers]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview)
 
-You can [represent your SpatialOS entities as GameObjects]({{urlRoot}}/modules/game-object-creation/overview). By representing your SpatialOS entity by a GameObject, you are able to interact with the SpatialOS Runtime using the GameObject instead of the ECS entity.
+You can [represent your SpatialOS entities as GameObjects]({{.Site.BaseURL}}/modules/game-object-creation/overview). By representing your SpatialOS entity by a GameObject, you are able to interact with the SpatialOS Runtime using the GameObject instead of the ECS entity.
 This is enabled by code-generating the following types:
 
- * [Readers and Writers]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview) - For accessing the component data of the SpatialOS entity.
- * [Sending and Receiving component commands]({{urlRoot}}/workflows/monobehaviour/interaction/commands/component-commands) - For sending and receiving commands.
+ * [Readers and Writers]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview) - For accessing the component data of the SpatialOS entity.
+ * [Sending and Receiving component commands]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/commands/component-commands) - For sending and receiving commands.
 
 To use these types, you define fields in a MonoBehaviour that is attached to
 your linked GameObject and decorate these fields with the `[Require]` attribute.
@@ -22,13 +22,13 @@ your linked GameObject and decorate these fields with the `[Require]` attribute.
 [Require] private HealthReader healthReader;
 ```
 
-> These fields can only be used on the GameObject that is directly linked to a [SpatialOS entity]({{urlRoot}}/reference/glossary#spatialos-entity).
+> These fields can only be used on the GameObject that is directly linked to a [SpatialOS entity]({{.Site.BaseURL}}/reference/glossary#spatialos-entity).
 Parent or child GameObjects will be ignored.
 
 The requirements depend on which types are marked as required in the Monobehaviour. Please read their API documentation to learn more:
 
-  * [Readers and Writers API]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview)
-  * [Command sender and handler API]({{urlRoot}}/workflows/monobehaviour/interaction/commands/component-commands)
+  * [Readers and Writers API]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview)
+  * [Command sender and handler API]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/commands/component-commands)
 
 The SpatialOS GDK for Unity automatically injects the correct values into the these fields
 as soon as the worker that this GameObject belongs to fulfills all the requirements.
@@ -45,7 +45,7 @@ Whenever a MonoBehaviour is disabled, all fields decorated with the `[Require]` 
 
 > `OnTriggerEnter()` and `OnCollisionEnter()` might be called even if the MonoBehaviour is disabled. You need to check whether your required types are available, if you want to use them in these methods. You can verify a field’s availability by checking if that field is equal to null or not. If it is not null, it is safe to use.
 
-The GDK only enables the Monobehaviour, if all requirements for injecting the required types are fulfilled during runtime. All fields decorated with the `[Require]` attribute are available for use as soon as `OnEnable` is called.  
+The GDK only enables the Monobehaviour, if all requirements for injecting the required types are fulfilled during runtime. All fields decorated with the `[Require]` attribute are available for use as soon as `OnEnable` is called.
 
 > Do not manually enable / disable these MonoBehaviours as it will lead to undefined behaviour.
 

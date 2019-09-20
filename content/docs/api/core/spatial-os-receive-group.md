@@ -1,7 +1,7 @@
 
 # SpatialOSReceiveGroup Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Systems/UpdateGroups.cs/#L8">Source</a>
 <style>
@@ -31,7 +31,7 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/core/spatial-os-receive-group/internal-spatial-os-receive-group">InternalSpatialOSReceiveGroup</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/core/spatial-os-receive-group/internal-spatial-os-receive-group">InternalSpatialOSReceiveGroup</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>

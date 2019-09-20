@@ -14,7 +14,7 @@ GDK package: TestUtils<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 31ch"><a href="{{urlRoot}}/api/test-utils/editor-index">Editor</a></td>
+<td style="padding: 14px; border: none; width: 31ch"><a href="{{.Site.BaseURL}}/api/test-utils/editor-index">Editor</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -27,7 +27,7 @@ GDK package: TestUtils<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 31ch"><a href="{{urlRoot}}/api/test-utils/test-log-dispatcher">TestLogDispatcher</a></td>
+<td style="padding: 14px; border: none; width: 31ch"><a href="{{.Site.BaseURL}}/api/test-utils/test-log-dispatcher">TestLogDispatcher</a></td>
 <td style="padding: 14px; border: none;">A ILogDispatcher implementation designed to be used in testing. This replaces the LogAssert approach with a more specialised one. </td>
 </tr>
 </table>

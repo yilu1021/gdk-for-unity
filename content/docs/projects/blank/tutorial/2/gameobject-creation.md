@@ -8,7 +8,7 @@ We’ll cover how this works and how you can set it up to create GameObjects lin
 
 ## How GameObject creation works
 
-The GameObject Creation module contains the `IEntityGameObjectCreator` interface. Any class that implements this interface is known as a _GameObject creator_. This interface contains a method called when a SpatialOS entity _enters_ a [worker’s view]({{urlRoot}}/reference/glossary#worker-s-view) and another method called when a SpatialOS entity _leaves_ a [worker’s view]({{urlRoot}}/reference/glossary#worker-s-view).
+The GameObject Creation module contains the `IEntityGameObjectCreator` interface. Any class that implements this interface is known as a _GameObject creator_. This interface contains a method called when a SpatialOS entity _enters_ a [worker’s view]({{.Site.BaseURL}}/reference/glossary#worker-s-view) and another method called when a SpatialOS entity _leaves_ a [worker’s view]({{.Site.BaseURL}}/reference/glossary#worker-s-view).
 
 The default GameObject creator is the `GameObjectCreatorFromMetadata` class, which has a reference to the type of worker that initialized it. It uses an entity’s `Metadata` component in conjunction with the worker type to determine what prefab to create GameObjects from.
 
@@ -165,8 +165,8 @@ To test this change, hit the play button in the Editor.
 
 You should observe that, as expected, the player object on the client-level has the color you chose, but the player object on the other level does not.
 
-<img src="{{assetRoot}}assets/blank/tutorial/2/player-with-color-annotated.png" style="margin: 0 auto; width: 75%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/player-with-color-annotated.png" style="margin: 0 auto; width: 75%; display: block;" />
 
 This validates that the default GameObject creator makes use of a worker’s worker type to instantiate the correct representation of a Player.
 
-#### Next: [Summary]({{urlRoot}}/projects/blank/tutorial/2/summary)
+#### Next: [Summary]({{.Site.BaseURL}}/projects/blank/tutorial/2/summary)

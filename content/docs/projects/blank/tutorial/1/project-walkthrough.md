@@ -100,22 +100,22 @@ This asset defines for each worker type the target platforms to build and which 
 
 See below to learn more about:
 
-* [SpatialOS launch configurations](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/project-layout/launch-config)
-* [SpatialOS worker configurations](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/project-layout/introduction)
-* [Snapshots]({{urlRoot}}/reference/concepts/snapshots)
-* [GDK worker build configurations]({{urlRoot}}/modules/build-system/build-config)
+* [SpatialOS launch configurations](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/project-layout/launch-config)
+* [SpatialOS worker configurations](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/project-layout/introduction)
+* [Snapshots]({{.Site.BaseURL}}/reference/concepts/snapshots)
+* [GDK worker build configurations]({{.Site.BaseURL}}/modules/build-system/build-config)
 
 ## Opening the project
 
 Open the Unity Project found at `workers/unity/`. The first time you open the project, Unity will retrieve all the packages defined in the `manifest.json` and cache them on your machine. After resolving the packages, you’ll see a popup that says `Generating code`.
 
-<img src="{{assetRoot}}assets/blank/tutorial/1/generating-code.png" style="margin: 0 auto; width: 50%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/generating-code.png" style="margin: 0 auto; width: 50%; display: block;" />
 
 ## Scenes
 
 You may have noticed that there are a set of Scenes present at `Assets/Scenes/`.
 
-<img src="{{assetRoot}}assets/blank/tutorial/1/scenes-list.png" style="margin: 0 auto; width: 25%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/1/scenes-list.png" style="margin: 0 auto; width: 25%; display: block;" />
 
 The `ClientScene` contains a `ClientWorker` prefab to represent a client-worker and similarly the `GameLogicScene` contains a `GameLogicWorker` prefab to represent a server-side worker. By playing either of these Scenes, these prefabs will try to connect their respective client-worker or server-worker to your SpatialOS deployment.
 
@@ -153,4 +153,4 @@ Within your Unity Project there is a `Packages/manifest.json` file, which define
 
 There is also a BlankProject assembly definition in your project’s Assets folder. Although the project `manifest.json` defines dependencies to all GDK Feature Modules, only the Core and Player Lifecycle modules are referenced in the assembly definition. This is because the Blank Project has minimal game code, and only makes use of the Player Lifecycle module. You can read more about assembly definitions [here](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html).
 
-#### Next: [What the Blank Project does]({{urlRoot}}/projects/blank/tutorial/1/what-it-does)
+#### Next: [What the Blank Project does]({{.Site.BaseURL}}/projects/blank/tutorial/1/what-it-does)

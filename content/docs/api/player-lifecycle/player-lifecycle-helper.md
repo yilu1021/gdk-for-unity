@@ -1,7 +1,7 @@
 
 # PlayerLifecycleHelper Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/player-lifecycle-index">PlayerLifecycle</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/player-lifecycle-index">PlayerLifecycle</a><br/>
 GDK package: PlayerLifecycle<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.playerlifecycle/PlayerLifecycleHelper.cs/#L7">Source</a>
 <style>
@@ -43,8 +43,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddPlayerLifecycleComponents(<a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template, string clientWorkerId, string serverAccess)</code></p>
-Adds the SpatialOS components used by the player lifecycle module to an entity template. 
+<code>void AddPlayerLifecycleComponents(<a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template, string clientWorkerId, string serverAccess)</code></p>
+Adds the SpatialOS components used by the player lifecycle module to an entity template.
 
 
 </p>
@@ -52,7 +52,7 @@ Adds the SpatialOS components used by the player lifecycle module to an entity t
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template</code> : The entity template to add player lifecycle components to.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template</code> : The entity template to add player lifecycle components to.</li>
 <li><code>string clientWorkerId</code> : The ID of the client-worker.</li>
 <li><code>string serverAccess</code> : The server-worker write access attribute.</li>
 </ul>
@@ -73,7 +73,7 @@ Adds the SpatialOS components used by the player lifecycle module to an entity t
     </tr>
     <tr>
         <td colspan="2">
-<code>bool IsOwningWorker(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, World workerWorld)</code></p>
+<code>bool IsOwningWorker(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, World workerWorld)</code></p>
 
 
 
@@ -82,7 +82,7 @@ Adds the SpatialOS components used by the player lifecycle module to an entity t
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>World workerWorld</code> : </li>
 </ul>
 
@@ -103,7 +103,7 @@ Adds the SpatialOS components used by the player lifecycle module to an entity t
     <tr>
         <td colspan="2">
 <code>void AddClientSystems(World world, bool autoRequestPlayerCreation = true)</code></p>
-Adds all the systems a client-worker requires for the player lifecycle module. 
+Adds all the systems a client-worker requires for the player lifecycle module.
 
 
 </p>
@@ -132,7 +132,7 @@ Adds all the systems a client-worker requires for the player lifecycle module.
     <tr>
         <td colspan="2">
 <code>void AddServerSystems(World world)</code></p>
-Adds all the systems a server-worker requires for the player lifecycle module. 
+Adds all the systems a server-worker requires for the player lifecycle module.
 
 
 </p>

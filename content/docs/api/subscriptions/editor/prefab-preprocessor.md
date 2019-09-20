@@ -1,7 +1,7 @@
 
 # PrefabPreprocessor Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a>.<a href="{{urlRoot}}/api/subscriptions/editor-index">Editor</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a>.<a href="{{.Site.BaseURL}}/api/subscriptions/editor-index">Editor</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/Editor/Prefabs/PrefabPreprocessor.cs/#L20">Source</a>
 <style>
@@ -20,7 +20,7 @@ code {
 
 
 
-<p>A prefab processor which disables any Monobehaviours on top-level GameObjects in the Resources folder which have fields with the <a href="{{urlRoot}}/api/subscriptions/require-attribute">RequireAttribute</a> on them. </p>
+<p>A prefab processor which disables any Monobehaviours on top-level GameObjects in the Resources folder which have fields with the <a href="{{.Site.BaseURL}}/api/subscriptions/require-attribute">RequireAttribute</a> on them. </p>
 
 
 
@@ -35,7 +35,7 @@ code {
 
 <b>Notes</b>
 
-- This processes the prefabs when you build or when you press play in the Unity Editor. 
+- This processes the prefabs when you build or when you press play in the Unity Editor.
 
 
 

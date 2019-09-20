@@ -7,13 +7,13 @@ The SpatialOS GDK for Unity provides functionality to develop games in both of U
 
 You can stick to familiar MonoBehaviour-based development, check out the new ECS workflow, or try a combination of both.
 
-> However you choose to develop your game, it is important to understand what [SpatialOS entities]({{urlRoot}}/reference/glossary#spatialos-entity) are and how they relate to each workflow.
+> However you choose to develop your game, it is important to understand what [SpatialOS entities]({{.Site.BaseURL}}/reference/glossary#spatialos-entity) are and how they relate to each workflow.
 
 ## MonoBehaviour-centric workflow
 
-In the GDK, SpatialOS entities can be linked to GameObjects by using the [Game Object Creation Feature Module]({{urlRoot}}/modules/game-object-creation/overview). [Readers and Writers]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview) allow you to inspect and change the state of components on SpatialOS entities using MonoBehaviours that you add to their linked GameObjects.
+In the GDK, SpatialOS entities can be linked to GameObjects by using the [Game Object Creation Feature Module]({{.Site.BaseURL}}/modules/game-object-creation/overview). [Readers and Writers]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview) allow you to inspect and change the state of components on SpatialOS entities using MonoBehaviours that you add to their linked GameObjects.
 
-You may find that not all SpatialOS entities need to be represented as GameObjects. The [Game Object Creation Feature Module]({{urlRoot}}/modules/game-object-creation/overview) allows you to customise the GameObject creation and linking process.
+You may find that not all SpatialOS entities need to be represented as GameObjects. The [Game Object Creation Feature Module]({{.Site.BaseURL}}/modules/game-object-creation/overview) allows you to customise the GameObject creation and linking process.
 
 ## ECS-centric workflow
 

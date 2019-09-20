@@ -1,7 +1,7 @@
 
 # IComponentDiffDeserializer Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/MessageSerialization.cs/#L5">Source</a>
 <style>
@@ -64,7 +64,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddUpdateToDiff(ComponentUpdateOp op, <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff, uint updateId)</code></p>
+<code>void AddUpdateToDiff(ComponentUpdateOp op, <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff, uint updateId)</code></p>
 
 
 
@@ -74,7 +74,7 @@ code {
 
 <ul>
 <li><code>ComponentUpdateOp op</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
 <li><code>uint updateId</code> : </li>
 </ul>
 
@@ -94,7 +94,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddComponentToDiff(AddComponentOp op, <a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff)</code></p>
+<code>void AddComponentToDiff(AddComponentOp op, <a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff)</code></p>
 
 
 
@@ -104,7 +104,7 @@ code {
 
 <ul>
 <li><code>AddComponentOp op</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/view-diff">ViewDiff</a> diff</code> : </li>
 </ul>
 
 

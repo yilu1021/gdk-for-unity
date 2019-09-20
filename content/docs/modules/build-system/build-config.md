@@ -30,7 +30,7 @@ For each worker type and deployment type pair, you can configure:
 | Server build | Denotes whether the worker is running in headless mode. |
 | Compression | Which compression scheme to use in the build. |
 
-> **Note:** All [server-workers]({{urlRoot}}/reference/glossary#server-worker) **must** have a Linux build target enabled for the cloud target because server-workers are ran on Linux machines in cloud deployments.
+> **Note:** All [server-workers]({{.Site.BaseURL}}/reference/glossary#server-worker) **must** have a Linux build target enabled for the cloud target because server-workers are ran on Linux machines in cloud deployments.
 
 ### Build and Required options
 
@@ -44,4 +44,4 @@ These two options describe the behaviour of a worker type, deployment target, an
 | No | Yes | Invalid state and undefined behaviour. If this state ever occurs, please [raise a bug report](https://github.com/spatialos/gdk-for-unity/issues/new). |
 | Yes | Yes | Build is run. If the build support for the platform is not installed, fail the build. |
 
-> **Note:** Running a worker build [from the CLI]({{urlRoot}}/modules/build-system/cli) ignores the Required flag. If the build support is not installed, the build will fail. 
+> **Note:** Running a worker build [from the CLI]({{.Site.BaseURL}}/modules/build-system/cli) ignores the Required flag. If the build support is not installed, the build will fail.

@@ -1,7 +1,7 @@
 
 # SendCreatePlayerRequestSystem Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/player-lifecycle-index">PlayerLifecycle</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/player-lifecycle-index">PlayerLifecycle</a><br/>
 GDK package: PlayerLifecycle<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.playerlifecycle/Systems/PlayerCreation/SendCreatePlayerRequestSystem.cs/#L18">Source</a>
 <style>
@@ -53,7 +53,7 @@ code {
     <tr>
         <td colspan="2">
 <code>void RequestPlayerCreation(byte [] serializedArguments = null, Action&lt;PlayerCreator.CreatePlayer.ReceivedResponse&gt; callback = null)</code></p>
-Queues a request for player creation, if none are currently in progress. If player creation entities have already been found, the request is sent in the next tick. 
+Queues a request for player creation, if none are currently in progress. If player creation entities have already been found, the request is sent in the next tick.
 
 
 </p>

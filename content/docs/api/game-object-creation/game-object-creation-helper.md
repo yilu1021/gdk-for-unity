@@ -1,7 +1,7 @@
 
 # GameObjectCreationHelper Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/game-object-creation-index">GameObjectCreation</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/game-object-creation-index">GameObjectCreation</a><br/>
 GDK package: GameObjectCreation<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.gameobjectcreation/GameObjectCreationHelper.cs/#L9">Source</a>
 <style>
@@ -72,7 +72,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void EnableStandardGameObjectCreation(World world, <a href="{{urlRoot}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a> creator, GameObject workerGameObject = null)</code></p>
+<code>void EnableStandardGameObjectCreation(World world, <a href="{{.Site.BaseURL}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a> creator, GameObject workerGameObject = null)</code></p>
 
 
 
@@ -82,7 +82,7 @@ code {
 
 <ul>
 <li><code>World world</code> : </li>
-<li><code><a href="{{urlRoot}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a> creator</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a> creator</code> : </li>
 <li><code>GameObject workerGameObject</code> : </li>
 </ul>
 

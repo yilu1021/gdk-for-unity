@@ -1,7 +1,7 @@
 
 # LogEvent Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Logging/LogEvent.cs/#L10">Source</a>
 <style>
@@ -50,7 +50,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly string Message</code></p>
-The main content of the log. 
+The main content of the log.
 
 </td>
     </tr>
@@ -65,7 +65,7 @@ The main content of the log.
     <tr>
         <td colspan="2">
 <code> readonly Dictionary&lt;string, object&gt; Data</code></p>
-The data used for structured logging. 
+The data used for structured logging.
 
 </td>
     </tr>
@@ -80,7 +80,7 @@ The data used for structured logging.
     <tr>
         <td colspan="2">
 <code> UnityEngine.Object Context</code></p>
-Optional context object used with Unity logging. 
+Optional context object used with Unity logging.
 
 </td>
     </tr>
@@ -95,7 +95,7 @@ Optional context object used with Unity logging.
     <tr>
         <td colspan="2">
 <code> Exception Exception</code></p>
-An exception if the <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> is associated with an exception. 
+An exception if the <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> is associated with an exception.
 
 </td>
     </tr>
@@ -125,7 +125,7 @@ An exception if the <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> is ass
     <tr>
         <td colspan="2">
 <code> LogEvent(string message)</code></p>
-Constructor for the log event 
+Constructor for the log event
 
 
 </p>
@@ -164,8 +164,8 @@ Constructor for the log event
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> WithField(string key, object value)</code></p>
-Sets additional information to be displayed with the log message. 
+<code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> WithField(string key, object value)</code></p>
+Sets additional information to be displayed with the log message.
 </p><b>Returns:</b></br>Itself
 
 </p>
@@ -193,8 +193,8 @@ Sets additional information to be displayed with the log message.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> WithContext(UnityEngine.Object context)</code></p>
-Adds a context object to be passed as the second parameter into UnityEngine.Debug.Log(object, UnityEngine.Object) 
+<code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> WithContext(UnityEngine.Object context)</code></p>
+Adds a context object to be passed as the second parameter into UnityEngine.Debug.Log(object, UnityEngine.Object)
 </p><b>Returns:</b></br>Itself
 
 </p>
@@ -221,8 +221,8 @@ Adds a context object to be passed as the second parameter into UnityEngine.Debu
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> WithException(Exception exception)</code></p>
-Associates an exception to the <a href="{{urlRoot}}/api/core/log-event">LogEvent</a>. 
+<code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> WithException(Exception exception)</code></p>
+Associates an exception to the <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a>.
 </p><b>Returns:</b></br>Itself
 
 </p>

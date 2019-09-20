@@ -4,4 +4,4 @@ In this chapter of the Blank Project tutorial series, we covered worker connecto
 
 We also covered how to set up the GameObject Creation feature module, and how to leverage the default GameObject creator to spawn a GameObject corresponding to a Player entity.
 
-<img src="{{assetRoot}}assets/blank/tutorial/2/player-with-color.png" style="margin: 0 auto; width: 100%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/player-with-color.png" style="margin: 0 auto; width: 100%; display: block;" />

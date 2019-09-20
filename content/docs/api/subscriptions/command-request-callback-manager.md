@@ -1,7 +1,7 @@
 
 # CommandRequestCallbackManager&lt;T&gt; Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/CalllbackManagers/CommandRequestCallbackManager.cs/#L8">Source</a>
 <style>
@@ -110,7 +110,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>ulong RegisterCallback(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, Action&lt;T&gt; callback)</code></p>
+<code>ulong RegisterCallback(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, Action&lt;T&gt; callback)</code></p>
 
 
 
@@ -119,7 +119,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>Action&lt;T&gt; callback</code> : </li>
 </ul>
 

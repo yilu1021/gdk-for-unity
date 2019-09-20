@@ -1,7 +1,7 @@
 
 # WorldCommandMetaDataStorage Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/WorldCommandMetaDataStorage.cs/#L11">Source</a>
 <style>
@@ -22,11 +22,11 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/i-command-meta-data-storage">Improbable.Gdk.Core.ICommandMetaDataStorage</a></code>
-<code><a href="{{urlRoot}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.CreateEntity.Request&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.DeleteEntity.Request&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.ReserveEntityIds.Request&gt;</a></code>
-<code><a href="{{urlRoot}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.EntityQuery.Request&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-meta-data-storage">Improbable.Gdk.Core.ICommandMetaDataStorage</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.CreateEntity.Request&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.DeleteEntity.Request&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.ReserveEntityIds.Request&gt;</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/i-command-payload-storage">Improbable.Gdk.Core.ICommandPayloadStorage&lt;WorldCommands.EntityQuery.Request&gt;</a></code>
 
 
 
@@ -150,7 +150,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddRequest(in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a>&gt; context)</code></p>
+<code>void AddRequest(in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a>&gt; context)</code></p>
 
 
 
@@ -159,7 +159,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code>in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a>&gt; context</code> : </li>
+<li><code>in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity/request">WorldCommands.CreateEntity.Request</a>&gt; context</code> : </li>
 </ul>
 
 
@@ -178,7 +178,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddRequest(in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a>&gt; context)</code></p>
+<code>void AddRequest(in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a>&gt; context)</code></p>
 
 
 
@@ -187,7 +187,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code>in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a>&gt; context</code> : </li>
+<li><code>in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">WorldCommands.DeleteEntity.Request</a>&gt; context</code> : </li>
 </ul>
 
 
@@ -206,7 +206,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddRequest(in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a>&gt; context)</code></p>
+<code>void AddRequest(in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a>&gt; context)</code></p>
 
 
 
@@ -215,7 +215,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code>in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;<a href="{{urlRoot}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a>&gt; context</code> : </li>
+<li><code>in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/reserve-entity-ids/request">WorldCommands.ReserveEntityIds.Request</a>&gt; context</code> : </li>
 </ul>
 
 
@@ -234,7 +234,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void AddRequest(in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;WorldCommands.EntityQuery.Request&gt; context)</code></p>
+<code>void AddRequest(in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;WorldCommands.EntityQuery.Request&gt; context)</code></p>
 
 
 
@@ -243,7 +243,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code>in <a href="{{urlRoot}}/api/core/command-context">CommandContext</a>&lt;WorldCommands.EntityQuery.Request&gt; context</code> : </li>
+<li><code>in <a href="{{.Site.BaseURL}}/api/core/command-context">CommandContext</a>&lt;WorldCommands.EntityQuery.Request&gt; context</code> : </li>
 </ul>
 
 

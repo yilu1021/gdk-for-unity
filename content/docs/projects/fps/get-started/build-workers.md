@@ -1,6 +1,6 @@
 # Build your workers
 
-As you will be launching a cloud deployment, you need to build out the code executables which will be run by SpatialOS servers - these are called [workers]({{urlRoot}}/reference/glossary#worker).
+As you will be launching a cloud deployment, you need to build out the code executables which will be run by SpatialOS servers - these are called [workers]({{.Site.BaseURL}}/reference/glossary#worker).
 
 <%(#Expandable title="<b>TIP: Speed up local development iteration</b>")%>
 This tutorial takes you through the steps to set up a cloud deployment. However, in a local deployment, you can either build your workers to run locally or run the workers in the Unity Editor. You can run multiple workers in your Unity Editor, so you don't have to keep building out workers during development iteration.
@@ -28,7 +28,7 @@ First, make sure Burst compilation is disabled. From your Unity Editor **Jobs** 
 Now build your workers from the Unity Editor's SpatialOS menu by selecting **SpatialOS** > **Build for cloud** > **All workers**.
   (Shown below.)
   <br/>
-  <br/>![SpatialOS menu in Unity]({{assetRoot}}assets/unity-spatialos-menu.png)
+  <br/>![SpatialOS menu in Unity]({{.Site.BaseURL}}docs/assets/unity-spatialos-menu.png)
   <br/>_The SpatialOS menu in the Unity Editor_
   <br/>
 
@@ -40,7 +40,7 @@ Building workers for the first time may take a while (about 10 minutes). Why not
 
 > **NOTE**: You may get a number of warnings displayed in your Unity Editor Console window. You can ignore the warnings at this stage.
 
-If your build succeeded, you can now [upload and launch your game]({{urlRoot}}/projects/fps/get-started/upload-launch).
+If your build succeeded, you can now [upload and launch your game]({{.Site.BaseURL}}/projects/fps/get-started/upload-launch).
 
 If you got build errors in Unity Editor Console window, check the Common build errors section below.
 
@@ -59,4 +59,4 @@ You can also check our [Known Issues](https://github.com/spatialos/gdk-for-unity
 
 <br/>
 
-#### Next: [Upload and launch your game]({{urlRoot}}/projects/fps/get-started/upload-launch)
+#### Next: [Upload and launch your game]({{.Site.BaseURL}}/projects/fps/get-started/upload-launch)

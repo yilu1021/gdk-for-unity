@@ -8,7 +8,7 @@ The module includes functionality to:
 * Define a query's constraints and which components it should return.
 * Construct query constraints with less boilerplate code.
 
-You can find more information about the underlying APIs provided in our [API reference docs]({{urlRoot}}/api/query-based-interest-index).
+You can find more information about the underlying APIs provided in our [API reference docs]({{.Site.BaseURL}}/api/query-based-interest-index).
 
 ## Installation
 

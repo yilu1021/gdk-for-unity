@@ -2,14 +2,14 @@
 
 # Readers and Writers: Component data and updates
 
-_This document relates to the [MonoBehaviour workflow]({{urlRoot}}/workflows/overview#monobehaviour-centric-workflow)._
+_This document relates to the [MonoBehaviour workflow]({{.Site.BaseURL}}/workflows/overview#monobehaviour-centric-workflow)._
 
 Before reading this document, make sure you are familiar with:
 
-* [Reader and Writer]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/overview)
-* [SpatialOS components]({{urlRoot}}/reference/glossary#spatialos-component)
-* [Read and write access]({{urlRoot}}/reference/glossary#authority)
-* [Schema]({{urlRoot}}/reference/glossary#schema)
+* [Reader and Writer]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/overview)
+* [SpatialOS components]({{.Site.BaseURL}}/reference/glossary#spatialos-component)
+* [Read and write access]({{.Site.BaseURL}}/reference/glossary#authority)
+* [Schema]({{.Site.BaseURL}}/reference/glossary#schema)
 
 We use the following schema for all examples described in this documentation.
 
@@ -23,7 +23,7 @@ component Health {
 }
 ```
 
-The following examples assume that you have a GameObject that is [linked to a SpatialOS entity]({{urlRoot}}/modules/game-object-creation/overview) containing the `Health` component.
+The following examples assume that you have a GameObject that is [linked to a SpatialOS entity]({{.Site.BaseURL}}/modules/game-object-creation/overview) containing the `Health` component.
 
 ## How to read component properties
 

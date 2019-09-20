@@ -16,39 +16,39 @@ GDK package: Mobile<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/android-launch-utils">AndroidLaunchUtils</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/android-launch-utils">AndroidLaunchUtils</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/build-post-process-x-code">BuildPostProcessXCode</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/build-post-process-x-code">BuildPostProcessXCode</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/device-info">DeviceInfo</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/device-info">DeviceInfo</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/i-os-launch-utils">iOSLaunchUtils</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/i-os-launch-utils">iOSLaunchUtils</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/launch-arguments">LaunchArguments</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/launch-arguments">LaunchArguments</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer">MobileConnectionFlowInitializer</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer">MobileConnectionFlowInitializer</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-connection-parameters-initializer">MobileConnectionParametersInitializer</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-parameters-initializer">MobileConnectionParametersInitializer</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-launcher-window">MobileLauncherWindow</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-launcher-window">MobileLauncherWindow</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-launch-utils">MobileLaunchUtils</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-launch-utils">MobileLaunchUtils</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -61,7 +61,7 @@ GDK package: Mobile<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-launch-config">MobileLaunchConfig</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-launch-config">MobileLaunchConfig</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -75,7 +75,7 @@ GDK package: Mobile<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 37ch"><a href="{{urlRoot}}/api/mobile/mobile-device-type">MobileDeviceType</a></td>
+<td style="padding: 14px; border: none; width: 37ch"><a href="{{.Site.BaseURL}}/api/mobile/mobile-device-type">MobileDeviceType</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>

@@ -1,7 +1,7 @@
 
 # IComponentSerializer Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/MessageSerialization.cs/#L22">Source</a>
 <style>
@@ -64,7 +64,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void Serialize(<a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{urlRoot}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages)</code></p>
+<code>void Serialize(<a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages, <a href="{{.Site.BaseURL}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages)</code></p>
 
 
 
@@ -73,8 +73,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/messages-to-send">MessagesToSend</a> messages</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/serialized-messages-to-send">SerializedMessagesToSend</a> serializedMessages</code> : </li>
 </ul>
 
 

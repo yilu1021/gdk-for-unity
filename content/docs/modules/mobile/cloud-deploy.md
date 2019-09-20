@@ -5,14 +5,14 @@
 <%(Callout message="
 Before reading this document, make sure you have read:
 
-* [Setting up Android support for the GDK]({{urlRoot}}/modules/mobile/setup-android)
-* [Setting up iOS support for the GDK]({{urlRoot}}/modules/mobile/setup-ios)
-* [Development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication)
+* [Setting up Android support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-android)
+* [Setting up iOS support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-ios)
+* [Development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication)
 ")%>
 
 To connect your mobile device to a cloud deployment, you need to authenticate with our services.
 
-This guide describes how to authenticate using the [development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication) which we provide for the early stages of game development.
+This guide describes how to authenticate using the [development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication) which we provide for the early stages of game development.
 
 ## Prepare your project to connect to a cloud deployment{#prepare-deployment}
 
@@ -24,7 +24,7 @@ To connect your mobile device to a cloud deployment:
 
 ## Choose how to run your mobile client-worker
 
-See [this page]({{urlRoot}}/modules/mobile/run-client) for more information on the different ways to run your client.
+See [this page]({{.Site.BaseURL}}/modules/mobile/run-client) for more information on the different ways to run your client.
 
 ### Unity Editor or Unity Remote{#in-editor}
 
@@ -44,7 +44,7 @@ See [this page]({{urlRoot}}/modules/mobile/run-client) for more information on t
 
 ### iOS Simulator or iOS device{#ios-device}
 
-> **Note:** You cannot run the [First Person Shooter (FPS) Starter Project]({{urlRoot}}/projects/fps/overview) on the iOS Simulator. This is due to an incompatibility between the [Metal Graphics API](https://developer.apple.com/metal/) used by the project and the iOS Simulator.
+> **Note:** You cannot run the [First Person Shooter (FPS) Starter Project]({{.Site.BaseURL}}/projects/fps/overview) on the iOS Simulator. This is due to an incompatibility between the [Metal Graphics API](https://developer.apple.com/metal/) used by the project and the iOS Simulator.
 
 1. Ensure you have set a valid **Bundle Identifier** for your project. (This can be found in the Player Settings.)
 1. In your Unity Editor, navigate to **SpatialOS** > **Build for cloud**. Select your mobile worker, and wait for the build to complete.

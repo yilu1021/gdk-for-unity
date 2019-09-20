@@ -5,11 +5,11 @@
 <%(Callout message="
 Before reading this document, make sure you are familiar with
 
-  * [ECS component generation]({{urlRoot}}/reference/concepts/code-generation)
-  * [ECS system update order]({{urlRoot}}/workflows/ecs/concepts/system-update-order)
+  * [ECS component generation]({{.Site.BaseURL}}/reference/concepts/code-generation)
+  * [ECS system update order]({{.Site.BaseURL}}/workflows/ecs/concepts/system-update-order)
 ")%>
 
-When a SpatialOS entity is [checked out]({{urlRoot}}/reference/glossary#checking-out), its components are added to the corresponding ECS entity as part of the entity's check out process.
+When a SpatialOS entity is [checked out]({{.Site.BaseURL}}/reference/glossary#checking-out), its components are added to the corresponding ECS entity as part of the entity's check out process.
 
 ### How to read component data
 
@@ -116,7 +116,7 @@ public class ExampleSystem : ComponentSystem
 
 ## How to react to a component update
 
-The `GetComponentUpdatesReceived<T>` method on the [`ComponentUpdateSystem`]({{urlRoot}}/api/core/component-update-system) allows you to retrieve a list of all the component updates, given the type of the update `T`, that have been received since the previous frame.
+The `GetComponentUpdatesReceived<T>` method on the [`ComponentUpdateSystem`]({{.Site.BaseURL}}/api/core/component-update-system) allows you to retrieve a list of all the component updates, given the type of the update `T`, that have been received since the previous frame.
 
 The example below shows how to use this method to handle component updates a worker receives.
 

@@ -1,7 +1,7 @@
 
 # InterestQuery Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/query-based-interest-index">QueryBasedInterest</a><br/>
 GDK package: QueryBasedInterest<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.querybasedinteresthelper/InterestQuery.cs/#L10">Source</a>
 <style>
@@ -50,16 +50,16 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> Query(<a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint)</code></p>
-Creates an <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a>. 
-</p><b>Returns:</b></br>An <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> Query(<a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint)</code></p>
+Creates an <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a>.
+</p><b>Returns:</b></br>An <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> object.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : A <a href="{{urlRoot}}/api/query-based-interest/constraint">Constraint</a> object defining the constraints of the query. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> constraint</code> : A <a href="{{.Site.BaseURL}}/api/query-based-interest/constraint">Constraint</a> object defining the constraints of the query. </li>
 </ul>
 
 
@@ -100,9 +100,9 @@ Creates an <a href="{{urlRoot}}/api/query-based-interest/interest-query">Interes
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> FilterResults(uint resultComponentId, params uint [] resultComponentIds)</code></p>
-Defines what components to return in the query results. 
-</p><b>Returns:</b></br>An updated <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> FilterResults(uint resultComponentId, params uint [] resultComponentIds)</code></p>
+Defines what components to return in the query results.
+</p><b>Returns:</b></br>An updated <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> object.
 
 </p>
 
@@ -138,9 +138,9 @@ Defines what components to return in the query results.
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> FilterResults(IEnumerable&lt;uint&gt; resultComponentIds)</code></p>
-Defines what components to return in the query results. 
-</p><b>Returns:</b></br>An updated <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> object. 
+<code><a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> FilterResults(IEnumerable&lt;uint&gt; resultComponentIds)</code></p>
+Defines what components to return in the query results.
+</p><b>Returns:</b></br>An updated <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> object.
 
 </p>
 
@@ -176,7 +176,7 @@ Defines what components to return in the query results.
     <tr>
         <td colspan="2">
 <code>ComponentInterest.Query AsComponentInterestQuery()</code></p>
-Returns the underlying ComponentInterest.Query object from the <a href="{{urlRoot}}/api/query-based-interest/interest-query">InterestQuery</a> class. 
+Returns the underlying ComponentInterest.Query object from the <a href="{{.Site.BaseURL}}/api/query-based-interest/interest-query">InterestQuery</a> class.
 
 
 

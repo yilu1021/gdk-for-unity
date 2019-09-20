@@ -14,7 +14,7 @@ GDK package: Debug<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 22ch"><a href="{{urlRoot}}/api/debug/mono-behaviour-inspector">MonoBehaviourInspector</a></td>
+<td style="padding: 14px; border: none; width: 22ch"><a href="{{.Site.BaseURL}}/api/debug/mono-behaviour-inspector">MonoBehaviourInspector</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>

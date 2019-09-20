@@ -8,4 +8,4 @@ We are currently not accepting public contributions (but we do plan to in later 
 
 
 ## Coding standards
-See the [SpatialOS GDK for Unity C++ coding standards guide]({{urlRoot}}/contributions/unity-gdk-coding-standards).
+See the [SpatialOS GDK for Unity C++ coding standards guide]({{.Site.BaseURL}}/contributions/unity-gdk-coding-standards).

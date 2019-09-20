@@ -4,29 +4,29 @@
 
 ### New to the GDK?
 
-If you are new to the GDK, the best place to start is with the [Get started]({{urlRoot}}/projects/fps/get-started/get-started) guide. This guides you through setting up SpatialOS with Unity using the FPS Starter Project, which you can use as both a learning tool and a starter for your own game.
+If you are new to the GDK, the best place to start is with the [Get started]({{.Site.BaseURL}}/projects/fps/get-started/get-started) guide. This guides you through setting up SpatialOS with Unity using the FPS Starter Project, which you can use as both a learning tool and a starter for your own game.
 
 ### SpatialOS concepts
 
-If you are new to SpatialOS, you can check out the SpatialOS concept documentation on the SpatialOS [main documentation site](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/concepts/spatialos).
+If you are new to SpatialOS, you can check out the SpatialOS concept documentation on the SpatialOS [main documentation site](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/concepts/spatialos).
 
 ### Where to start with the GDK reference documentation
 
 We recommend you take a look at the following three pages first:
 
-* The introduction to the two workflows: [the MonoBehaviour and ECS Workflows]({{urlRoot}}/workflows/overview).
+* The introduction to the two workflows: [the MonoBehaviour and ECS Workflows]({{.Site.BaseURL}}/workflows/overview).
 
 You can choose to work with either the traditional Unity MonoBehaviour approach or the new Unity Entity Component System (ECS) approach.
 
-* The background document on [workers in the GDK]({{urlRoot}}/reference/concepts/worker).
+* The background document on [workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker).
 
-* The guide on [how to create SpatialOS entity templates]({{urlRoot}}/reference/concepts/entity-templates).
+* The guide on [how to create SpatialOS entity templates]({{.Site.BaseURL}}/reference/concepts/entity-templates).
 
 ### Workflows
 
 #### MonoBehaviour
 
-If you are using the MonoBehaviour workflow, you should look at [the GameObject Creation Feature Module]({{urlRoot}}/modules/game-object-creation/overview) documentation to learn how to link GameObjects to SpatialOS entities.
+If you are using the MonoBehaviour workflow, you should look at [the GameObject Creation Feature Module]({{.Site.BaseURL}}/modules/game-object-creation/overview) documentation to learn how to link GameObjects to SpatialOS entities.
 
 #### ECS
 

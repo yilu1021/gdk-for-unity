@@ -1,7 +1,7 @@
 
 # NetStats Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/network-stats-index">NetworkStats</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/network-stats-index">NetworkStats</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/NetworkStats/NetStats.cs/#L12">Source</a>
 <style>
@@ -31,7 +31,7 @@ code {
 
 <b>Notes</b>
 
-- The underlying data is stored in a ring buffer. 
+- The underlying data is stored in a ring buffer.
 
 
 
@@ -55,7 +55,7 @@ code {
     <tr>
         <td colspan="2">
 <code>  DataPoint</code></p>
-Retrieves summary statistics for a given message type for the last numFrames frames. 
+Retrieves summary statistics for a given message type for the last numFrames frames.
 
 </td>
     </tr>
@@ -85,7 +85,7 @@ Retrieves summary statistics for a given message type for the last numFrames fra
     <tr>
         <td colspan="2">
 <code> NetStats(int sequenceLength)</code></p>
-Creates an instance of network stats storage with a specific size. 
+Creates an instance of network stats storage with a specific size.
 
 
 </p>
@@ -124,8 +124,8 @@ Creates an instance of network stats storage with a specific size.
     </tr>
     <tr>
         <td colspan="2">
-<code>void SetFrameStats(<a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameData, <a href="{{urlRoot}}/api/core/network-stats/direction">Direction</a> direction)</code></p>
-Sets the network statistics for a given direction for the current frame. 
+<code>void SetFrameStats(<a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameData, <a href="{{.Site.BaseURL}}/api/core/network-stats/direction">Direction</a> direction)</code></p>
+Sets the network statistics for a given direction for the current frame.
 
 
 </p>
@@ -133,8 +133,8 @@ Sets the network statistics for a given direction for the current frame.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameData</code> : The network statistics.</li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/direction">Direction</a> direction</code> : The direction of those statistics.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameData</code> : The network statistics.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/direction">Direction</a> direction</code> : The direction of those statistics.</li>
 </ul>
 
 
@@ -154,7 +154,7 @@ Sets the network statistics for a given direction for the current frame.
     <tr>
         <td colspan="2">
 <code>void SetFrameTime(float dt)</code></p>
-Sets the frame time for the current frame. 
+Sets the frame time for the current frame.
 
 
 </p>
@@ -182,7 +182,7 @@ Sets the frame time for the current frame.
     <tr>
         <td colspan="2">
 <code>void FinishFrame()</code></p>
-Finalize data capture for this frame. 
+Finalize data capture for this frame.
 
 
 

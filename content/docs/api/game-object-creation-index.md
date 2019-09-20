@@ -16,15 +16,15 @@ GDK package: GameObjectCreation<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/game-object-creation/game-object-creation-helper">GameObjectCreationHelper</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/game-object-creation/game-object-creation-helper">GameObjectCreationHelper</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/game-object-creation/game-object-creator-from-metadata">GameObjectCreatorFromMetadata</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/game-object-creation/game-object-creator-from-metadata">GameObjectCreatorFromMetadata</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/game-object-creation/game-object-initialization-group">GameObjectInitializationGroup</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/game-object-creation/game-object-initialization-group">GameObjectInitializationGroup</a></td>
 <td style="padding: 14px; border: none;"></td>
 </tr>
 </table>
@@ -37,7 +37,7 @@ GDK package: GameObjectCreation<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/game-object-creation/spatial-os-entity">SpatialOSEntity</a></td>
 <td style="padding: 14px; border: none;">Used to easily retrieve information about a SpatialOS Entity instance from a Unity ECS Entity instance. </td>
 </tr>
 </table>
@@ -50,7 +50,7 @@ GDK package: GameObjectCreation<br />
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 29ch"><a href="{{urlRoot}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a></td>
+<td style="padding: 14px; border: none; width: 29ch"><a href="{{.Site.BaseURL}}/api/game-object-creation/i-entity-game-object-creator">IEntityGameObjectCreator</a></td>
 <td style="padding: 14px; border: none;">Interface for listening for SpatialOS Entity creation to be used for binding GameObjects. Implementing classes can be passed to GameObjectCreationSystemHelper in order to be called. </td>
 </tr>
 </table>

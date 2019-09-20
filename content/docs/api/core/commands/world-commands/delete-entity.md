@@ -1,7 +1,7 @@
 
 # DeleteEntity Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/commands-index">Commands</a>.<a href="{{urlRoot}}/api/core/commands/world-commands">WorldCommands</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/commands-index">Commands</a>.<a href="{{.Site.BaseURL}}/api/core/commands/world-commands">WorldCommands</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Commands/WorldCommands/DeleteEntity.cs/#L15">Source</a>
 <style>
@@ -25,11 +25,11 @@ code {
 
 <table>
 <tr>
-<td style="padding: 14px; border: none; width: 16ch"><a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/received-response">ReceivedResponse</a></td>
+<td style="padding: 14px; border: none; width: 16ch"><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/received-response">ReceivedResponse</a></td>
 <td style="padding: 14px; border: none;">An object that is the response of a DeleteEntity command from the SpatialOS runtime. </td>
 </tr>
 <tr>
-<td style="padding: 14px; border: none; width: 16ch"><a href="{{urlRoot}}/api/core/commands/world-commands/delete-entity/request">Request</a></td>
+<td style="padding: 14px; border: none; width: 16ch"><a href="{{.Site.BaseURL}}/api/core/commands/world-commands/delete-entity/request">Request</a></td>
 <td style="padding: 14px; border: none;">An object that is a DeleteEntity command request. </td>
 </tr>
 </table>

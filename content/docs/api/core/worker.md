@@ -1,7 +1,7 @@
 
 # Worker Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Worker/Worker.cs/#L13">Source</a>
 <style>
@@ -56,7 +56,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly string WorkerType</code></p>
-The type of the worker. 
+The type of the worker.
 
 </td>
     </tr>
@@ -71,7 +71,7 @@ The type of the worker.
     <tr>
         <td colspan="2">
 <code> readonly string WorkerId</code></p>
-The worker ID. 
+The worker ID.
 
 </p>
 
@@ -95,7 +95,7 @@ The worker ID.
     <tr>
         <td colspan="2">
 <code> readonly List&lt;string&gt; Attributes</code></p>
-The worker attribute list 
+The worker attribute list
 
 </td>
     </tr>
@@ -109,8 +109,8 @@ The worker attribute list
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> LogDispatcher</code></p>
-The logger for this worker. 
+<code> <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> LogDispatcher</code></p>
+The logger for this worker.
 
 </td>
     </tr>
@@ -125,7 +125,7 @@ The logger for this worker.
     <tr>
         <td colspan="2">
 <code> bool IsConnected</code></p>
-Denotes whether this worker is connected or not. 
+Denotes whether this worker is connected or not.
 
 </td>
     </tr>
@@ -139,7 +139,7 @@ Denotes whether this worker is connected or not.
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> ConnectionHandler</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> ConnectionHandler</code></p>
 
 
 </td>
@@ -168,8 +168,8 @@ Denotes whether this worker is connected or not.
     </tr>
     <tr>
         <td colspan="2">
-<code>async Task&lt;<a href="{{urlRoot}}/api/core/worker">Worker</a>&gt; CreateWorkerAsync(<a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder, string workerType, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, CancellationToken? token = null)</code></p>
-Creates a <a href="{{urlRoot}}/api/core/worker">Worker</a> object asynchronously. 
+<code>async Task&lt;<a href="{{.Site.BaseURL}}/api/core/worker">Worker</a>&gt; CreateWorkerAsync(<a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder, string workerType, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher, CancellationToken? token = null)</code></p>
+Creates a <a href="{{.Site.BaseURL}}/api/core/worker">Worker</a> object asynchronously.
 </p><b>Returns:</b></br>A task which represents the asynchronous creation of a worker.
 
 </p>
@@ -177,9 +177,9 @@ Creates a <a href="{{urlRoot}}/api/core/worker">Worker</a> object asynchronously
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder</code> : A builder which describes how to create the <a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler-builder">IConnectionHandlerBuilder</a> connectionHandlerBuilder</code> : A builder which describes how to create the <a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> for this worker. </li>
 <li><code>string workerType</code> : The type of worker to connect as.</li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : The logger to use for this worker.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : The logger to use for this worker.</li>
 <li><code>CancellationToken? token</code> : A cancellation token which will cancel this asynchronous operation</li>
 </ul>
 
@@ -211,7 +211,7 @@ Creates a <a href="{{urlRoot}}/api/core/worker">Worker</a> object asynchronously
     </tr>
     <tr>
         <td colspan="2">
-<code> Worker(<a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler, string workerType, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher)</code></p>
+<code> Worker(<a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler, string workerType, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher)</code></p>
 
 
 
@@ -220,9 +220,9 @@ Creates a <a href="{{urlRoot}}/api/core/worker">Worker</a> object asynchronously
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-connection-handler">IConnectionHandler</a> connectionHandler</code> : </li>
 <li><code>string workerType</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
 </ul>
 
 
@@ -254,7 +254,7 @@ Creates a <a href="{{urlRoot}}/api/core/worker">Worker</a> object asynchronously
     <tr>
         <td colspan="2">
 <code>void Tick()</code></p>
-Ticks the worker. Fetches all messages received since the last Tick call and applies the diff. 
+Ticks the worker. Fetches all messages received since the last Tick call and applies the diff.
 
 
 
@@ -272,7 +272,7 @@ Ticks the worker. Fetches all messages received since the last Tick call and app
     </tr>
     <tr>
         <td colspan="2">
-<code>void EnsureMessagesFlushed(<a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
+<code>void EnsureMessagesFlushed(<a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats)</code></p>
 
 
 
@@ -281,7 +281,7 @@ Ticks the worker. Fetches all messages received since the last Tick call and app
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/net-frame-stats">NetFrameStats</a> frameStats</code> : </li>
 </ul>
 
 
@@ -300,8 +300,8 @@ Ticks the worker. Fetches all messages received since the last Tick call and app
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendLogMessage(LogLevel logLevel, string message, string loggerName, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId)</code></p>
-Sends a log message to SpatialOS from this worker. 
+<code>void SendLogMessage(LogLevel logLevel, string message, string loggerName, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId)</code></p>
+Sends a log message to SpatialOS from this worker.
 
 
 </p>
@@ -312,7 +312,7 @@ Sends a log message to SpatialOS from this worker.
 <li><code>LogLevel logLevel</code> : The log verbosity level.</li>
 <li><code>string message</code> : The log message.</li>
 <li><code>string loggerName</code> : A name for the sender of the log.</li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId</code> : The <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> to associate with the log message. Set to null for no <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId</code> : The <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> to associate with the log message. Set to null for no <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>. </li>
 </ul>
 
 
@@ -332,7 +332,7 @@ Sends a log message to SpatialOS from this worker.
     <tr>
         <td colspan="2">
 <code>string GetWorkerFlag(string key)</code></p>
-Gets the value for a given worker flag. 
+Gets the value for a given worker flag.
 </p><b>Returns:</b></br>The value of the flag, if it exists, null otherwise.
 
 </p>

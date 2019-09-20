@@ -1,7 +1,7 @@
 
 # LoggingUtils Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Logging/LoggingUtils.cs/#L5">Source</a>
 <style>
@@ -100,7 +100,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>? <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> ExtractEntityId(Dictionary&lt;string, object&gt; data)</code></p>
+<code>? <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> ExtractEntityId(Dictionary&lt;string, object&gt; data)</code></p>
 
 
 

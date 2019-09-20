@@ -1,7 +1,7 @@
 
 # BuildEnvironment Enum
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/build-system-index">BuildSystem</a>.<a href="{{urlRoot}}/api/build-system/configuration-index">Configuration</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/build-system-index">BuildSystem</a>.<a href="{{.Site.BaseURL}}/api/build-system/configuration-index">Configuration</a><br/>
 GDK package: BuildSystem<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.buildsystem/Configuration/BuildEnvironment.cs/#L6">Source</a>
 </sup>
@@ -10,7 +10,7 @@ GDK package: BuildSystem<br/>
 
 
 
-Represents a group of build targets and settings. 
+Represents a group of build targets and settings.
 
 
 

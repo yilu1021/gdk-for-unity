@@ -1,7 +1,7 @@
 
 # SpatialOSEntity Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/game-object-creation-index">GameObjectCreation</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/game-object-creation-index">GameObjectCreation</a><br/>
 GDK package: GameObjectCreation<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.gameobjectcreation/SpatialOSEntity.cs/#L10">Source</a>
 <style>
@@ -47,7 +47,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> readonly <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> SpatialOSEntityId</code></p>
+<code> readonly <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> SpatialOSEntityId</code></p>
 
 
 </td>
@@ -79,7 +79,7 @@ code {
     <tr>
         <td colspan="2">
 <code>bool HasComponent&lt;T&gt;()</code></p>
-Checks if this entity has a component of type T 
+Checks if this entity has a component of type T
 </p><b>Returns:</b></br>True, if the entity has the component; false otherwise.
 
 
@@ -107,7 +107,7 @@ Checks if this entity has a component of type T
     <tr>
         <td colspan="2">
 <code>T GetComponent&lt;T&gt;()</code></p>
-Gets a component of type T attached to this entity. 
+Gets a component of type T attached to this entity.
 </p><b>Returns:</b></br>The component T attached to this entity.
 
 
@@ -144,7 +144,7 @@ Gets a component of type T attached to this entity.
     <tr>
         <td colspan="2">
 <code>bool TryGetComponent&lt;T&gt;(out T component)</code></p>
-Attempts to get a component of type T attached to this entity. 
+Attempts to get a component of type T attached to this entity.
 </p><b>Returns:</b></br>True, if the entity has the component; false otherwise.
 
 </p>

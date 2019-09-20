@@ -2,13 +2,13 @@
 
 # Project setup
 
-_Make sure you have followed the [Setup & installation]({{urlRoot}}/machine-setup) before following this guide._
+_Make sure you have followed the [Setup & installation]({{.Site.BaseURL}}/machine-setup) before following this guide._
 
 <br/>
 
 To use the SpatialOS GDK for Unity in a new project, you need to:
 
-1. Setup the [SpatialOS project structure](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/project-layout/files-and-directories).
+1. Setup the [SpatialOS project structure](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/project-layout/files-and-directories).
 1. Add the GDK packages to your Unity project.
 
 ## Setup a SpatialOS project
@@ -215,7 +215,7 @@ Copy this file into `workers/my-unity-project/Assets/Config/GdkToolsConfiguratio
 
 Open your Unity project located at `workers/my-unity-project`. This triggers code generation for your project.
 
-> **Note:** Unity generates code from the [schema]({{urlRoot}}/reference/glossary#schema) files defined in your SpatialOS project.
+> **Note:** Unity generates code from the [schema]({{.Site.BaseURL}}/reference/glossary#schema) files defined in your SpatialOS project.
 
 <br/>
 

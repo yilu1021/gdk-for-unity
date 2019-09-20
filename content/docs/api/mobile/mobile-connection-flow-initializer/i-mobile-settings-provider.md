@@ -1,7 +1,7 @@
 
 # IMobileSettingsProvider Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/mobile-index">Mobile</a>.<a href="{{urlRoot}}/api/mobile/mobile-connection-flow-initializer">MobileConnectionFlowInitializer</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/mobile-index">Mobile</a>.<a href="{{.Site.BaseURL}}/api/mobile/mobile-connection-flow-initializer">MobileConnectionFlowInitializer</a><br/>
 GDK package: Mobile<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.mobile/Utility/MobileConnectionFlowInitializer.cs/#L50">Source</a>
 <style>
@@ -45,7 +45,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;string&gt; GetReceptionistHostIp()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;string&gt; GetReceptionistHostIp()</code></p>
 
 
 
@@ -64,7 +64,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;string&gt; GetDevAuthToken()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;string&gt; GetDevAuthToken()</code></p>
 
 
 
@@ -83,7 +83,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/option">Option</a>&lt;<a href="{{urlRoot}}/api/core/connection-service">ConnectionService</a>&gt; GetConnectionService()</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/option">Option</a>&lt;<a href="{{.Site.BaseURL}}/api/core/connection-service">ConnectionService</a>&gt; GetConnectionService()</code></p>
 
 
 

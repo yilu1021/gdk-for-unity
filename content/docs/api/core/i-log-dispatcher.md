@@ -1,7 +1,7 @@
 
 # ILogDispatcher Interface
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Logging/ILogDispatcher.cs/#L11">Source</a>
 <style>
@@ -21,7 +21,7 @@ code {
 
 
 
-<p>The <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> interface is used to implement different types of loggers. By default, the <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> supports structured logging. </p>
+<p>The <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> interface is used to implement different types of loggers. By default, the <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> supports structured logging. </p>
 
 
 
@@ -55,8 +55,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/worker">Worker</a> Worker { get; set; }</code></p>
-The associated GDK <a href="{{urlRoot}}/api/core/worker">Worker</a>. 
+<code> <a href="{{.Site.BaseURL}}/api/core/worker">Worker</a> Worker { get; set; }</code></p>
+The associated GDK <a href="{{.Site.BaseURL}}/api/core/worker">Worker</a>.
 
 
 </td>
@@ -72,7 +72,7 @@ The associated GDK <a href="{{urlRoot}}/api/core/worker">Worker</a>.
     <tr>
         <td colspan="2">
 <code> string WorkerType { get; set; }</code></p>
-The worker type associated with this logger. 
+The worker type associated with this logger.
 
 
 </td>
@@ -101,7 +101,7 @@ The worker type associated with this logger.
     </tr>
     <tr>
         <td colspan="2">
-<code>void HandleLog(LogType type, <a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
+<code>void HandleLog(LogType type, <a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent)</code></p>
 
 
 
@@ -111,7 +111,7 @@ The worker type associated with this logger.
 
 <ul>
 <li><code>LogType type</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/log-event">LogEvent</a> logEvent</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/log-event">LogEvent</a> logEvent</code> : </li>
 </ul>
 
 

@@ -59,7 +59,7 @@ The `CompressedQuaternion` schema type utilises 2 bits to define the index of th
 
 ## How do my entities' transform get synchronized
 
-The behaviour of the Transform Synchronization Feature Modules differs depending on whether your worker-instance is authoritative over the `TransformInternal` _and_ `Position` components. This behaviour can be adjusted with [transform synchronization strategies]({{urlRoot}}/modules/transform-sync/strategies), but broadly goes as follows:
+The behaviour of the Transform Synchronization Feature Modules differs depending on whether your worker-instance is authoritative over the `TransformInternal` _and_ `Position` components. This behaviour can be adjusted with [transform synchronization strategies]({{.Site.BaseURL}}/modules/transform-sync/strategies), but broadly goes as follows:
 
 ##### On authoritative worker-instances
 

@@ -8,13 +8,13 @@ Open the Deployment Launcher window by selecting **SpatialOS** > **Deployment La
 
 The section of the Deployment Launcher window that you use to upload assemblies can be found under the **Assembly Upload** label:
 
-<img src="{{assetRoot}}assets/modules/deployment-launcher/assembly-upload.png" style="margin: 0 auto; width: auto; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/modules/deployment-launcher/assembly-upload.png" style="margin: 0 auto; width: auto; display: block;" />
 
 <%(#Expandable title="Fields")%>
 
 | Field | Description |
 | --- | --- |
-| Assembly Name | This is an identifier for the assembly you will upload.<br/><br/>You can use this to reference an assembly when launching a deployment or to find the assembly in the [SpatialOS Console](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/glossary#console). |
+| Assembly Name | This is an identifier for the assembly you will upload.<br/><br/>You can use this to reference an assembly when launching a deployment or to find the assembly in the [SpatialOS Console](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/glossary#console). |
 | Force Upload | Denotes whether to force upload this assembly.<br/><br/>If this is checked, an assembly that previously was uploaded with the same assembly name will be overwritten. |
 
 <%(/Expandable)%>
@@ -24,7 +24,7 @@ The section of the Deployment Launcher window that you use to upload assemblies 
 | Button name | Description |
 | --- | --- |
 | Generate | When pressed, this generates an **Assembly Name** for you based on your SpatialOS project name and a timestamp. |
-| Assign assembly name to deployments | When pressed, this copies the current value of **Assembly Name** to _all_ deployments you have configured as described in the [next section]({{urlRoot}}/modules/deployment-launcher/launch-deployments). |
+| Assign assembly name to deployments | When pressed, this copies the current value of **Assembly Name** to _all_ deployments you have configured as described in the [next section]({{.Site.BaseURL}}/modules/deployment-launcher/launch-deployments). |
 | Upload assembly | When pressed, this initiates the assembly upload process. |
 
 <%(/Expandable)%>

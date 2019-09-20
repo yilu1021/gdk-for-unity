@@ -1,7 +1,7 @@
 
 # DeviceInfo Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/mobile-index">Mobile</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/mobile-index">Mobile</a><br/>
 GDK package: Mobile<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.mobile/Utility/DeviceInfo.cs/#L6">Source</a>
 <style>
@@ -40,7 +40,7 @@ code {
     <tr>
         <td colspan="2">
 <code>const string AndroidEmulatorDefaultCallbackIp = &quot;10.0.2.2&quot;</code></p>
-The default IP address to connect your Android Studio emulator to localhost. 
+The default IP address to connect your Android Studio emulator to localhost.
 
 </td>
     </tr>
@@ -68,7 +68,7 @@ The default IP address to connect your Android Studio emulator to localhost.
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/mobile/mobile-device-type">MobileDeviceType</a> ActiveDeviceType { get; }</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/mobile/mobile-device-type">MobileDeviceType</a> ActiveDeviceType { get; }</code></p>
 
 
 

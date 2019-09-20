@@ -1,7 +1,7 @@
 
 # View Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/View/View.cs/#L8">Source</a>
 <style>
@@ -76,7 +76,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void UpdateComponent&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, in T update)</code></p>
+<code>void UpdateComponent&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, in T update)</code></p>
 
 
 
@@ -85,7 +85,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>in T update</code> : </li>
 </ul>
 
@@ -105,7 +105,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>HashSet&lt;<a href="{{urlRoot}}/api/core/entity-id">EntityId</a>&gt; GetEntityIds()</code></p>
+<code>HashSet&lt;<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>&gt; GetEntityIds()</code></p>
 
 
 
@@ -124,7 +124,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool HasEntity(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>bool HasEntity(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -133,7 +133,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -152,7 +152,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>T GetComponent&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>T GetComponent&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -161,7 +161,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -180,7 +180,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool HasComponent&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>bool HasComponent&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -189,7 +189,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -208,7 +208,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool HasComponent(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code>bool HasComponent(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -217,7 +217,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 
@@ -237,7 +237,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>Authority GetAuthority&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>Authority GetAuthority&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -246,7 +246,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -265,7 +265,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>Authority GetAuthority(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code>Authority GetAuthority(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -274,7 +274,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 
@@ -294,7 +294,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool IsAuthoritative&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+<code>bool IsAuthoritative&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
 
 
 
@@ -303,7 +303,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 </ul>
 
 
@@ -322,7 +322,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool IsAuthoritative(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
+<code>bool IsAuthoritative(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, uint componentId)</code></p>
 
 
 
@@ -331,7 +331,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : </li>
 <li><code>uint componentId</code> : </li>
 </ul>
 

@@ -1,7 +1,7 @@
 
 # LocalDeployment Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/test-utils-index">TestUtils</a>.<a href="{{urlRoot}}/api/test-utils/editor-index">Editor</a>.<a href="{{urlRoot}}/api/test-utils/editor/spatiald-manager">SpatialdManager</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/test-utils-index">TestUtils</a>.<a href="{{.Site.BaseURL}}/api/test-utils/editor-index">Editor</a>.<a href="{{.Site.BaseURL}}/api/test-utils/editor/spatiald-manager">SpatialdManager</a><br/>
 GDK package: TestUtils<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.testutils/Editor/SpatialdManager.cs/#L240">Source</a>
 <style>
@@ -54,7 +54,7 @@ code {
     <tr>
         <td colspan="2">
 <code> readonly string Id</code></p>
-The ID of this deployment. 
+The ID of this deployment.
 
 </td>
     </tr>
@@ -69,7 +69,7 @@ The ID of this deployment.
     <tr>
         <td colspan="2">
 <code> readonly string Name</code></p>
-The name of this deployment. 
+The name of this deployment.
 
 </td>
     </tr>
@@ -84,7 +84,7 @@ The name of this deployment.
     <tr>
         <td colspan="2">
 <code> readonly string ProjectName</code></p>
-The project that this deployment belongs to. 
+The project that this deployment belongs to.
 
 </td>
     </tr>
@@ -99,7 +99,7 @@ The project that this deployment belongs to.
     <tr>
         <td colspan="2">
 <code> readonly List&lt;string&gt; Tags</code></p>
-The tags that are present on this deployment. 
+The tags that are present on this deployment.
 
 </td>
     </tr>
@@ -130,7 +130,7 @@ The tags that are present on this deployment.
     <tr>
         <td colspan="2">
 <code>async Task AddDevLoginTag()</code></p>
-Adds the "dev_login" tag to this deployment asynchronously. 
+Adds the "dev_login" tag to this deployment asynchronously.
 </p><b>Returns:</b></br>A task which represents the underlying operation to add the tag.
 
 

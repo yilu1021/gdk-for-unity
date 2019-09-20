@@ -1,7 +1,7 @@
 
 # SubscriptionSystem Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/Systems/SubscriptionSystem.cs/#L10">Source</a>
 <style>
@@ -52,7 +52,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>void RegisterSubscriptionManager(Type type, <a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager)</code></p>
+<code>void RegisterSubscriptionManager(Type type, <a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager)</code></p>
 
 
 
@@ -62,7 +62,7 @@ code {
 
 <ul>
 <li><code>Type type</code> : </li>
-<li><code><a href="{{urlRoot}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription-manager-base">SubscriptionManagerBase</a> manager</code> : </li>
 </ul>
 
 
@@ -81,7 +81,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/subscriptions/subscription">Subscription</a>&lt;T&gt; Subscribe&lt;T&gt;(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entity)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/subscriptions/subscription">Subscription</a>&lt;T&gt; Subscribe&lt;T&gt;(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entity)</code></p>
 
 
 
@@ -90,7 +90,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entity</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entity</code> : </li>
 </ul>
 
 
@@ -109,7 +109,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/subscriptions/i-subscription">ISubscription</a> Subscribe(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entity, Type type)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/subscriptions/i-subscription">ISubscription</a> Subscribe(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entity, Type type)</code></p>
 
 
 
@@ -118,7 +118,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entity</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entity</code> : </li>
 <li><code>Type type</code> : </li>
 </ul>
 

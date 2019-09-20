@@ -1,7 +1,7 @@
 
 # WorkerSystem Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Systems/WorkerSystem.cs/#L14">Source</a>
 <style>
@@ -56,7 +56,7 @@ code {
     <tr>
         <td colspan="2">
 <code> Entity WorkerEntity</code></p>
-An ECS entity that represents the <a href="{{urlRoot}}/api/core/worker">Worker</a>. 
+An ECS entity that represents the <a href="{{.Site.BaseURL}}/api/core/worker">Worker</a>.
 
 </td>
     </tr>
@@ -70,7 +70,7 @@ An ECS entity that represents the <a href="{{urlRoot}}/api/core/worker">Worker</
     </tr>
     <tr>
         <td colspan="2">
-<code> readonly <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> LogDispatcher</code></p>
+<code> readonly <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> LogDispatcher</code></p>
 
 
 </td>
@@ -145,7 +145,7 @@ An ECS entity that represents the <a href="{{urlRoot}}/api/core/worker">Worker</
     </tr>
     <tr>
         <td colspan="2">
-<code> WorkerSystem(<a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> worker)</code></p>
+<code> WorkerSystem(<a href="{{.Site.BaseURL}}/api/core/worker-in-world">WorkerInWorld</a> worker)</code></p>
 
 
 
@@ -154,7 +154,7 @@ An ECS entity that represents the <a href="{{urlRoot}}/api/core/worker">Worker</
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/worker-in-world">WorkerInWorld</a> worker</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/worker-in-world">WorkerInWorld</a> worker</code> : </li>
 </ul>
 
 
@@ -185,16 +185,16 @@ An ECS entity that represents the <a href="{{urlRoot}}/api/core/worker">Worker</
     </tr>
     <tr>
         <td colspan="2">
-<code>bool TryGetEntity(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, out Entity entity)</code></p>
-Attempts to find an ECS entity associated with a SpatialOS entity ID. 
-</p><b>Returns:</b></br>True, if an ECS entity associated with the SpatialOS entity ID was found, false otherwise. 
+<code>bool TryGetEntity(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, out Entity entity)</code></p>
+Attempts to find an ECS entity associated with a SpatialOS entity ID.
+</p><b>Returns:</b></br>True, if an ECS entity associated with the SpatialOS entity ID was found, false otherwise.
 
 </p>
 
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : The SpatialOS entity ID.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : The SpatialOS entity ID.</li>
 <li><code>out Entity entity</code> : When this method returns, contains the ECS entity associated with the SpatialOS entity ID if one was found, else the default value for Entity. </li>
 </ul>
 
@@ -214,8 +214,8 @@ Attempts to find an ECS entity associated with a SpatialOS entity ID.
     </tr>
     <tr>
         <td colspan="2">
-<code>bool HasEntity(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
-Checks whether a SpatialOS entity is checked out on this worker. 
+<code>bool HasEntity(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+Checks whether a SpatialOS entity is checked out on this worker.
 </p><b>Returns:</b></br>True, if the SpatialOS entity is checked out on this worker, false otherwise.
 
 </p>
@@ -223,7 +223,7 @@ Checks whether a SpatialOS entity is checked out on this worker.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : The SpatialOS entity ID to check for.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : The SpatialOS entity ID to check for.</li>
 </ul>
 
 
@@ -242,7 +242,7 @@ Checks whether a SpatialOS entity is checked out on this worker.
     </tr>
     <tr>
         <td colspan="2">
-<code>void SendLogMessage(string message, string loggerName, LogLevel logLevel, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId)</code></p>
+<code>void SendLogMessage(string message, string loggerName, LogLevel logLevel, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId)</code></p>
 
 
 
@@ -254,7 +254,7 @@ Checks whether a SpatialOS entity is checked out on this worker.
 <li><code>string message</code> : </li>
 <li><code>string loggerName</code> : </li>
 <li><code>LogLevel logLevel</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId</code> : </li>
 </ul>
 
 

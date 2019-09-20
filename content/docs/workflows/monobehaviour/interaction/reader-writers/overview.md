@@ -2,13 +2,13 @@
 
 # Oerview
 
-_This document relates to the [MonoBehaviour workflow]({{urlRoot}}/workflows/overview#monobehaviour-centric-workflow)._
+_This document relates to the [MonoBehaviour workflow]({{.Site.BaseURL}}/workflows/overview#monobehaviour-centric-workflow)._
 
 Before reading this document, make sure you are familiar with:
 
-* [Workers]({{urlRoot}}/reference/concepts/worker)
-* (Optional) [SpatialOS schema]({{urlRoot}}/reference/glossary#schema).
-* (Optional) [Read and write access]({{urlRoot}}/reference/glossary#authority)
+* [Workers]({{.Site.BaseURL}}/reference/concepts/worker)
+* (Optional) [SpatialOS schema]({{.Site.BaseURL}}/reference/glossary#schema).
+* (Optional) [Read and write access]({{.Site.BaseURL}}/reference/glossary#authority)
 
 Readers and Writers allow you to inspect and change the state of SpatialOS components using MonoBehaviours by letting you perform the following actions:
 
@@ -24,7 +24,7 @@ Readers and Writers allow you to inspect and change the state of SpatialOS compo
 
 * Change the property values of a SpatialOS component.
 * Send events defined in a SpatialOS component.
-* Send acknowledgements for [`AuthorityLossImminent` notifications](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/handing-over-authority#enabling-and-configuring-authoritylossimminent-notifications).
+* Send acknowledgements for [`AuthorityLossImminent` notifications](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/handing-over-authority#enabling-and-configuring-authoritylossimminent-notifications).
 * All the functionality that a Reader provides.
 
 > Note that a writer will only receive authority state change callbacks for `AuthorityLossImminent`.
@@ -34,16 +34,16 @@ For every SpatialOS component defined in schema, the GDK generates a Reader and 
   * `<namespace of schema component>.<component name>Reader`
   * `<namespace of schema component>.<component name>Writer`
 
-You can use Readers and Writers by declaring a field in your MonoBehaviour and decorating it with the `[Require]` attribute (See documentation on [interacting with SpatialOS using MonoBehaviours)]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/lifecycle). The GDK automatically injects these fields with their corresponding Readers and Writers, if the following requirements are fulfilled:
+You can use Readers and Writers by declaring a field in your MonoBehaviour and decorating it with the `[Require]` attribute (See documentation on [interacting with SpatialOS using MonoBehaviours)]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/lifecycle). The GDK automatically injects these fields with their corresponding Readers and Writers, if the following requirements are fulfilled:
 
   * A reader for a specific component can be injected as long as the worker has read access over this component.
   * A writer for a specific component can only be injected, if the worker has write access over this component.
 
 You can find out more about how to work with Readers and Writers in:
 
-  * [How to interact with SpatialOS using MonoBehaviours]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/lifecycle)
-  * [How to read, update and react to changes]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/component-data-updates)
-  * [How to send and receive events]({{urlRoot}}/workflows/monobehaviour/interaction/reader-writers/events)
+  * [How to interact with SpatialOS using MonoBehaviours]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/lifecycle)
+  * [How to read, update and react to changes]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/component-data-updates)
+  * [How to send and receive events]({{.Site.BaseURL}}/workflows/monobehaviour/interaction/reader-writers/events)
 
 ## Reader API
 
@@ -57,7 +57,7 @@ For the following API, let:
 | Field         	| Type               	| Description                	|
 |-------------------|------------------------|--------------------------------|
 | Data  	| `TComponentData`              	| The data stored inside the component that this Reader is associated with. |
-| Authority | `Authority` | The [authority]({{urlRoot}}/reference/glossary#authority) status of the current worker of the component that this Reader is associated with. |
+| Authority | `Authority` | The [authority]({{.Site.BaseURL}}/reference/glossary#authority) status of the current worker of the component that this Reader is associated with. |
 
 **Events:**
 ```csharp
@@ -117,7 +117,7 @@ For the following API, let:
 ```csharp
 void SendUpdate(TComponentUpdate update);
 ```
-Allows you to send a component update to the [SpatialOS Runtime]({{urlRoot}}/reference/glossary#spatialos-runtime).
+Allows you to send a component update to the [SpatialOS Runtime]({{.Site.BaseURL}}/reference/glossary#spatialos-runtime).
 
 Parameters:
 
@@ -136,4 +136,4 @@ Parameters:
 ```csharp
 void AcknowledgeAuthorityLoss();
 ```
-Allows you to send acknowledgements for [`AuthorityLossImminent` notifications](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/design/handing-over-authority#enabling-and-configuring-authoritylossimminent-notifications).
+Allows you to send acknowledgements for [`AuthorityLossImminent` notifications](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/design/handing-over-authority#enabling-and-configuring-authoritylossimminent-notifications).

@@ -26,7 +26,7 @@ The `WorkerConnector` class contains a `HandleWorkerConnectionFailure` method, w
 
 <%(/Expandable)%>
 
-For more information, see the documentation on [worker connectors]({{urlRoot}}/workflows/monobehaviour/worker-connectors).
+For more information, see the documentation on [worker connectors]({{.Site.BaseURL}}/workflows/monobehaviour/worker-connectors).
 
 ## Update the worker connectors
 
@@ -237,7 +237,7 @@ Create a `Common` folder within the `Assets/Resources/Prefabs` directory of your
 
 Right-click in your scene and select **3D Object** > **Plane** to create a plane. Set the plane's scale to (10, 1, 10) and position to (0, 0, 0). Drag it into the `Assets/Resources/Prefabs/Common` folder. This will be our level, so rename it to “Level”.
 
-<%(#Lightbox image="{{assetRoot}}assets/blank/tutorial/2/level-prefab-inspector.png")%>
+<%(#Lightbox image="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/level-prefab-inspector.png")%>
 <%(/Lightbox)%>
 
 Once the Level prefab is created, you can delete the plane from the current scene.
@@ -252,7 +252,7 @@ Let’s test this out!
 
 If you don’t have a local deployment running, hit `Ctrl+L`/`Cmd+L` inside the Unity Editor to start one up. When it’s ready, hit play in the Unity Editor. You should observe that there’s not one — but **two** levels side-by-side!
 
-<img src="{{assetRoot}}assets/blank/tutorial/2/levels-together.png" style="margin: 0 auto; width: 50%; display: block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/levels-together.png" style="margin: 0 auto; width: 50%; display: block;" />
 
 Both worker connectors were updated to instantiate a level and both of these worker types are in the development scene. Therefore you can expect two levels to be created when you hit the play button.
 
@@ -275,10 +275,10 @@ Now, update the position of the `GameLogicWorker` in your `DevelopmentScene` to 
 With your local deployment still running, hit play again. You should now observe a gap between the client-worker’s level instance and the server-worker’s level instance.
 
 <div style="text-align:center">
-<img src="{{assetRoot}}assets/blank/tutorial/2/levels-together.png" style="margin: 0 auto; width: 45%; display: inline-block;" />
-<img src="{{assetRoot}}assets/blank/tutorial/2/levels-apart.png" style="margin: 0 auto; width: 45%; display: inline-block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/levels-together.png" style="margin: 0 auto; width: 45%; display: inline-block;" />
+<img src="{{.Site.BaseURL}}docs/assets/blank/tutorial/2/levels-apart.png" style="margin: 0 auto; width: 45%; display: inline-block;" />
 <br>
 Before and after updating the worker offset.
 </div>
 
-#### Next: [GameObject creation]({{urlRoot}}/projects/blank/tutorial/2/gameobject-creation)
+#### Next: [GameObject creation]({{.Site.BaseURL}}/projects/blank/tutorial/2/gameobject-creation)

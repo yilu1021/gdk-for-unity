@@ -1,7 +1,7 @@
 
 # ViewCommandBuffer Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Utility/ViewCommandBuffer.cs/#L15">Source</a>
 <style>
@@ -51,7 +51,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> ViewCommandBuffer(EntityManager entityManager, <a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher)</code></p>
+<code> ViewCommandBuffer(EntityManager entityManager, <a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher)</code></p>
 
 
 
@@ -61,7 +61,7 @@ code {
 
 <ul>
 <li><code>EntityManager entityManager</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/i-log-dispatcher">ILogDispatcher</a> logDispatcher</code> : </li>
 </ul>
 
 
@@ -93,7 +93,7 @@ code {
     <tr>
         <td colspan="2">
 <code>void AddComponent&lt;T&gt;(Entity entity, T component)</code></p>
-Adds a GameObject Component to an ECS entity. 
+Adds a GameObject Component to an ECS entity.
 
 
 </p>
@@ -131,7 +131,7 @@ Adds a GameObject Component to an ECS entity.
     <tr>
         <td colspan="2">
 <code>void AddComponent(Entity entity, ComponentType componentType, object componentObj)</code></p>
-Adds a GameObject Component to an ECS entity. 
+Adds a GameObject Component to an ECS entity.
 
 
 </p>
@@ -161,7 +161,7 @@ Adds a GameObject Component to an ECS entity.
     <tr>
         <td colspan="2">
 <code>void RemoveComponent(Entity entity, ComponentType componentType)</code></p>
-Removes a GameObject Component from an ECS entity. 
+Removes a GameObject Component from an ECS entity.
 
 
 </p>
@@ -190,7 +190,7 @@ Removes a GameObject Component from an ECS entity.
     <tr>
         <td colspan="2">
 <code>void FlushBuffer()</code></p>
-Plays back and applies all buffered actions in order. 
+Plays back and applies all buffered actions in order.
 
 
 

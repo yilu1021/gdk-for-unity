@@ -4,5 +4,5 @@
 
 The SpatialOS GDK for Unity is accompanied by the following projects to help you get started:
 
-* [FPS Starter project]({{urlRoot}}/projects/fps/overview)
-* [Blank Starter project]({{urlRoot}}/projects/blank/overview)
+* [FPS Starter project]({{.Site.BaseURL}}/projects/fps/overview)
+* [Blank Starter project]({{.Site.BaseURL}}/projects/blank/overview)

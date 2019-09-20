@@ -1,7 +1,7 @@
 
 # Request Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/commands-index">Commands</a>.<a href="{{urlRoot}}/api/core/commands/world-commands">WorldCommands</a>.<a href="{{urlRoot}}/api/core/commands/world-commands/create-entity">CreateEntity</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/commands-index">Commands</a>.<a href="{{.Site.BaseURL}}/api/core/commands/world-commands">WorldCommands</a>.<a href="{{.Site.BaseURL}}/api/core/commands/world-commands/create-entity">CreateEntity</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Commands/WorldCommands/CreateEntity.cs/#L20">Source</a>
 <style>
@@ -29,7 +29,7 @@ code {
 
 <b>Inheritance</b>
 
-<code><a href="{{urlRoot}}/api/core/commands/i-command-request">Improbable.Gdk.Core.Commands.ICommandRequest</a></code>
+<code><a href="{{.Site.BaseURL}}/api/core/commands/i-command-request">Improbable.Gdk.Core.Commands.ICommandRequest</a></code>
 
 
 
@@ -68,7 +68,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? EntityId</code></p>
+<code> <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? EntityId</code></p>
 
 
 </td>
@@ -128,8 +128,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> Request(<a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template, <a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId = null, uint? timeoutMillis = null, object context = null)</code></p>
-Constructor to create a CreateEntity command request payload. 
+<code> Request(<a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template, <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId = null, uint? timeoutMillis = null, object context = null)</code></p>
+Constructor to create a CreateEntity command request payload.
 </p><b>Returns:</b></br>The CreateEntity command request payload.
 
 </p>
@@ -137,8 +137,8 @@ Constructor to create a CreateEntity command request payload.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> template</code> : The <a href="{{urlRoot}}/api/core/entity-template">EntityTemplate</a> object that defines the SpatialOS components on the to-be-created entity. </li>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a>? entityId</code> : (Optional) The <a href="{{urlRoot}}/api/core/entity-id">EntityId</a> that the to-be-created entity should take. This should only be provided if received as the result of a ReserveEntityIds command. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> template</code> : The <a href="{{.Site.BaseURL}}/api/core/entity-template">EntityTemplate</a> object that defines the SpatialOS components on the to-be-created entity. </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a>? entityId</code> : (Optional) The <a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> that the to-be-created entity should take. This should only be provided if received as the result of a ReserveEntityIds command. </li>
 <li><code>uint? timeoutMillis</code> : (Optional) The command timeout in milliseconds. If not specified, will default to 5 seconds. </li>
 <li><code>object context</code> : (Optional) A context object that will be returned with the command response. </li>
 </ul>

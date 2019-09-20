@@ -1,7 +1,7 @@
 
 # MessageTypeUnion Struct
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/network-stats-index">NetworkStats</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/network-stats-index">NetworkStats</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/NetworkStats/MessageType.cs/#L37">Source</a>
 <style>
@@ -39,7 +39,7 @@ code {
 
 <b>Notes</b>
 
-- Implemented as a C-style union. Can be thought of as a sum type where the discriminants are: Update, CommandRequest, CommandResponse, WorldCommandRequest, WorldCommandResponse 
+- Implemented as a C-style union. Can be thought of as a sum type where the discriminants are: Update, CommandRequest, CommandResponse, WorldCommandRequest, WorldCommandResponse
 
 
 
@@ -91,7 +91,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> Update(uint componentId)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> Update(uint componentId)</code></p>
 
 
 
@@ -119,7 +119,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> CommandRequest(uint componentId, uint commandIndex)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> CommandRequest(uint componentId, uint commandIndex)</code></p>
 
 
 
@@ -148,7 +148,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> CommandResponse(uint componentId, uint commandIndex)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> CommandResponse(uint componentId, uint commandIndex)</code></p>
 
 
 
@@ -177,7 +177,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> WorldCommandRequest(<a href="{{urlRoot}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> WorldCommandRequest(<a href="{{.Site.BaseURL}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand)</code></p>
 
 
 
@@ -186,7 +186,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand</code> : </li>
 </ul>
 
 
@@ -205,7 +205,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> WorldCommandResponse(<a href="{{urlRoot}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand)</code></p>
+<code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> WorldCommandResponse(<a href="{{.Site.BaseURL}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand)</code></p>
 
 
 
@@ -214,7 +214,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/world-command">WorldCommand</a> worldCommand</code> : </li>
 </ul>
 
 
@@ -246,7 +246,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool Equals(<a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> other)</code></p>
+<code>bool Equals(<a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> other)</code></p>
 
 
 
@@ -255,7 +255,7 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> other</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> other</code> : </li>
 </ul>
 
 
@@ -345,7 +345,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator==(<a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left, <a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right)</code></p>
+<code>bool operator==(<a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left, <a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right)</code></p>
 
 
 
@@ -354,8 +354,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right</code> : </li>
 </ul>
 
 
@@ -374,7 +374,7 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code>bool operator!=(<a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left, <a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right)</code></p>
+<code>bool operator!=(<a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left, <a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right)</code></p>
 
 
 
@@ -383,8 +383,8 @@ code {
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left</code> : </li>
-<li><code><a href="{{urlRoot}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> left</code> : </li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/network-stats/message-type-union">MessageTypeUnion</a> right</code> : </li>
 </ul>
 
 

@@ -1,7 +1,7 @@
 
 # InternalSpatialOSSendGroup Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/core-index">Core</a>.<a href="{{urlRoot}}/api/core/spatial-os-send-group">SpatialOSSendGroup</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/core-index">Core</a>.<a href="{{.Site.BaseURL}}/api/core/spatial-os-send-group">SpatialOSSendGroup</a><br/>
 GDK package: Core<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Systems/UpdateGroups.cs/#L30">Source</a>
 <style>

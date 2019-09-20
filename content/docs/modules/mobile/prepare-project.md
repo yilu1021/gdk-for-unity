@@ -3,24 +3,24 @@
 <%(Callout message="
 Before reading this document, make sure you have read:
 
-* [Setting up Android support for the GDK]({{urlRoot}}/modules/mobile/setup-android)
-* [Setting up iOS Support for the GDK]({{urlRoot}}/modules/mobile/setup-ios)
+* [Setting up Android support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-android)
+* [Setting up iOS Support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-ios)
 * [Creating workers with WorkerConnector](https://docs.improbable.io/unity/alpha/workflows/monobehaviour/worker-connectors)
-* [Development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication)
+* [Development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication)
 ")%>
 
 ## Create your worker connector script
 
-If you are using one of our [Starter Projects]({{urlRoot}}/reference/glossary#starter-project), you can skip this section, as you already have one in your project.
+If you are using one of our [Starter Projects]({{.Site.BaseURL}}/reference/glossary#starter-project), you can skip this section, as you already have one in your project.
 
-If you [added the GDK]({{urlRoot}}/projects/myo/setup) to an existing Unity project rather than using a Starter Project, then you need to create and add a MonoBehaviour script to your mobile client-worker GameObject. To do this:
+If you [added the GDK]({{.Site.BaseURL}}/projects/myo/setup) to an existing Unity project rather than using a Starter Project, then you need to create and add a MonoBehaviour script to your mobile client-worker GameObject. To do this:
 
-1. Create a MonoBehaviour script which inherits from the [`WorkerConnector`]({{urlRoot}}/api/core/worker-connector). This scripts contains support for both Android and iOS. You can base your implementation on the one in our [Blank Starter Project](https://github.com/spatialos/gdk-for-unity-blank-project/blob/master/workers/unity/Assets/BlankProject/Scripts/Workers/MobileClientWorkerConnector.cs).
+1. Create a MonoBehaviour script which inherits from the [`WorkerConnector`]({{.Site.BaseURL}}/api/core/worker-connector). This scripts contains support for both Android and iOS. You can base your implementation on the one in our [Blank Starter Project](https://github.com/spatialos/gdk-for-unity-blank-project/blob/master/workers/unity/Assets/BlankProject/Scripts/Workers/MobileClientWorkerConnector.cs).
 1. In your Unity Editor, add the MonoBehaviour script to your mobile client-worker GameObject.
 
 ## Create your development authentication token
 
-To connect to a cloud deployment using your mobile device, you need to use the [development authentication flow](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/development-authentication) which we provide for the early stages of game development. The GDK for Unity provides tooling around the development authentication flow to help you iterate faster on your mobile application.
+To connect to a cloud deployment using your mobile device, you need to use the [development authentication flow](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/development-authentication) which we provide for the early stages of game development. The GDK for Unity provides tooling around the development authentication flow to help you iterate faster on your mobile application.
 
 1. Open your project in your Unity Editor.
 1. Navigate to **SpatialOS** > **GDK Tools configuration** to open the configuration window.
@@ -33,4 +33,4 @@ To connect to a cloud deployment using your mobile device, you need to use the [
 
     > If your worker connector inherits from the `DefaultMobileWorkerConnector` script, it will automatically read the content inside `DevAuthToken.txt` when running the application and authenticate against our services. See the section above to learn how to create a mobile worker connector.
 
-If you want to create your own authentication server, follow [this guide](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/auth/integrate-authentication-platform-sdk).
+If you want to create your own authentication server, follow [this guide](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/auth/integrate-authentication-platform-sdk).

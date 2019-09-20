@@ -2,13 +2,13 @@
 
 # Mobile Feature Module
 
-<%(Callout type="warn" message=" Mobile support is in [pre-alpha](https://docs.improbable.io/reference/<%(Var key="worker_sdk_version")%>/shared/release-policy#maturity-stages). Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases.")%>
+<%(Callout type="warn" message=" Mobile support is in [pre-alpha](https://docs.improbable.io/reference/{{ $.Site.Params.worker_sdk_version }}/shared/release-policy#maturity-stages). Please follow our [Roadmap](https://github.com/spatialos/gdk-for-unity/projects/1) to learn more about updates to this in future releases.")%>
 
 <%(Callout message="
 Before starting with mobile development, make sure you have read:
 
-* [The SpatialOS GDK for Unity]({{urlRoot}}/reference/overview)
-* [Workers in the GDK]({{urlRoot}}/reference/concepts/worker)
+* [The SpatialOS GDK for Unity]({{.Site.BaseURL}}/reference/overview)
+* [Workers in the GDK]({{.Site.BaseURL}}/reference/concepts/worker)
 ")%>
 
 The Mobile Feature Module enables you to develop games for Android and iOS. SpatialOS games are cross-platform by default, so PC and mobile users can play together in the same deployment.
@@ -43,9 +43,9 @@ If you don't have an assembly definition file in your project, Unity will automa
 
 ## Getting started with your mobile client-worker
 
-* [Ways to run your client]({{urlRoot}}/modules/mobile/run-client)
-* [Set up Android support for the GDK]({{urlRoot}}/modules/mobile/setup-android)
-* [Set up iOS support for the GDK]({{urlRoot}}/modules/mobile/setup-ios)
-* [Prepare your project]({{urlRoot}}/modules/mobile/prepare-project)
-* [Connect to a local deployment]({{urlRoot}}/modules/mobile/local-deploy)
-* [Connect to a cloud deployment]({{urlRoot}}/modules/mobile/cloud-deploy)
+* [Ways to run your client]({{.Site.BaseURL}}/modules/mobile/run-client)
+* [Set up Android support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-android)
+* [Set up iOS support for the GDK]({{.Site.BaseURL}}/modules/mobile/setup-ios)
+* [Prepare your project]({{.Site.BaseURL}}/modules/mobile/prepare-project)
+* [Connect to a local deployment]({{.Site.BaseURL}}/modules/mobile/local-deploy)
+* [Connect to a cloud deployment]({{.Site.BaseURL}}/modules/mobile/cloud-deploy)

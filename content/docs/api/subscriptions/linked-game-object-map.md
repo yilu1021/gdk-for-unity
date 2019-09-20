@@ -1,7 +1,7 @@
 
 # LinkedGameObjectMap Class
 <sup>
-Namespace: Improbable.Gdk.<a href="{{urlRoot}}/api/subscriptions-index">Subscriptions</a><br/>
+Namespace: Improbable.Gdk.<a href="{{.Site.BaseURL}}/api/subscriptions-index">Subscriptions</a><br/>
 GDK package: Subscriptions<br/>
 <a href="https://www.github.com/spatialos/gdk-for-unity/blob/88a422dc255ef1d47ee9385f226ca439f31c000b/workers/unity/Packages/io.improbable.gdk.core/Subscriptions/LinkedGameObjectMap.cs/#L10">Source</a>
 <style>
@@ -51,8 +51,8 @@ code {
     </tr>
     <tr>
         <td colspan="2">
-<code> LinkedGameObjectMap(<a href="{{urlRoot}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker)</code></p>
-Initializes a new instance of the <a href="{{urlRoot}}/api/subscriptions/linked-game-object-map">LinkedGameObjectMap</a> class backed with the data from the specified <a href="{{urlRoot}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a>. 
+<code> LinkedGameObjectMap(<a href="{{.Site.BaseURL}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker)</code></p>
+Initializes a new instance of the <a href="{{.Site.BaseURL}}/api/subscriptions/linked-game-object-map">LinkedGameObjectMap</a> class backed with the data from the specified <a href="{{.Site.BaseURL}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a>.
 
 
 </p>
@@ -60,7 +60,7 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/subscriptions/linked-
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker</code> : The linker which contains the backing data for this map.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/subscriptions/entity-game-object-linker">EntityGameObjectLinker</a> linker</code> : The linker which contains the backing data for this map.</li>
 </ul>
 
 
@@ -91,8 +91,8 @@ Initializes a new instance of the <a href="{{urlRoot}}/api/subscriptions/linked-
     </tr>
     <tr>
         <td colspan="2">
-<code>IReadOnlyList&lt;GameObject&gt; GetLinkedGameObjects(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId)</code></p>
-Gets the GameObjects that are linked to a given SpatialOS entity ID. 
+<code>IReadOnlyList&lt;GameObject&gt; GetLinkedGameObjects(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId)</code></p>
+Gets the GameObjects that are linked to a given SpatialOS entity ID.
 </p><b>Returns:</b></br>A readonly list of the linked GameObjects or null if there are none linked.
 
 </p>
@@ -100,7 +100,7 @@ Gets the GameObjects that are linked to a given SpatialOS entity ID.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : The entity ID to get GameObjects for.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : The entity ID to get GameObjects for.</li>
 </ul>
 
 
@@ -119,8 +119,8 @@ Gets the GameObjects that are linked to a given SpatialOS entity ID.
     </tr>
     <tr>
         <td colspan="2">
-<code>bool TryGetLinkedGameObjects(<a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId, out IReadOnlyList&lt;GameObject&gt; linkedGameObjects)</code></p>
-Tries to get the GameObjects that are linked to a given SpatialOS entity ID. 
+<code>bool TryGetLinkedGameObjects(<a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId, out IReadOnlyList&lt;GameObject&gt; linkedGameObjects)</code></p>
+Tries to get the GameObjects that are linked to a given SpatialOS entity ID.
 </p><b>Returns:</b></br>True, if there are any GameObjects linked to the EntityId; otherwise false
 
 </p>
@@ -128,7 +128,7 @@ Tries to get the GameObjects that are linked to a given SpatialOS entity ID.
 <b>Parameters</b>
 
 <ul>
-<li><code><a href="{{urlRoot}}/api/core/entity-id">EntityId</a> entityId</code> : The entity ID to get GameObjects for.</li>
+<li><code><a href="{{.Site.BaseURL}}/api/core/entity-id">EntityId</a> entityId</code> : The entity ID to get GameObjects for.</li>
 <li><code>out IReadOnlyList&lt;GameObject&gt; linkedGameObjects</code> : When this method returns, contains the GameObjects linked to the specified EntityId, if any are linked; otherwise, null. This parameter is passed uninitialized. </li>
 </ul>
 
