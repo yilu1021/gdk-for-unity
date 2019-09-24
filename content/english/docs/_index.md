@@ -1,3 +1,13 @@
+---
+title: "Documentation"
+linkTitle: "Documentation"
+weight: 20
+menu:
+  main:
+    weight: 20
+---
+
+
 
 ![](assets/spatialos-gdkforunity-header.png)
 {{< param worker_sdk_version >}}
