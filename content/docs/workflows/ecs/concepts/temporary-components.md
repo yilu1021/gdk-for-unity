@@ -1,5 +1,3 @@
-<%(TOC)%>
-
 # ECS: Temporary components
 
 A temporary component is a type of component which only exists for a single frame. This pattern is useful when you want to represent transient events as an ECS component, for example, the [`OnConnected`]({{.Site.BaseURL}}/api/core/on-connected) component which denotes that your worker has connected to the SpatialOS Runtime as described in the [ECS: Worker entity documentation]({{.Site.BaseURL}}/workflows/ecs/worker-entity).

@@ -1,5 +1,3 @@
-<%(TOC)%>
-
 # Welcome to the SpatialOS GDK for Unity
 
 With the SpatialOS Game Development Kit (GDK) for Unity, you can quickly and easily build and host Unity multiplayer games. These games can use multiple server-side game engines across one seamless world to create new kinds of gameplay.
@@ -10,6 +8,13 @@ The GDK is composed of three layers:
 
 * **The GDK Core:** a performant, data-oriented integration with our cloud platform SpatialOS, based on the familiar Unity-native workflows.
 * **The GDK Feature Modules:** a library of solutions for hard or common networked game development problems, such as Character Movement and Shooting.
+---
+title: "About"
+date: 2019-03-26
+menu: "main"
+weight: 50
+---
+
 * **The GDK Starter Projects:**
 	* With the [**First Person Shooter (FPS) Starter Project**]({{.Site.BaseURL}}/projects/fps/overview) you and your friends can experience the true scale of SpatialOS, providing a solid foundation for entirely new games.
 	* The [**Blank Starter Project**]({{.Site.BaseURL}}/projects/blank/overview) contains the minimum GDK feature set you need to start developing games for SpatialOS.

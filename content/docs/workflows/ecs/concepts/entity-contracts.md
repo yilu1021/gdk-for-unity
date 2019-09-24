@@ -1,5 +1,3 @@
-<%(TOC)%>
-
 # ECS: Entity contracts
 
 <%(Callout message="

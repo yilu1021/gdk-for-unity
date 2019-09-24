@@ -1,5 +1,33 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "SpatialOS Docs"
+theme = "github.com/jessicafalk/design-hugo"
 [params]
   worker_sdk_version = 14.1
+
+ [[module.mounts]]
+    source = "content"
+    target = "content/unity-gdk"
+
+[module]
+  [[module.imports]]
+    disable = false
+    ignoreConfig = false
+    path = "github.com/jessicafalk/test-hugo"
+  [[module.imports.mounts]]
+    source = "content"
+    target = "content/everything"
+
+[menu]
+  [[menu.main]]
+    identifier = "everything"
+    name = "Worker SDK"
+    title = "Worker SDK"
+    url = "everything/"
+    weight = 10
+  [[menu.main]]
+    identifier = "unity-gdk"
+    name = "GDK for Unity"
+    title = "GDK for Unity"
+    url = "unity-gdk/"
+    weight = 10

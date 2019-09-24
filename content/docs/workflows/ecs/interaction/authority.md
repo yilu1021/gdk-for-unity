@@ -1,5 +1,3 @@
-<%(TOC)%>
-
 # ECS: Authority
 
 <%(Callout message="
