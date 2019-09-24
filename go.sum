@@ -1,5 +1,7 @@
 github.com/bep/docuapi v1.2.3 h1:3ubDaRjiWlmkNVMwTR1x4iupIEIQ2PEzuoQFHHs7P3Q=
 github.com/bep/docuapi v1.2.3/go.mod h1:76bSwLPkSp01/AdZwiBe6bV4ZWv+3lrqFYiEDc1z7zg=
+github.com/jamiebrynes7/docsy v0.0.0-20190924103315-e9aba317b527 h1:SbhEM21RMb3Zp9uJmWRfrbufZAnFCIxAbVX1illlArQ=
+github.com/jamiebrynes7/docsy v0.0.0-20190924103315-e9aba317b527/go.mod h1:7tNM/XBwkpz6Xm6Rz3lfu85UriXLvFaeYet9iTEV/CI=
 github.com/jessicafalk/design-hugo v0.0.0-20190923162333-ac6afa8d3df1 h1:PEmFb0H/cRfKBC+giV6lDbfzLEEXEmjBDo/SNqYnM64=
 github.com/jessicafalk/design-hugo v0.0.0-20190923162333-ac6afa8d3df1/go.mod h1:90BYJopandRtfIXqpjijWwznra3emp1UKn/hmp8jSCI=
 github.com/jessicafalk/design-hugo v0.0.0-20190923170932-a6c18eb0000b/go.mod h1:90BYJopandRtfIXqpjijWwznra3emp1UKn/hmp8jSCI=
