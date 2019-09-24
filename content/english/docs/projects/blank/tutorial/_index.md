@@ -1,4 +1,8 @@
-# Overview
+---
+title: "Blank Project Tutorial"
+weight: 2
+type: "docs"
+---
 
 This tutorial series aims to teach you how to perform basic SpatialOS interactions using the GDK for Unity.
 

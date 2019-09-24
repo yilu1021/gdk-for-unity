@@ -1,4 +1,8 @@
-# Build your workers
+---
+title: "Build your workers"
+weight: 2
+type: "docs"
+---
 
 As you will be launching a cloud deployment, you need to build out the code executables which will be run by SpatialOS servers - these are called [workers]({{.Site.BaseURL}}/reference/glossary#worker).
 

@@ -1,6 +1,8 @@
-<%(TOC)%>
-
-# Feature Modules Overview
+---
+title: "Feature Modules"
+weight: 3
+type: "docs"
+---
 
 The SpatialOS GDK for Unity consists of a set of modules: the core packages and Feature Modules.
 

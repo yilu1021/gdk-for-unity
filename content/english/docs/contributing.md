@@ -1,3 +1,9 @@
+---
+title: "Contributing"
+weight: 4
+type: "docs"
+---
+
 ## Contributions policy
 
 We are currently not accepting public contributions (but we do plan to in later releases and we’ll keep you posted on this). However, we are taking issues and we do want your feedback. Please come and talk to us about the software and the documentation via:

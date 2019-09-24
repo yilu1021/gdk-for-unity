@@ -1,10 +1,10 @@
-<%(TOC max="2")%>
-
-# Project setup
+---
+title: "Make your own"
+weight: 3
+type: "docs"
+---
 
 _Make sure you have followed the [Setup & installation]({{.Site.BaseURL}}/machine-setup) before following this guide._
-
-<br/>
 
 To use the SpatialOS GDK for Unity in a new project, you need to:
 

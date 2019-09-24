@@ -1,24 +1,8 @@
-<nav id="pageToc" class="page-toc">
-    <ul>
-        <li>
-            <a href="#1-set-your-spatialos-project-name">
-                1. Set your SpatialOS project name
-            </a>
-        </li>
-        <li>
-            <a href="#2-upload-your-worker-assemblies">
-                2. Upload your worker assemblies
-            </a>
-        </li>
-        <li>
-            <a href="#3-launch-a-cloud-deployment">
-                3. Launch a cloud deployment
-            </a>
-        </li>
-    </ul>
-</nav>
-
-# Upload and launch your game
+---
+title: "Upload & launch"
+weight: 3
+type: "docs"
+---
 
 ### 1. Set your SpatialOS project name
 

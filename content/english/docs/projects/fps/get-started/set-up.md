@@ -1,4 +1,8 @@
-# Set up
+---
+title: "Set up"
+weight: 1
+type: "docs"
+---
 
 <%(Include file="../../../fragments/machine-setup.md")%>
 

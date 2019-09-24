@@ -1,4 +1,8 @@
-# FPS Starter Project: Overview
+---
+title: "FPS Starter Project"
+weight: 1
+type: "docs"
+---
 
 ![](assets/fps/fps-starter-headline.png)
 

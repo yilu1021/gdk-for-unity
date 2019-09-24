@@ -1,4 +1,8 @@
-<%(TOC)%>
+---
+title: "Health packs tutorial"
+weight: 2
+type: "docs"
+---
 
 # Health Pick-up tutorial for the FPS Starter Project
 

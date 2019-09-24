@@ -1,17 +1,11 @@
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "SpatialOS GDK for Unity"
+linkTitle: "SpatialOS GDK for Unity"
 weight: 20
-menu:
-  main:
-    weight: 20
+type: "docs"
 ---
 
-
-
 ![](assets/spatialos-gdkforunity-header.png)
-{{< param worker_sdk_version >}}
-dfgdfgds
 
 
 With the SpatialOS Game Development Kit (GDK) for Unity, you can quickly and easily build and host Unity multiplayer games. These games can use multiple server-side game engines across one seamless world to create new kinds of gameplay.
