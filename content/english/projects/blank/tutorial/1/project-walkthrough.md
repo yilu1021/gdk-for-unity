@@ -1,4 +1,8 @@
-<%(TOC max="2")%>
+---
+title: "Project walkthrough"
+weight: 2
+type: "docs"
+---
 
 # 1.2 - Project walkthrough
 

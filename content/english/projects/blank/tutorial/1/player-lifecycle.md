@@ -1,4 +1,8 @@
-<%(TOC max="2")%>
+---
+title: "Player lifecycle"
+weight: 4
+type: "docs"
+---
 
 # 1.4 - Player lifecycle
 

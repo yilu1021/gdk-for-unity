@@ -1,4 +1,8 @@
-<%(TOC max="2")%>
+---
+title: "What the Blank Project does"
+weight: 3
+type: "docs"
+---
 
 # 1.3 - What the Blank Project does
 

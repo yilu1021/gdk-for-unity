@@ -24,7 +24,7 @@ pygmentsStyle = "tango"
 
 
 [[module.mounts]]
-    source = "content/english/docs"
+    source = "content/english"
     target = "content/unity-gdk"
     lang = "en"
 
@@ -39,21 +39,26 @@ pygmentsStyle = "tango"
     ignoreConfig = false
     path = "github.com/jessicafalk/test-hugo"
   [[module.imports.mounts]]
-    source = "content"
-    target = "content/everything"
+    source = "content/english"
+    target = "content/worker-sdk"
+    lang = "en"
+  [[module.imports.mounts]]
+    source = "content/german"
+    target = "content/worker-sdk"
+    lang = "de"
 
 [menu]
   [[menu.main]]
     identifier = "everything"
     name = "Worker SDK"
     title = "Worker SDK"
-    url = "everything/"
-    weight = 10
+    url = "worker-sdk/"
+    weight = 5
   [[menu.main]]
     identifier = "unity-gdk"
     name = "GDK for Unity"
     title = "GDK for Unity"
-    url = "unity-gdk/docs/"
+    url = "unity-gdk/"
     weight = 10
 
   baseURL = "/"

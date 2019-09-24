@@ -1,4 +1,8 @@
-<%(TOC max="2")%>
+---
+title: "What is SpatialOS"
+weight: 1
+type: "docs"
+---
 
 # 1.1 - What is SpatialOS?
 
