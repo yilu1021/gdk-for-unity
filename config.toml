@@ -1,11 +1,25 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+DefaultContentLanguage = "en"
+copyright = "Everything is mine"
 title = "SpatialOS Docs"
 theme = "github.com/jessicafalk/design-hugo"
 [params]
   worker_sdk_version = 14.1
 
- [[module.mounts]]
+[languages]
+  [languages.en]
+    title = "SpatialOS Documentation"
+    weight = 1
+    [languages.en.params]
+      help = "Help"
+  [languages.de]
+    title = "SpatialOS Dokumentation"
+    weight = 2
+    [languages.de.params]
+      help = "Hilfe"
+
+
+[[module.mounts]]
     source = "content"
     target = "content/unity-gdk"
 
