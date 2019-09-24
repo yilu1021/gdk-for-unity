@@ -26,7 +26,7 @@ To configure your network to work with SpatialOS, refer to the [SpatialOS networ
 
 ### 4. Install the GDK dependencies
 
-<%(#Expandable title="Setup for Windows")%>
+{{< expandable title="Setup for Windows" >}}
 
 **Step 1.** Install **Unity 2019.2.0**
 
@@ -92,9 +92,9 @@ Once you have navigated to the **Workloads** tab:
 
 Once you have installed [Rider](https://www.jetbrains.com/rider/), install the [**Unity Support** plugin](https://github.com/JetBrains/resharper-unity) for a better experience.
 
-<%(/Expandable)%>
+{{< /expandable >}}
 
-<%(#Expandable title="Setup for Mac")%>
+{{< expandable title="Setup for Mac" >}}
 
 **Step 1.** Install **Unity 2019.2.0**
 
@@ -146,8 +146,7 @@ Once you have installed [Visual Studio](https://www.visualstudio.com/downloads/)
 
 Once you have installed [Rider](https://www.jetbrains.com/rider/), install the [**Unity Support** plugin](https://github.com/JetBrains/resharper-unity) for a better experience.
 
-<%(/Expandable)%>
-
+{{< /expandable >}}
 
 ## Next steps
 
