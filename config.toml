@@ -186,3 +186,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 	url = "https://example.org/mail"
 	icon = "fa fa-envelope"
         desc = "Discuss development issues around the project"
+
+
+[[params.versions]]
+        version = "14.1"
+        url = "https://docs.improbable.io/reference/14.1"
+[[params.versions]]
+        version = "14.0"
+        url = "https://docs.improbable.io/reference/14.0"
