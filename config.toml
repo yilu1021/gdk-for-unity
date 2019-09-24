@@ -89,8 +89,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "SpatialOS Docs"
-description = "A Docsy example site"
+title = "SpatialOS Documentation"
 languageName ="English"
 contentDir = "content/english"
 # Weight used for sorting.
@@ -98,8 +97,7 @@ weight = 1
 [languages.en.params]
 help = "Help"
 [languages.de]
-title = "SpatialOS Docs (German)"
-description = "Docsy er operativsystem for skyen"
+title = "SpatialOS Dokumentation"
 languageName ="German"
 contentDir = "content/german"
 time_format_default = "02.01.2006"
