@@ -24,12 +24,14 @@ pygmentsStyle = "tango"
 
 
 [[module.mounts]]
-    source = "content"
+    source = "content/english"
     target = "content/unity-gdk"
+    lang = "en"
 
 [[module.mounts]]
-  source = "content"
-  target = "content/unity-gdk"
+    source = "content/german"
+    target = "content/unity-gdk"
+    lang = "de"
 
 [module]
   [[module.imports]]
@@ -88,6 +90,8 @@ languageName ="English"
 contentDir = "content/english"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
+help = "Help"
 [languages.de]
 title = "SpatialOS Docs (German)"
 description = "Docsy er operativsystem for skyen"
@@ -95,6 +99,8 @@ languageName ="German"
 contentDir = "content/german"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
+[languages.de.params]
+help = "Hilfe"
 
 
 # Everything below this are Site Params
