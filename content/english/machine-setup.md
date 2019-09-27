@@ -1,6 +1,6 @@
 ---
 title: "Machine Setup"
-weight: 1
+weight: 2
 type: "docs"
 ---
 
