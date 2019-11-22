@@ -20,9 +20,8 @@ namespace Improbable.Gdk.TransformSynchronization
             transformGroup = GetEntityQuery(
                 ComponentType.ReadWrite<BufferedTransform>(),
                 ComponentType.ReadWrite<TransformToSet>(),
-                ComponentType.ReadOnly<TransformInternal.ComponentAuthority>()
+                ComponentType.ReadOnly<TransformInternal.NonAuthoritative>()
             );
-            transformGroup.SetSharedComponentFilter(TransformInternal.ComponentAuthority.NotAuthoritative);
         }
 
         protected override void OnUpdate()

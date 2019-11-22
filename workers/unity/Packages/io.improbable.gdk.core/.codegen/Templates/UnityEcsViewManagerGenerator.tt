@@ -24,20 +24,9 @@ namespace <#= qualifiedNamespace #>
             private EntityManager entityManager;
             private World world;
 
-            private readonly ComponentType[] initialComponents = new ComponentType[]
-            {
-                ComponentType.ReadWrite<Component>(),
-                ComponentType.ReadWrite<ComponentAuthority>(),
-            };
-
             public uint GetComponentId()
             {
                 return ComponentId;
-            }
-
-            public ComponentType[] GetInitialComponents()
-            {
-                return initialComponents;
             }
 
             public void ApplyDiff(ViewDiff diff)
@@ -103,14 +92,16 @@ namespace <#= qualifiedNamespace #>
 <# } #>
 <# } #>
                 component.MarkDataClean();
-                entityManager.AddSharedComponentData(entity, ComponentAuthority.NotAuthoritative);
+                entityManager.AddComponentData(entity, new NonAuthoritative());
                 entityManager.AddComponentData(entity, component);
             }
 
             private void RemoveComponent(EntityId entityId)
             {
                 workerSystem.TryGetEntity(entityId, out var entity);
-                entityManager.RemoveComponent<ComponentAuthority>(entity);
+                //TODO BATCH
+                entityManager.RemoveComponent<Authoritative>(entity);
+                entityManager.RemoveComponent<NonAuthoritative>(entity);
 <# if (!componentDetails.IsBlittable) { #>
 
                 var data = entityManager.GetComponentData<<#= componentNamespace #>.Component>(entity);
@@ -152,13 +143,17 @@ namespace <#= qualifiedNamespace #>
                     case Authority.NotAuthoritative:
                     {
                         workerSystem.TryGetEntity(entityId, out var entity);
-                        entityManager.SetSharedComponentData(entity, ComponentAuthority.NotAuthoritative);
+                        //TODO BATCH
+                        entityManager.RemoveComponent<Authoritative>(entity);
+                        entityManager.AddComponentData(entity, new NonAuthoritative());
                         break;
                     }
                     case Authority.Authoritative:
                     {
                         workerSystem.TryGetEntity(entityId, out var entity);
-                        entityManager.SetSharedComponentData(entity, ComponentAuthority.Authoritative);
+                        //TODO BATCH
+                        entityManager.RemoveComponent<NonAuthoritative>(entity);
+                        entityManager.AddComponentData(entity, new Authoritative());
                         break;
                     }
                     case Authority.AuthorityLossImminent:

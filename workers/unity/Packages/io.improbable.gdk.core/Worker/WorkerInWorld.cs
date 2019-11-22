@@ -40,6 +40,7 @@ namespace Improbable.Gdk.Core
             Origin = origin;
 
             World = new World(WorkerId);
+            World.GetOrCreateSystem(typeof(UpdateWorldTimeSystem));
 
             // This isn't a core system, this is for an easy disconnect event
             disconnectCallbackSystem = World.GetOrCreateSystem<WorkerDisconnectCallbackSystem>();

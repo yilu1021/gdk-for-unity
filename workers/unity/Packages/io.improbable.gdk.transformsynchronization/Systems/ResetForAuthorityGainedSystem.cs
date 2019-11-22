@@ -34,7 +34,7 @@ namespace Improbable.Gdk.TransformSynchronization
                 ComponentType.ReadOnly<SpatialEntityId>(),
                 ComponentType.ReadWrite<TicksSinceLastTransformUpdate>(),
                 ComponentType.ReadWrite<BufferedTransform>(),
-                ComponentType.ReadOnly<TransformInternal.ComponentAuthority>()
+                ComponentType.ReadOnly<TransformInternal.Authoritative>()
             };
 
             baseExcludeComponentTypes = new[]
@@ -54,7 +54,6 @@ namespace Improbable.Gdk.TransformSynchronization
             componentQueryDesc.None = baseExcludeComponentTypes;
 
             var entityQuery = GetEntityQuery(componentQueryDesc);
-            entityQuery.SetSharedComponentFilter(TransformInternal.ComponentAuthority.Authoritative);
 
             resetAuthorityActions.Add(typeof(T), () => Entities.With(entityQuery).ForEach(
                 (Entity entity,
@@ -90,7 +89,6 @@ namespace Improbable.Gdk.TransformSynchronization
                 .ToArray();
 
             transformQuery = GetEntityQuery(transformQueryDesc);
-            transformQuery.SetSharedComponentFilter(TransformInternal.ComponentAuthority.Authoritative);
         }
 
         protected override void OnUpdate()

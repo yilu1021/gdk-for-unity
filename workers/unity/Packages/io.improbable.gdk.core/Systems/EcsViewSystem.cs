@@ -17,16 +17,6 @@ namespace Improbable.Gdk.Core
 
         private WorkerSystem worker;
 
-        internal ComponentType[] GetInitialComponentsToAdd(uint componentId)
-        {
-            if (!componentIdToManager.TryGetValue(componentId, out var manager))
-            {
-                throw new ArgumentException($"Can not get initial component for unknown component ID {componentId}");
-            }
-
-            return manager.GetInitialComponents();
-        }
-
         internal void ApplyDiff(ViewDiff diff)
         {
             if (diff.Disconnected)

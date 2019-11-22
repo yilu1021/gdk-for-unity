@@ -24,9 +24,8 @@ namespace Improbable.Gdk.TransformSynchronization
                 ComponentType.ReadOnly<TransformInternal.Component>(),
                 ComponentType.ReadOnly<SpatialEntityId>(),
                 ComponentType.ReadOnly<InterpolationConfig>(),
-                ComponentType.ReadOnly<TransformInternal.ComponentAuthority>()
+                ComponentType.ReadOnly<TransformInternal.NonAuthoritative>()
             );
-            interpolationGroup.SetSharedComponentFilter(TransformInternal.ComponentAuthority.NotAuthoritative);
         }
 
         protected override void OnUpdate()

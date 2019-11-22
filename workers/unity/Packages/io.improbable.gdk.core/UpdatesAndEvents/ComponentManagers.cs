@@ -11,8 +11,6 @@ namespace Improbable.Gdk.Core
 
         uint GetComponentId();
 
-        ComponentType[] GetInitialComponents();
-
         void ApplyDiff(ViewDiff diff);
     }
 }
