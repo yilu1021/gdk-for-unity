@@ -18,14 +18,21 @@ namespace Improbable.Gdk.TransformSynchronization
 
             updateSystem = World.GetExistingSystem<ComponentUpdateSystem>();
 
-            interpolationGroup = GetEntityQuery(
-                ComponentType.ReadWrite<BufferedTransform>(),
-                ComponentType.ReadWrite<DeferredUpdateTransform>(),
-                ComponentType.ReadOnly<TransformInternal.Component>(),
-                ComponentType.ReadOnly<SpatialEntityId>(),
-                ComponentType.ReadOnly<InterpolationConfig>(),
-                ComponentType.ReadOnly<TransformInternal.NonAuthoritative>()
-            );
+            interpolationGroup = GetEntityQuery(new EntityQueryDesc
+            {
+                All = new[]
+                {
+                    ComponentType.ReadWrite<BufferedTransform>(),
+                    ComponentType.ReadWrite<DeferredUpdateTransform>(),
+                    ComponentType.ReadOnly<TransformInternal.Component>(),
+                    ComponentType.ReadOnly<SpatialEntityId>(),
+                    ComponentType.ReadOnly<InterpolationConfig>(),
+                },
+                None = new[]
+                {
+                    ComponentType.ReadOnly<TransformInternal.Authoritative>()
+                }
+            });
         }
 
         protected override void OnUpdate()

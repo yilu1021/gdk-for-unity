@@ -17,11 +17,18 @@ namespace Improbable.Gdk.TransformSynchronization
 
             worker = World.GetExistingSystem<WorkerSystem>();
 
-            transformGroup = GetEntityQuery(
-                ComponentType.ReadWrite<BufferedTransform>(),
-                ComponentType.ReadWrite<TransformToSet>(),
-                ComponentType.ReadOnly<TransformInternal.NonAuthoritative>()
-            );
+            transformGroup = GetEntityQuery(new EntityQueryDesc
+            {
+                All = new[]
+                {
+                    ComponentType.ReadWrite<BufferedTransform>(),
+                    ComponentType.ReadWrite<TransformToSet>(),
+                },
+                None = new[]
+                {
+                    ComponentType.ReadOnly<TransformInternal.Authoritative>(),
+                }
+            });
         }
 
         protected override void OnUpdate()

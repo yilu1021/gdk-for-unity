@@ -24,7 +24,6 @@ namespace Improbable.Gdk.TransformSynchronization
             {
                 ComponentType.ReadOnly<TransformToSet>(),
                 ComponentType.ReadOnly<SetTransformToGameObjectTag>(),
-                ComponentType.ReadOnly<TransformInternal.NonAuthoritative>()
             };
 
             RegisterTransformSyncType(new RigidbodyTransformSync());
@@ -33,7 +32,7 @@ namespace Improbable.Gdk.TransformSynchronization
         internal void RegisterTransformSyncType<T>(ITransformSync<T> impl)
             where T : class
         {
-            var entityQuery = GetEntityQuery(TransformUtils.ConstructEntityQueryDesc<T>(baseComponentTypes));
+            var entityQuery = GetEntityQuery(TransformUtils.ConstructEntityQueryDesc<T>(requireAuthority: false, baseComponentTypes));
 
             applyLatestTransformActions.Add(typeof(T),
                 () => Entities.With(entityQuery)
@@ -43,7 +42,7 @@ namespace Improbable.Gdk.TransformSynchronization
 
         private void UpdateTransformQuery()
         {
-            var transformQueryDesc = TransformUtils.ConstructEntityQueryDesc<UnityEngine.Transform>(baseComponentTypes);
+            var transformQueryDesc = TransformUtils.ConstructEntityQueryDesc<UnityEngine.Transform>(requireAuthority: false, baseComponentTypes);
             transformQueryDesc.None = applyLatestTransformActions.Keys
                 .Select(ComponentType.ReadOnly)
                 .ToArray();

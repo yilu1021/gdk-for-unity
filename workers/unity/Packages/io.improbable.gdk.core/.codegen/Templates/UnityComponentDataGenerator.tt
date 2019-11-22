@@ -158,10 +158,6 @@ var fieldDetails = fieldDetailsList[i]; #>
         {
         }
 
-        public struct NonAuthoritative : IComponentData
-        {
-        }
-
         [global::System.Serializable]
         public struct Snapshot : ISpatialComponentSnapshot
         {

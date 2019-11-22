@@ -92,16 +92,13 @@ namespace <#= qualifiedNamespace #>
 <# } #>
 <# } #>
                 component.MarkDataClean();
-                entityManager.AddComponentData(entity, new NonAuthoritative());
                 entityManager.AddComponentData(entity, component);
             }
 
             private void RemoveComponent(EntityId entityId)
             {
                 workerSystem.TryGetEntity(entityId, out var entity);
-                //TODO BATCH
                 entityManager.RemoveComponent<Authoritative>(entity);
-                entityManager.RemoveComponent<NonAuthoritative>(entity);
 <# if (!componentDetails.IsBlittable) { #>
 
                 var data = entityManager.GetComponentData<<#= componentNamespace #>.Component>(entity);
@@ -143,16 +140,12 @@ namespace <#= qualifiedNamespace #>
                     case Authority.NotAuthoritative:
                     {
                         workerSystem.TryGetEntity(entityId, out var entity);
-                        //TODO BATCH
                         entityManager.RemoveComponent<Authoritative>(entity);
-                        entityManager.AddComponentData(entity, new NonAuthoritative());
                         break;
                     }
                     case Authority.Authoritative:
                     {
                         workerSystem.TryGetEntity(entityId, out var entity);
-                        //TODO BATCH
-                        entityManager.RemoveComponent<NonAuthoritative>(entity);
                         entityManager.AddComponentData(entity, new Authoritative());
                         break;
                     }
