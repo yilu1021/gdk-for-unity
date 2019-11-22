@@ -1,7 +1,5 @@
 using Improbable.Gdk.Core;
-using Improbable.Gdk.PlayerLifecycle;
 using Unity.Entities;
-using UnityEngine;
 
 namespace Improbable.Gdk.PlayerLifecycle
 {
@@ -9,7 +7,7 @@ namespace Improbable.Gdk.PlayerLifecycle
     [UpdateBefore(typeof(SpatialOSUpdateGroup))]
     public class SendPlayerHeartbeatRequestSystem : ComponentSystem
     {
-        private float timeOfNextHeartbeat = Time.time + PlayerLifecycleConfig.PlayerHeartbeatIntervalSeconds;
+        private float timeOfNextHeartbeat;
         private EntityQuery group;
         private CommandSystem commandSystem;
 
@@ -22,19 +20,19 @@ namespace Improbable.Gdk.PlayerLifecycle
                 ComponentType.ReadWrite<HeartbeatData>(),
                 ComponentType.ReadOnly<SpatialEntityId>()
             );
-            group.SetFilter(PlayerHeartbeatServer.ComponentAuthority.Authoritative);
+            group.SetSharedComponentFilter(PlayerHeartbeatServer.ComponentAuthority.Authoritative);
 
             commandSystem = World.GetExistingSystem<CommandSystem>();
         }
 
         protected override void OnUpdate()
         {
-            if (Time.time < timeOfNextHeartbeat)
+            if (Time.ElapsedTime < timeOfNextHeartbeat)
             {
                 return;
             }
 
-            timeOfNextHeartbeat = Time.time + PlayerLifecycleConfig.PlayerHeartbeatIntervalSeconds;
+            timeOfNextHeartbeat = (float) Time.ElapsedTime + PlayerLifecycleConfig.PlayerHeartbeatIntervalSeconds;
 
             Entities.With(group).ForEach((ref SpatialEntityId spatialEntityId) =>
             {

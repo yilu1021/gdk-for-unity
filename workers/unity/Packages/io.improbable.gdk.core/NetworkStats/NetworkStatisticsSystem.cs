@@ -48,7 +48,7 @@ namespace Improbable.Gdk.Core.NetworkStats
 
             lastIncomingData.Clear();
             lastOutgoingData.Clear();
-            lastFrameTime = Time.deltaTime;
+            lastFrameTime = Time.DeltaTime;
         }
 
         [Conditional("UNITY_EDITOR")]

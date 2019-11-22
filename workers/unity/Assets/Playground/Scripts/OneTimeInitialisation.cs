@@ -18,7 +18,8 @@ namespace Playground
             }
 
             initialized = true;
-            PlayerLoopManager.RegisterDomainUnload(WorldsInitializationHelper.DomainUnloadShutdown, 1000);
+            //TODO REPLACE THIS
+            //PlayerLoopManager.RegisterDomainUnload(WorldsInitializationHelper.DomainUnloadShutdown, 1000);
 
             // Setup template to use for player on connecting client
             PlayerLifecycleConfig.CreatePlayerEntityTemplate = PlayerTemplate.CreatePlayerEntityTemplate;
