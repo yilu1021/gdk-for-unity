@@ -4,14 +4,14 @@ using System.Linq;
 using System.Reflection;
 using Unity.Entities;
 using UnityEngine;
-using UnityEngine.Experimental.LowLevel;
-using UnityEngine.Experimental.PlayerLoop;
+using UnityEngine.LowLevel;
+using UnityEngine.PlayerLoop;
 
 namespace Improbable.Gdk.Core
 {
     internal static class PlayerLoopUtils
     {
-        [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
+        [AttributeUsage(AttributeTargets.Class)]
         public class UpdateInSubSystemAttribute : Attribute
         {
             public Type SubSystemType { get; }

@@ -1,5 +1,4 @@
 using Unity.Entities;
-using UnityEngine.Experimental.PlayerLoop;
 
 namespace Improbable.Gdk.Core
 {
@@ -45,7 +44,7 @@ namespace Improbable.Gdk.Core
     {
     }
 
-    [PlayerLoopUtils.UpdateInSubSystemAttribute(typeof(FixedUpdate))]
+    [PlayerLoopUtils.UpdateInSubSystemAttribute(typeof(UnityEngine.PlayerLoop.FixedUpdate))]
     [DisableAutoCreation]
     public class FixedUpdateSystemGroup : ComponentSystemGroup
     {
