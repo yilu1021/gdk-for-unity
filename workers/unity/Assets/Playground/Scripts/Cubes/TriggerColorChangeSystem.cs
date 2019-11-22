@@ -31,12 +31,12 @@ namespace Playground
 
         protected override void OnUpdate()
         {
-            if (Time.time < nextColorChange)
+            if (Time.ElapsedTime < nextColorChange)
             {
                 return;
             }
 
-            nextColorChange = Time.time + 2;
+            nextColorChange = (float) Time.ElapsedTime + 2.0f;
 
             var colorEventData = new ColorData
             {
