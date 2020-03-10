@@ -36,25 +36,16 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
 
             var i = EntityId;
 
-            Measure.Method(() =>
+            ActionMeasurement.Measure(() =>
                 {
                     World.Step(world =>
-                    {
-                        world.Connection.CreateEntity(++i, GetEntityTemplate());
-                    })
-                    .Step(world =>
-                    {
-                        var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(i);
-                        return behaviour;
-                    })
-                    .Step((world, behaviour) =>
-                    {
-                        Assert.IsTrue(behaviour.enabled);
-                    });
+                        {
+                            world.Connection.CreateEntity(++i, GetEntityTemplate());
+                        });
                 })
                 .ProfilerMarkers(markers)
                 .WarmupCount(5)
-                .MeasurementCount(100)
+                .MeasurementCount(1000)
                 .Run();
         }
 
