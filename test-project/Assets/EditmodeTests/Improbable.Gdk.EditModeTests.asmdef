@@ -11,7 +11,8 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "Improbable.Gdk.TestBases",
-        "Improbable.Gdk.TestUtils"
+        "Improbable.Gdk.TestUtils",
+        "Unity.PerformanceTesting"
     ],
     "includePlatforms": [
         "Editor"

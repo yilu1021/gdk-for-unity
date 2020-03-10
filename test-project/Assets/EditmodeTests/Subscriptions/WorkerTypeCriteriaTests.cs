@@ -3,6 +3,7 @@ using Improbable.Gdk.Subscriptions;
 using Improbable.Gdk.TestUtils;
 using Improbable.Worker.CInterop;
 using NUnit.Framework;
+using Unity.PerformanceTesting;
 using UnityEngine;
 
 namespace Improbable.Gdk.EditmodeTests.Subscriptions
@@ -21,20 +22,40 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
             };
         }
 
-        [Test]
+        [Test, Performance]
         public void Monobehaviour_is_enabled_with_matching_WorkerType()
         {
-            World
-                .Step(world => { world.Connection.CreateEntity(EntityId, GetEntityTemplate()); })
-                .Step(world =>
+            var markers = new []
+            {
+                "WorkerSystem.Tick",
+                "View.ApplyDiff",
+                "EntitySystem.ApplyDiff",
+                "EcsViewSystem.ApplyDiff",
+                "EcsViewSystem.OnAddEntity"
+            };
+
+            var i = EntityId;
+
+            Measure.Method(() =>
                 {
-                    var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(EntityId);
-                    return behaviour;
+                    World.Step(world =>
+                    {
+                        world.Connection.CreateEntity(++i, GetEntityTemplate());
+                    })
+                    .Step(world =>
+                    {
+                        var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(i);
+                        return behaviour;
+                    })
+                    .Step((world, behaviour) =>
+                    {
+                        Assert.IsTrue(behaviour.enabled);
+                    });
                 })
-                .Step((world, behaviour) =>
-                {
-                    Assert.IsTrue(behaviour.enabled);
-                });
+                .ProfilerMarkers(markers)
+                .WarmupCount(5)
+                .MeasurementCount(100)
+                .Run();
         }
 
         [Test]
