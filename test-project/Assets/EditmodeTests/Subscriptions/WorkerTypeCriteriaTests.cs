@@ -22,8 +22,8 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
             };
         }
 
-        [Test, Performance]
-        public void Monobehaviour_is_enabled_with_matching_WorkerType()
+        [Performance]
+        public void Test_Action_Measurement()
         {
             var markers = new []
             {
@@ -41,12 +41,39 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
                     World.Step(world =>
                         {
                             world.Connection.CreateEntity(++i, GetEntityTemplate());
+                        })
+                        .Step(world =>
+                        {
+                            var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(i);
+                            return behaviour;
+                        })
+                        .Step((world, behaviour) =>
+                        {
+                            Assert.IsTrue(behaviour.enabled);
                         });
                 })
                 .ProfilerMarkers(markers)
                 .WarmupCount(5)
-                .MeasurementCount(1000)
+                .MeasurementCount(100)
                 .Run();
+        }
+
+        [Test]
+        public void Monobehaviour_is_enabled_with_matching_WorkerType()
+        {
+            World.Step(world =>
+                {
+                    world.Connection.CreateEntity(EntityId, GetEntityTemplate());
+                })
+                .Step(world =>
+                {
+                    var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(EntityId);
+                    return behaviour;
+                })
+                .Step((world, behaviour) =>
+                {
+                    Assert.IsTrue(behaviour.enabled);
+                });
         }
 
         [Test]
