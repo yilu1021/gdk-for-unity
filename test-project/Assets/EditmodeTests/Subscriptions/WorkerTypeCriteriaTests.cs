@@ -61,10 +61,8 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
         [Test]
         public void Monobehaviour_is_enabled_with_matching_WorkerType()
         {
-            World.Step(world =>
-                {
-                    world.Connection.CreateEntity(EntityId, GetEntityTemplate());
-                })
+            World
+                .Step(world => { world.Connection.CreateEntity(EntityId, GetEntityTemplate()); })
                 .Step(world =>
                 {
                     var (_, behaviour) = world.CreateGameObject<MatchingWorkerType>(EntityId);
