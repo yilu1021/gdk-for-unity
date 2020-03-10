@@ -3,7 +3,6 @@
     "references": [
         "Improbable.Gdk.Tools"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],

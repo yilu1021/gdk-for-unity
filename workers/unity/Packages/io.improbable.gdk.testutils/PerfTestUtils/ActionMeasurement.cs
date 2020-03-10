@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Unity.PerformanceTesting;
-using UnityEditor.PackageManager.UI;
 
 namespace Improbable.Gdk.TestUtils
 {

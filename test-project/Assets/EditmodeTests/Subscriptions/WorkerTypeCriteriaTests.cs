@@ -22,7 +22,7 @@ namespace Improbable.Gdk.EditmodeTests.Subscriptions
             };
         }
 
-        [Performance]
+        [Test, Performance]
         public void Test_Action_Measurement()
         {
             var markers = new []
